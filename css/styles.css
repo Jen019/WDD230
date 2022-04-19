@@ -1,0 +1,38 @@
+h1{
+   text-align: center;
+    color:blueviolet;
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 45px;
+
+}
+
+footer{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+
+ul{
+    text-align: center;
+  list-style: inside;
+  margin-right: 17%;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 25px;
+}
+
+
+
+
+#PicOfMe{
+    margin-left: 37%;
+    margin-top: -3%;
+    
+}
+
+
