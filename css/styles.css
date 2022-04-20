@@ -31,13 +31,15 @@ ul{
 
 footer{
     background-color: #FF9B71;
-    text-align: justify;
+    text-align: center;
     font-size: 20px;
     margin-top:75px;
-    margin-left: 200px;
-    margin-right:300px;
+    margin-left:115px;
+    margin-right:95px;
     margin-bottom:25px;
     padding:15px;
+    
+    
 }
 
 
