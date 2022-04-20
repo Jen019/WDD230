@@ -1,8 +1,8 @@
 
-var date = new Date();
-var year = date.getFullYear();
+const date = new Date();
+const year = date.getFullYear();
 document.querySelector("span").textContent = year;
 
 
-const UpdateDate = document.lastModified;
-document.getElementById("lastUpdateDate").textContent = UpdateDate;
+const updateDate = document.lastModified;
+document.getElementById("lastUpdateDate").textContent = updateDate;
