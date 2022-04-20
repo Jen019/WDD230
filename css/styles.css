@@ -1,8 +1,11 @@
 h1{
-   text-align: center;
-    color:blueviolet;
+   text-align:center;
     font-family: 'Dancing Script', cursive;
     font-size: 70px;
+    padding-top: 55px;
+    padding-left: 70px;
+    margin-bottom: 40px;
+    margin-left: 70px;
 }
 
 h2{
@@ -19,20 +22,40 @@ footer{
 }
 
 ul{
-    text-align: center;
+ text-align:center;
+ margin-right:70px;
   list-style: inside;
-  margin-right: 17%;
   font-family: 'Roboto Mono', monospace;
   font-size: 25px;
 }
 
+footer{
+    background-color: #FF9B71;
+    text-align: justify;
+    font-size: 20px;
+    margin-top:75px;
+    margin-left: 200px;
+    margin-right:300px;
+    margin-bottom:25px;
+    padding:15px;
+}
 
 
-
-#PicOfMe{
-    margin-left: 37%;
-    margin-top: -3%;
+.titleContent{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:#5B8023;
+    margin-left:120px;
+    margin-right:120px;
+    margin-top:50px;
     
 }
+
+#picOfMe{
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+
 
 
