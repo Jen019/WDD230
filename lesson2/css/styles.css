@@ -1,30 +1,66 @@
-h1,h2{
-    text-align:center;
+h1,h2,h3,h4, a {
+    text-align: center;
+    font-family: 'Libre Bodoni', serif;
 }
 
-.exampleDesign{
-    display:grid;
+a{
+    background-color: white;
+    padding:5px;
+}
+
+
+
+
+body {
+    background-color: #1A1B25;
+
+}
+
+footer {
+    text-align: center;
+
+}
+
+.exampleDesign {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap:10px;
-    margin-left:15px;
+    margin-left: 5px;
+    grid-gap: 10px;
 
 }
 
+#mainTitle {
+    color: #c2cba0;
+}
 
-#amazonWebsite{
-    width:400px;
-    height:400px;
+.examples {
+    border: 4px;
+    border-color: #F6AE2D;
+    border-style: solid;
+    padding: 10px;
+    text-align: center;
+    background-color: #4D7EA8;
+    color: #080622
+}
+
+
+#amazonWebsite {
+    margin-top: 20px;
+    width: 400px;
+    height: 410px;
 
 }
 
-#deseretBookWeb{
-    width:400px;
-    height:400px;
+#deseretBookWeb {
+    margin-top: 20px;
+    width: 400px;
+    height: 420px;
 
 }
 
-#tubiWebsite{
-    width:400px;
-    height:400px;
+#tubiWebsite {
+    margin-top: 20px;
+    width: 400px;
+    height: 420px;
 
 }
