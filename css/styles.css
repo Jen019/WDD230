@@ -17,10 +17,10 @@ h2{
 }
 
 ul{
- text-align:center;
- margin-right:70px;
+ text-align:justify;
+ font-family: 'Roboto Mono', monospace;
+ margin-left:350px;
   list-style: inside;
-  font-family: 'Roboto Mono', monospace;
   font-size: 25px;
 }
 
@@ -51,8 +51,6 @@ footer{
 #picOfMe{
     margin-top:20px;
     margin-bottom: 20px;
-    width:250px;
-    height:250px;
 }
 
 
