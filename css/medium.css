@@ -1,45 +1,48 @@
-@media only screen and (max-width:873px){
+@media only screen and (max-width:873px) {
 
-    h1{
-        font-size:25px;
-        margin-left:-20px;
-        padding-left:40px;
-        
-    }
-
-    h2{
-        font-size:20px;
-        margin-left:-100px;
-        
-    }
-
-    ul{
-        font-size:20px;
-        margin-left:-20px;
-    }
-
-   footer{
-       font-size:10px;
-       margin-left:20px;
-       margin-right:150px;
-       margin-top:300px;
-   }
-
-    
-
-    #picOfMe{
-    width: 100px;
-    height: 100px; 
-    margin-left:20px;    
-    }
-
-    .titleContent{
-        margin-left:30px;
-        margin-right:150px;
+    h1 {
+        font-size: 25px;
+        margin-left: -20px;
+        padding-left: 40px;
 
     }
 
+    h2 {
+        font-size: 20px;
+        margin-left: -100px;
 
-   
+        margin-top: 75px;
+    }
+
+    ul {
+        font-size: 20px;
+        margin-left: 126px;
+        margin-top: 94px;
+        margin-bottom: -193px;
+    }
+
+    footer {
+        font-size: 10px;
+        margin-left: 77px;
+        margin-right: 150px;
+        margin-top: 498px;
+    }
+
+
+
+    #picOfMe {
+        width: 100px;
+        height: 100px;
+        margin-left: 20px;
+    }
+
+    .titleContent {
+        margin-left: 77px;
+        margin-right: 150px;
+
+    }
+
+
+
 
 }
