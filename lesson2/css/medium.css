@@ -1,0 +1,48 @@
+@media only screen and (max-width:873px){
+
+    .exampleDesign {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left:20px;
+        margin-right:20px;
+         
+    }
+
+    #amazonWebsite{
+        width:200px;
+        height:200px;
+    }
+
+    #deseretBookWeb{
+        width:200px;
+        height:200px;
+
+    }
+
+    #tubiWebsite{
+        width:200px;
+        height:200px;
+    }
+
+    .examples{
+    width: 80%;
+    margin-left: 30px;
+    margin-right: -67px;
+    }
+
+    #example3{
+    grid-column: span 2;
+    margin-left:188px;
+    margin-bottom: 20px;
+    width: 50%;
+    margin-top: 15px;
+    }
+
+
+
+
+
+
+
+
+}
