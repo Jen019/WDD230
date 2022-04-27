@@ -1,4 +1,4 @@
-@media only screen and (max-width:730px){
+@media only screen and (max-width:873px){
 
     h1{
         font-size:25px;
@@ -15,9 +15,8 @@
 
     ul{
         font-size:20px;
-        margin-left:-15px;
+        margin-left:-20px;
     }
-    
 
    footer{
        font-size:10px;
