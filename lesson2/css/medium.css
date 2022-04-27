@@ -1,11 +1,11 @@
 @media (min-width:606px) and (max-width:873px) {
      
     footer{
-    margin-left: 39px;
-    margin-right: 39px;
-    padding: 10px;
-    margin-bottom: 48px;
-
+        margin-left: 39px;
+        margin-right: 39px;
+        padding: 10px;
+        margin-bottom: 48px;
+        margin-top: -61px;
      }
 
     .exampleDesign {
@@ -42,11 +42,12 @@
     }
 
     #example3 {
-        grid-column: span 2;
-        margin-left: 28%;
-        margin-bottom: 20px;
-        width: 50%;
-        margin-top: 15px;
+    grid-column: span 2;
+    margin-left: 28%;
+    margin-bottom: 20px;
+    width: 54%;
+    height: 85%;
+    margin-top: 15px;
     }
 
 
