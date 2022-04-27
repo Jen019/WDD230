@@ -1,4 +1,45 @@
-@media only Screen and (max-width:663){
-    
+@media (max-width:605px) {
 
+
+    footer{
+        margin-left: 12%;
+        margin-right: 9%;
+        margin-top: 59px;
+        padding: 5px;
+        margin-bottom: 6%;
+    }
+    
+    #amazonWebsite {
+        width: 96%;
+        height: 35%;
+    }
+
+    #deseretBookWeb{
+        width:96%;
+        height:35%;
+
+    }
+
+    #tubiWebsite{
+        width:96%;
+        height:35%;
+
+    }
+
+    .exampleDesign {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 20px;
+        margin-right: 20px;
+        grid-gap: 40px;
+    }
+
+
+    .examples {
+        width: 80%;
+        height: 100%;
+        margin-left: 30px;
+        margin-right: -67px;
+    }
 }
+
