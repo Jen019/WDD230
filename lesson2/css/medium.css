@@ -1,4 +1,12 @@
 @media (min-width:606px) and (max-width:873px) {
+     
+    footer{
+    margin-left: 39px;
+    margin-right: 39px;
+    padding: 10px;
+    margin-bottom: 48px;
+
+     }
 
     .exampleDesign {
         display: grid;
@@ -21,7 +29,7 @@
     }
 
     #tubiWebsite {
-        width: 96%;
+        width: 88%;
         height: 38%;
         margin-right: 7px;
         margin-left: 21px;
