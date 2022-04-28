@@ -1,0 +1,23 @@
+@media (max-width:674px){
+    ul{
+        margin-left: 36px;
+        margin-top: 38px;
+    }
+
+    footer{
+        margin-left: 16px;
+    margin-right: 15px;
+    margin-top: 584px;
+    }
+
+    .titleContent{
+        margin-left: 19px;
+        margin-right: 12px;
+        margin-top: 23px;
+    }
+
+    #picOfMe{
+    width: 214px;
+    height: 170px;
+    }
+}

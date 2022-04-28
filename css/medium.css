@@ -1,4 +1,4 @@
-@media only screen and (max-width:873px) {
+@media (min-width:675px) and (max-width:873px) {
 
     h1 {
         font-size: 25px;
