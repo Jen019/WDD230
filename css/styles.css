@@ -1,6 +1,6 @@
-h1{
-   text-align:center;
-   color:white;
+h1 {
+    text-align: center;
+    color: white;
     font-family: 'Dancing Script', cursive;
     font-size: 70px;
     padding-top: 55px;
@@ -9,52 +9,47 @@ h1{
     margin-left: 70px;
 }
 
-h2{
+h2 {
     text-align: center;
     font-family: 'Dosis', sans-serif;
     font-size: 45px;
 
 }
 
-ul{
- text-align:justify;
- font-family: 'Roboto Mono', monospace;
- margin-left:350px;
-  list-style: inside;
-  font-size: 25px;
+ul {
+    text-align: justify;
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 350px;
+    list-style: inside;
+    font-size: 25px;
 }
 
-footer{
+footer {
     display: flex;
     justify-content: space-evenly;
     background-color: #FF9B71;
     font-family: 'Roboto Mono', monospace;
     font-size: 20px;
-    margin-left:80px;
-    margin-right:70px;
-    margin-bottom:25px;
+    margin-left: 80px;
+    margin-right: 70px;
+    margin-bottom: 25px;
 }
 
 
-.titleContent{
-    display:grid;
-    background-color:#5B8023;
+.titleContent {
+    display: grid;
+    background-color: #5B8023;
     grid-template-columns: 1fr 1fr;
     justify-content: space-around;
-    margin-top:35px;
-    margin-left:60px;
-    margin-right:60px;
-    
+    margin-top: 35px;
+    margin-left: 60px;
+    margin-right: 60px;
+
 }
 
-#picOfMe{
-    margin-top:20px;
+#picOfMe {
+    margin-top: 20px;
     margin-bottom: 20px;
+    width: 282;
+    height: 218;
 }
-
-
-
-
-
-
-
