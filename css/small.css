@@ -1,23 +1,40 @@
 @media (max-width:674px){
+    h1{
+        font-size: 36px;
+        margin-left: -47px;
+    }
+
+    h2{
+    font-size: 31px;
+    margin-top: 58px;
+    margin-left: 12px;
+    }
+    
     ul{
-        margin-left: 36px;
-        margin-top: 38px;
+        margin-left: 44px;
+        margin-top: 78px;
+        font-size: 14px;
     }
 
     footer{
         margin-left: 16px;
-    margin-right: 15px;
-    margin-top: 584px;
+        margin-right: 13px;
+        margin-top: 256px;
+        font-size: 10px;
+        padding-left: 10px;
     }
 
     .titleContent{
-        margin-left: 19px;
+        margin-left: 13px;
         margin-right: 12px;
         margin-top: 23px;
+        margin-bottom:6px;
     }
 
     #picOfMe{
-    width: 214px;
-    height: 170px;
+        width: 188px;
+        height: 153px;
+        margin-left: -7px;
     }
+    
 }
