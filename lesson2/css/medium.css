@@ -17,24 +17,10 @@
 
     }
 
-    #amazonWebsite {
-        width: 97%;
-        height: 27%;
+    .websites {
+        width: 100%;
+        height: auto;
     }
-
-    #deseretBookWeb {
-        width: 97%;
-        height: 27%;
-
-    }
-
-    #tubiWebsite {
-        width: 88%;
-        height: 38%;
-        margin-right: 7px;
-        margin-left: 21px;
-    }
-
 
     .examples {
         width: 80%;

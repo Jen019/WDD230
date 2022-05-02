@@ -52,24 +52,9 @@ body {
     font-family: 'Source Serif Pro', serif;
 }
 
-
-#amazonWebsite {
+.websites {
     margin-top: 20px;
-    width: 400px;
-    height: 410px;
-
-}
-
-#deseretBookWeb {
-    margin-top: 20px;
-    width: 400px;
-    height: 420px;
-
-}
-
-#tubiWebsite {
-    margin-top: 20px;
-    width: 400px;
-    height: 420px;
+    width: 100%;
+    height: auto;
 
 }
