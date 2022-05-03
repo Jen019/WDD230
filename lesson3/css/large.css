@@ -1,0 +1,31 @@
+@media (min-width:922px) {
+    
+    
+    nav{
+        flex-direction: row;
+    }
+
+    nav a{
+        margin-top: 93px;
+        margin-right: 40px;
+    }
+
+    nav a:hover{
+        margin-left: 90px;
+        margin-right:90px;
+        
+    }
+
+    footer{
+    margin-left: 90px;
+    margin-right: 126px;
+    }
+
+    #logo{
+        padding-top: 15px;
+        margin-bottom: 20px;
+        margin-left:15px;
+    }
+
+}
+    
