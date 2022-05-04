@@ -93,6 +93,16 @@ footer{
     padding-top:15px;
 }
 
+.font-quote{
+    display: block;
+    width:300px;
+    height: auto;
+    margin-left:auto;
+    margin-right:auto;
+    color:#988F2A;
+   
+}
+
 .personas{
     width: 307px;
     height: auto;
