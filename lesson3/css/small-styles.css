@@ -18,6 +18,27 @@ p{
    
 }
 
+a{
+    color:#0d1316;
+}
+
+
+
+li, ul, ol {
+    font-family: 'Arvo', serif;
+    background-color: #d3b6b0;
+    color: #0d1316;
+    padding-top: 9px;
+    margin-right: auto;
+    padding-left: 29px;
+    margin-left: auto;
+    padding-right: 10px;
+}
+
+
+
+
+
 nav {
     background-color: #942a32;
 	text-align: center;
@@ -70,3 +91,10 @@ footer{
     margin-right:auto;
     padding-top:15px;
 }
+
+.personas{
+    width: 307px;
+    height: auto;
+    margin-top: 29px;
+}
+
