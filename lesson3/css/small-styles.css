@@ -100,3 +100,48 @@ footer{
     padding-left: 28px;
 }
 
+th{
+    display:table-cell;
+    width:200px;
+    height: auto;
+    margin-top:20px;
+}
+
+.colors td{
+    width:10%;
+    height:3em;
+
+}
+
+.colors{
+    background-color: white;
+    color: #0d1316;
+    padding:20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+
+
+
+#primary{
+    background-color:#0d1316;
+
+}
+
+#secondary{
+ background-color: #942a32;
+}
+
+#accent1{
+background-color: #988F2A;
+}
+
+#accent2{
+background-color: #d3b6b0;
+}
+
+#accent3{
+background-color: #DE1A1A;
+}
+
