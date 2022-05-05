@@ -1,41 +1,41 @@
 @media (min-width:922px) {
-    
-    
-    nav{
+
+
+    nav {
         flex-direction: row;
     }
 
-    nav a{
+    nav a {
         margin-top: 93px;
         margin-right: 40px;
     }
 
-    nav a:hover{
+    nav a:hover {
         margin-left: 90px;
-        margin-right:90px;
-        
+        margin-right: 90px;
+
     }
 
-    footer{
-    margin-left: 90px;
-    margin-right: 126px;
+    footer {
+        margin-left: 90px;
+        margin-right: 126px;
     }
 
 
-    p{
+    p {
         font-size: 25px;
     }
 
-    li,ul,ol{
+    li,ul,ol {
         margin-left: 37px;
-        margin-right:37px;
-        padding-bottom:10px;
+        margin-right: 37px;
+        padding-bottom: 10px;
     }
 
-    #logo{
+    #logo {
         padding-top: 15px;
         margin-bottom: 20px;
-        margin-left:15px;
+        margin-left: 6%;
     }
 
     .users {
@@ -50,4 +50,3 @@
         margin-right: 100px;
     }
 }
-    

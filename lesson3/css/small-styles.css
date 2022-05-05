@@ -1,25 +1,25 @@
-body{
-   background-color: #0d1316;
-    color:#988F2A;
+body {
+    background-color: #0d1316;
+    color: #988F2A;
 }
 
-h1,h2{
+h1,h2 {
     font-family: 'Varela Round', sans-serif;
     text-align: center;
 }
 
-p{
+p {
     font-family: 'Rokkitt', serif;
     font-size: 18px;
     text-align: center;
     margin-left: 15px;
     margin-right: 15px;
 
-   
+
 }
 
-a{
-    color:#988F2A;
+a {
+    color: #988F2A;
     font-size: 19px;
     margin-left: 26px;
     margin-right: 26px;
@@ -27,7 +27,7 @@ a{
 
 
 
-li, ul, ol {
+li,ul,ol {
     font-family: 'Arvo', serif;
     background-color: #d3b6b0;
     color: #0d1316;
@@ -45,38 +45,38 @@ li, ul, ol {
 
 nav {
     background-color: #942a32;
-	text-align: center;
+    text-align: center;
     margin-right: -8px;
     margin-left: -8px;
 }
 
 nav {
-	display: flex;
-	flex-direction: column;
+    display: flex;
+    flex-direction: column;
     font-family: 'Arvo', serif;
 }
 
 nav div {
-	flex: 1 1 auto;
+    flex: 1 1 auto;
 }
 
 nav a {
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 15px;
-	text-decoration: none;
-	font-size: 0.9rem;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration:none;
+    font-size: 16px;
 }
 
 nav a:hover {
     background-color: #d3b6b0;
-    color:black;
+    color: black;
 }
 
-footer{
+footer {
     background-color: #DE1A1A;
-    text-align:center;
+    text-align: center;
     color: white;
     font-family: 'Arvo', serif;
     margin-left: 10px;
@@ -84,77 +84,76 @@ footer{
     margin-top: 91px;
     margin-bottom: 38px;
     padding: 10px;
-    
-    
+
+
 }
 
-#logo{
-    width:215px;
-    height:auto;
-    margin-left:auto;
-    margin-right:auto;
-    padding-top:15px;
-}
-
-.font-quote{
-    display: block;
-    width:300px;
+#logo {
+    width: 215px;
     height: auto;
-    margin-left:auto;
-    margin-right:auto;
-    color:#988F2A;
-   
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
 }
 
-.personas{
+.font-quote {
+    display: block;
+    width: 300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: #988F2A;
+
+}
+
+.personas {
     width: 307px;
     height: auto;
     margin-top: 29px;
     padding-left: 28px;
 }
 
-th{
-    display:table-cell;
-    width:200px;
+th {
+    display: table-cell;
+    width: 200px;
     height: auto;
-    margin-top:20px;
+    margin-top: 20px;
 }
 
-.colors td{
-    width:10%;
-    height:3em;
+.colors td {
+    width: 10%;
+    height: 3em;
 
 }
 
-.colors{
+.colors {
     background-color: white;
     color: #0d1316;
-    padding:20px;
+    padding: 20px;
     margin-left: 15px;
     margin-right: 15px;
-    
-}
-
-
-
-#primary{
-    background-color:#0d1316;
 
 }
 
-#secondary{
- background-color: #942a32;
+
+
+#primary {
+    background-color: #0d1316;
+
 }
 
-#accent1{
-background-color: #988F2A;
+#secondary {
+    background-color: #942a32;
 }
 
-#accent2{
-background-color: #d3b6b0;
+#accent1 {
+    background-color: #988F2A;
 }
 
-#accent3{
-background-color: #DE1A1A;
+#accent2 {
+    background-color: #d3b6b0;
 }
 
+#accent3 {
+    background-color: #DE1A1A;
+}
