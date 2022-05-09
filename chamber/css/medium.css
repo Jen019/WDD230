@@ -1,0 +1,40 @@
+@media (min-width:768px) {
+
+    h1{
+        margin-left:46%;
+    }
+
+    hr{
+        height:auto;
+    }
+
+    .menuNav {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-top:10px;
+        margin-left: 54px;
+    }
+
+    .mediaIcons{
+    margin-left: 68%;
+    margin-right: -81px;
+    }
+
+    .spotlightDesign{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .spotlight{
+        padding:10px;
+    }
+
+
+    nav{
+    margin-left: auto;
+    margin-right: 15px;
+    margin-bottom: auto;
+    margin-top: 10px;
+    }
+
+}
