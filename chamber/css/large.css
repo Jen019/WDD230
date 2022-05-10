@@ -1,0 +1,34 @@
+@media (min-width: 931px){
+
+
+    h1{
+        color:white;
+    }
+    .menuNav {
+        display:flex;
+        align-items: center;
+        padding: 52px;
+        background-color: #942a32;
+
+    }
+
+    nav button{
+        display: none;
+    }
+
+    nav ul{
+        display:flex;
+
+    }
+
+    .mediaIcons {
+        order:1;
+    }
+
+    nav ul li a{
+        border:none;
+
+    }
+
+
+}
