@@ -1,34 +1,87 @@
-@media (min-width: 931px){
+@media (min-width: 931px) {
 
 
-    h1{
-        color:white;
+    h1 {
+        color: white;
     }
+
+    hr {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+
+    }
+
+    nav ul li a {
+        border: none;
+
+    }
+
     .menuNav {
-        display:flex;
+        display: flex;
         align-items: center;
         padding: 52px;
         background-color: #942a32;
 
     }
 
-    nav button{
-        display: none;
-    }
-
-    nav ul{
-        display:flex;
-
-    }
 
     .mediaIcons {
-        order:1;
+        order: 1;
     }
 
-    nav ul li a{
-        border:none;
+    .display {
+        display: block;
+    }
+
+    .notices {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+
+    .spotlight {
+        padding: 100px;
+        border: 5px;
+        border-style: solid;
+        border-color: #988F2A;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .items {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+
+    #join {
+        grid-column: 1;
+    }
+
+    #hero {
+        grid-column: 2;
 
     }
+
+    #news {
+        grid-column: 2;
+        grid-row:4;
+    }
+
 
 
 }

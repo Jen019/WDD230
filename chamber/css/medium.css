@@ -6,19 +6,23 @@
 
     main{
         display:grid;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
         padding:15px;
     }
 
     .notices{
         display: grid;
-        grid-template-columns: 2fr 1.5fr;
-        grid-row:5;
+        grid-template-columns: 1fr;
+        grid-row:4;
     }
 
-    
-    section.display{
+    #join.display{
         display:block;
+    }
+
+    .subNotice{
+        display:grid;
+        grid-template-columns: 2fr 1.5fr;
     }
 
     .menuNav {
@@ -40,11 +44,19 @@
     }
 
     .spotlight{
-        padding:80px;
+        padding:100px;
         border:5px;
         border-style: solid;
         border-color: #988F2A;
         margin-left:15px;
+    }
+
+    #spotlight3{
+        display:none;
+    }
+
+    #join{
+        order:-3;
     }
 
 
