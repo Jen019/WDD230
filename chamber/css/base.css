@@ -1,28 +1,30 @@
-body{
+body {
     background-color: #0d1316;
 }
 
 footer {
     background-color: #DE1A1A;
-    color:white;
-    text-align:center;
+    color: white;
+    text-align: center;
     font-family: 'Arvo', serif;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 15px;
 }
-hr{
-    height:auto;
+
+hr {
+    height: auto;
 }
-nav button{
+
+nav button {
     margin: 10px;
-    background:transparent;
-    border:none;
-    font-size:21px;
+    background: transparent;
+    border: none;
+    font-size: 21px;
     color: #0d1316;
 }
 
-nav{
+nav {
     background-color: #942a32;
     font-family: 'Arvo', serif;
     margin-left: 15px;
@@ -31,41 +33,43 @@ nav{
 
 nav ul {
     list-style-type: none;
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
 
 }
 
-nav ul li a{
-    display:block;
+nav ul li a {
+    display: block;
     padding: 15px;
     text-decoration: none;
-    color:white;
-    border-top:2px solid black;
+    color: white;
+    border-top: 2px solid black;
 }
 
-nav ul li a:hover{
-    background-color:#d3b6b0;
-    color:black;
+nav ul li a:hover {
+    background-color: #d3b6b0;
+    color: black;
 
 }
 
 nav ul {
-    display:none;
+    display: none;
 }
 
 nav ul.open {
-    display:block;
+    display: block;
 }
 
-h1,h2,h3{
+h1,
+h2,
+h3 {
     font-family: 'Varela Round', sans-serif;
     text-align: center;
     color: #988F2A;
     margin-left: 15px;
 }
 
-p{
+p {
     text-align: center;
     color: #0d1316;
     font-family: 'Rokkitt', serif;
@@ -78,47 +82,45 @@ p{
     margin-right: 15px;
 }
 
-#hamburgerBtn span:nth-child(1){
-    display:block;
-}
-
-#hamburgerBtn span:nth-child(2){
-    display:none;
-}
-
-#hamburgerBtn.open span:nth-child(1){
-    display:none;
-}
-
-#hamburgerBtn.open span:nth-child(2){
-    display:block;
-}
-
-#currentDate{
-    background-color: #942a32;
-    color:white;
-    font-size: 25px;
-    padding:10px;
-}
-
-.logo{
+#hamburgerBtn span:nth-child(1) {
     display: block;
-    width:215px;
-    height:auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top:20px;
-    
 }
 
-.mediaIcons{
-    display: flex;
-    justify-content: center;
-    margin-bottom:10px;
-}
-
-.display{
+#hamburgerBtn span:nth-child(2) {
     display: none;
 }
 
+#hamburgerBtn.open span:nth-child(1) {
+    display: none;
+}
 
+#hamburgerBtn.open span:nth-child(2) {
+    display: block;
+}
+
+#currentDate {
+    background-color: #942a32;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.logo {
+    display: block;
+    width: 215px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+}
+
+.mediaIcons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.display {
+    display: none;
+}
