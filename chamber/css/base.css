@@ -14,6 +14,8 @@ footer {
 
 hr {
     height: auto;
+    margin-left:15px;
+    margin-right:15px;
 }
 
 nav button {
@@ -60,9 +62,7 @@ nav ul.open {
     display: block;
 }
 
-h1,
-h2,
-h3 {
+h1,h2,h3 {
     font-family: 'Varela Round', sans-serif;
     text-align: center;
     color: #988F2A;
@@ -121,6 +121,24 @@ p {
     margin-bottom: 10px;
 }
 
+
+.spotlight {
+    padding: 50px;
+    border: 5px;
+    border-style: solid;
+    border-color: #988F2A;
+    margin-left: 15px;
+    margin-right: 15px;
+}
 .display {
     display: none;
+}
+
+.footerParagraph{
+    color: white;
+    background-color: #DE1A1A;
+    font-family: 'Arvo', serif;
+    font-size: 15px;
+    margin-left:auto;
+    margin-right:auto;
 }

@@ -5,6 +5,7 @@
         color: white;
     }
 
+
     hr {
         margin-right: 10px;
         margin-left: 10px;
@@ -28,6 +29,10 @@
     nav ul li a {
         border: none;
 
+    }
+
+    br.display{
+        display: none;
     }
 
     .menuNav {
@@ -55,9 +60,6 @@
 
     .spotlight {
         padding: 100px;
-        border: 5px;
-        border-style: solid;
-        border-color: #988F2A;
         margin-right: 10px;
         margin-left: 10px;
     }
@@ -67,6 +69,12 @@
         grid-template-columns: 1fr;
     }
 
+    .footerFormat{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        padding-bottom: 10px;
+    }
 
     #join {
         grid-column: 1;
@@ -79,7 +87,7 @@
 
     #news {
         grid-column: 2;
-        grid-row: 4;
+        grid-row: 2;
     }
 
 
