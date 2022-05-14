@@ -19,6 +19,7 @@ button.addEventListener('click', function() {
     listScripture.appendChild(deleteBtn);
     deleteBtn.textContent = 'Delete';
     list.appendChild(listScripture);
+    input.value = '';
 
     deleteBtn.addEventListener('click', function() {
       list.removeChild(listScripture);
