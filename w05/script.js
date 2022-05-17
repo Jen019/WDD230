@@ -17,7 +17,7 @@ button.addEventListener('click', function() {
     listScripture.appendChild(listText);
     listText.textContent = favoriteVerse;
     listScripture.appendChild(deleteBtn);
-    deleteBtn.textContent = 'Delete';
+    deleteBtn.textContent = "❌";
     list.appendChild(listScripture);
     input.value = '';
 
