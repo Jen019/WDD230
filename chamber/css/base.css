@@ -175,6 +175,7 @@ main{
     background-color: #0d1316;
     border: #942a32;
     border-style: solid;
+    border-width:10px;
     border-radius: 1em;
     padding-bottom: 15px;
     width: 20%;
