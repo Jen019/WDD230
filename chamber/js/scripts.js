@@ -9,9 +9,17 @@ const currentdate = day + ", " + date.getDate() + " " + month + " " + year;
 
 if(day == "Monday" || day == "Tuesday"){
     const banner = document.createElement("h2");
-    const message = document.createTextNode("Come join us for the chamber meet and greet Wednesday at 7:00 p.m");
+    const message = document.createTextNode("Come join us for the chamber meet and greet Wednesday at 7:00 P.M");
     banner.appendChild(message);
     document.getElementById("displayBanner").appendChild(banner);
+    banner.style.color = "white";
+    banner.style.backgroundColor = "red";
+    banner.style.marginLeft ="auto";
+    banner.style.marginRight = "auto";
+    banner.style.width = "85%";
+    banner.style.marginTop = "30px";
+    banner.style.padding = "10px";
+
 }
 
 document.getElementById("currentDate").textContent = currentdate;

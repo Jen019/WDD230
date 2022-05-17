@@ -81,6 +81,11 @@
         order: -3;
     }
 
+    #message{
+    left: 67%;
+    top: -200px;
+    }
+
 
     nav {
         margin-left: auto;
