@@ -73,6 +73,10 @@
         display:none;
     }
 
+    #event{
+        width: 82%;
+    }
+
     #spotlight3 {
         display: none;
     }

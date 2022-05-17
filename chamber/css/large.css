@@ -93,6 +93,10 @@
         width:50%;
     
     }
+
+    #event{
+        width:95%;
+    }
     
     #message{
         position:relative;
