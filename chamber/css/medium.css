@@ -1,99 +1,69 @@
-@media (min-width:768px) and (max-width:930px) {
+@media (min-width:768px) and (max-width:976px) {
 
+    
     h1 {
         align-self: center;
     }
 
-    footer{
-        padding:21px;
-        margin-right: -18%;
-
+    hr{
+        height:50%;
+        margin-left:auto;
+        margin-right:auto;
     }
 
-    hr{
-    margin-left: auto;
-    margin-right: auto;
-    height:auto;
+    #heroImg{
+       display: flex;
+       flex-direction: row;
+       margin-left:auto;
+       margin-right:auto;
+        width:680px;
     }
 
     main {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        padding:15px;
         padding: 15px;
     }
-
+  
     .notices {
         display: grid;
         grid-template-columns: 1fr;
+        grid-row:4;
         grid-row: 4;
     }
-
-    br.display{
-        display: none;
-    }
-
-    .footerFormat{
-        display:flex;
-        flex-direction: row;
-        align-items: center;
-        padding-bottom: 10px;
-    }
-
 
     #join.display {
         display: block;
     }
-
     .subNotice {
         display: grid;
         grid-template-columns: 2fr 1.5fr;
     }
 
-    .menuNav {
-        display: grid;
-        grid-template-columns: 6fr 6fr 3fr 1fr;
-
-    }
-
-    .mediaIcons {
-        display: block;
-        align-self: center;
-    }
-
-
     .spotlightDesign {
-      display:flex;
-      flex-direction: row;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
-    br.display{
-        display:none;
+    .menuNav {
+        display: flex;
+        align-items: center;
+        padding: 52px;
     }
 
-    #event{
-        width: 82%;
-    }
 
     #spotlight3 {
         display: none;
     }
 
+    nav{
+        margin-bottom:15px;
+    }
+        
     #join {
-        order: -3;
-
+        order: -1;
+        margin-top:-240px;
     }
 
-    #message{
-    left: 67%;
-    top: -200px;
-    }
-
-
-    nav {
-        margin-left: auto;
-        margin-right: 15px;
-        margin-bottom: auto;
-        margin-top: 10px;
-    }
-
-}
+} 
