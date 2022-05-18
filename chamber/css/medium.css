@@ -6,16 +6,19 @@
 
     footer{
         padding:21px;
+        margin-right: -18%;
+
     }
 
     hr{
     margin-left: auto;
     margin-right: auto;
+    height:auto;
     }
 
     main {
         display: grid;
-        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
         padding: 15px;
     }
 
@@ -59,14 +62,8 @@
 
 
     .spotlightDesign {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        padding-right: 15px;
-    }
-
-    .spotlight {
-        padding: 100px;
-        margin-right: auto;
+      display:flex;
+      flex-direction: row;
     }
 
     br.display{
@@ -83,6 +80,7 @@
 
     #join {
         order: -3;
+
     }
 
     #message{
