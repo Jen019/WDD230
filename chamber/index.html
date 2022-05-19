@@ -26,9 +26,9 @@
             <h1>Wanda's Westview Chamber News</h1>
             <div class="mediaIcons">
                 <a href="https://www.facebook.com/">
-                    <img src="images/facebook.png" alt="Facebook Icon" width="64" height="64"></a>
+                    <img class="social" src="images/facebook.png" alt="Facebook Icon" width="64" height="64"></a>
                 <a href="https://twitter.com/">
-                    <img src="images/twitter.png" alt="Twitter Icon" width="64" height="64"></a></div>
+                    <img class="social" src="images/twitter.png" alt="Twitter Icon" width="64" height="64"></a></div>
 
             <nav>
                 <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
@@ -41,25 +41,27 @@
                 </ul>
             </nav>
         </section>
-        <section id="displayBanner">
+        <div id="displayBanner">
             <p><br><span id="currentDate"></span></p>
-        </section>
+        </div>
     </header>
 
     <main>
         <div class="items">
-            <section id="hero">
+            <div id="hero">
                 <img id="heroImg" src="images/hero1.jpg" alt="Wanda and her Family Welcome to Westview" width="1186"
                     height="571">
                 <button id="message">Join Us</button>
-            </section>
+            </div>
 
-            <section id="news">
+
+            <div id="news">
                 <h2>News Release</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis eaque fugiat repellat commodi quam
-                    voluptas, eligendi repellendus aliquam asperiores? Expedita voluptatum modi, asperiores eaque
-                    perferendis veritatis est maxime consequatur aperiam!</p>
-            </section>
+                <img id="circus" src="images/wandacircus.jpg" alt="Circus Photo" width="1920" height="802">
+                <p>This week the Sword Circus joins Westview!!!</p>
+            </div>
+
+
 
         </div>
 
@@ -77,38 +79,48 @@
                         <img id="weatherIcon" src="images/raining.png" alt="A picture of Rain" width="140" height="125">
                         <p id="temp">20&deg;F</p>
                     </div>
-                    
-    
+
                     <h2>Raining</h2>
                     <p class="wind">Wind Speed: 10mph</p>
                     <p class="wind">Wind Chill: N/A</p>
 
                 </section>
             </div>
-
-            <section id="join" class="display">
-                <h2>Join</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae officia omnis, nobis rem dolor aliquid
-                    quam
-                    veritatis consequuntur nostrum! Ex, veritatis? Voluptatem expedita commodi omnis quia illo a minus
-                    aliquid.</p>
-            </section>
+            <div id="join" class="display">
+                <div class="joinButton">
+                    <button id="joinB">Join Us</button></div>
+                <p>Come join Wanda's Chamber of Commerce!!</p>
+            </div>
         </div>
         <section class="spotlightDesign">
             <div>
                 <h2>Agatha's Runes and Potions</h2>
-            <img id="spotlight1" src="images/agatha.jpg" alt="Agatha's Runes and Potions Photo" width="1200" height="675">
-            <p>"Magic Gives Life Meaning"<br>
-                agatha's@runesandpotions.com
-                +(201) 3217-9863
-            </p>
+                <img class="spotlight1" src="images/agatha.jpg" alt="Agatha's Runes and Potions Photo" width="1200"
+                    height="675">
+                <p class="spotlightP">"Magic Gives Life Meaning"<br>
+                    agatha's@runesandpotions.com<br>
+                    +(201) 3217-9863
+                </p>
             </div>
+
             <hr>
-            <h2 class="spotlight">Spotlight 2</h2>
+            <div>
+                <h2>Pietro's Spy Detective Agency</h2>
+                <img class="spotlight1" src="images/pietromaximoff.jpg" alt="Pietro Maximoff" width="1200" height="750">
+                <p class="spotlightP">"Snooper's Gonna Snoop"<br>
+                    pietro@spydetectiveagency.com<br>
+                    +(201) 4568-5282 </p>
+            </div>
 
             <section class="display">
                 <hr>
-                <h2 class="spotlight">Spotlight 3</h2>
+                <h2>Monica's Soul Searching Counseling Agency</h2>
+                <img class="spotlight1" src="images/monica.jpg" alt="Monica Rambeau" width="564" height="427">
+                <p class="spotlightP">"Letting Go Transforms Your Pain into Hope"<br>
+                    monica@soulsearchingcounseling.com<br>
+                    +(201) 9345-4275
+                </p>
+
             </section>
 
         </section>
@@ -123,9 +135,9 @@
                 2333 East Ellis Avenue Westview, Newjersey <br>
                 Location Map<br>
                 <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d360.9850347605786!2d-116.21846170154507!3d43.62985070040331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54aef8d0840dd137%3A0xcec2147fdc2416f6!2s2333%20Ellis%20Ave%2C%20Boise%2C%20ID%2083702!5e0!3m2!1sen!2sus!4v1652891749161!5m2!1sen!2sus"
-                width="400" height="auto" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d360.9850347605786!2d-116.21846170154507!3d43.62985070040331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54aef8d0840dd137%3A0xcec2147fdc2416f6!2s2333%20Ellis%20Ave%2C%20Boise%2C%20ID%2083702!5e0!3m2!1sen!2sus!4v1652891749161!5m2!1sen!2sus"
+                    width="400" height="auto" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </p>
             <p class="footerParagraph"> wanda@westviewchambernews.org<br>
                 +(201) 8670-2592<br>
