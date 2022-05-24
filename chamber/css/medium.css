@@ -56,6 +56,17 @@
         padding: 52px;
     }
 
+    .spotlightP {
+        margin-left: 14%;
+        margin-right: 14%;
+    }
+
+    .items {
+        display: grid;
+        grid-template-rows: 1fr;
+        justify-content:center;
+    }
+
     #joinB {
         color: #988F2A;
         font-family: 'Varela Round', sans-serif;
@@ -81,22 +92,8 @@
         flex-direction: row;
         margin-left: auto;
         margin-right: auto;
-        margin-top: -19%;
         width: 680px;
     }
-
-    .spotlightP {
-        margin-left: 14%;
-        margin-right: 14%;
-    }
-
-    .items {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-top:-27%;
-    }
-
 
     #join.display {
         display: block;
@@ -105,16 +102,10 @@
     #news {
         margin-left: auto;
         margin-right: auto;
-        margin-top: 81%;
     }
 
     #spotlight3 {
         display: none;
-    }
-
-    #circus {
-        width: 671px;
-
     }
 
     #join {

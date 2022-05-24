@@ -92,11 +92,21 @@
         align-items: center;
     }
 
+    .spotlightP {
+        margin-left: 14%;
+        margin-right: 14%;
+    }
+
 
     #news {
         grid-column: 2;
         grid-row: 2;
-        margin-top: 0;
+    }
+
+    #tvShow{
+        grid-column:2;
+        grid-row:3;
+
     }
 
     #hero {
@@ -114,7 +124,7 @@
     #join {
         grid-column: 1;
         grid-row: 4;
-        margin-top: 50%;
+        margin-top: 28%;
     }
 
 
@@ -134,11 +144,7 @@
 
     #event {
         width: 95%;
-    }
-
-    .spotlightP {
-        margin-left: 14%;
-        margin-right: 14%;
+        margin-left:15px;
     }
 
     #message {

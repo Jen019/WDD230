@@ -21,14 +21,16 @@
 <body>
     <header>
         <section class="menuNav">
-            <a href="#"><img class="logo" src="images/westview-logo4.png" alt="Wanda's Westview Chamber News Logo"
+            <a href="#"><img class="logo" src="images/westview-logo4.webp" alt="Wanda's Westview Chamber News Logo"
                     width="1058" height="1038"></a>
             <h1>Wanda's Westview Chamber News</h1>
             <div class="mediaIcons">
                 <a href="https://www.facebook.com/">
-                    <img src="https://img.icons8.com/color/96/000000/facebook-new.png" alt="facebook Icon" /></a>
+                    <img src="images/facebook96.png" alt="Facebook Icon" srcset="images/facebook96.png 1x,
+                            images/facebook144.png 2x"></a>
                 <a href="https://twitter.com/">
-                    <img src="https://img.icons8.com/color/96/000000/twitter--v1.png" alt="Twitter Icon"></a>
+                    <img src="images/twitter96.png" alt="Twitter Icon" srcset="images/twitter96.png 1x,
+                            images/twitter144.png 2x"></a>
             </div>
 
             <nav>
@@ -49,16 +51,24 @@
     <main>
         <div class="items">
             <div id="hero">
-                <img id="heroImg" src="images/hero1.jpg" alt="Wanda and her Family Welcome to Westview" width="1186"
-                    height="571">
+                <img id="heroImg"
+                    srcset="images/hero1-small.webp 800w, images/hero1-medium.webp 900w, images/hero1-large.webp 1186w"
+                    sizes="(max-width: 400px) 800px, 900px, 1186px"
+                    src="images/hero1.webp" width="1186" height="571"
+                    alt="Wanda and her Family Welcome to Westview">
                 <button id="message">Join Us</button>
             </div>
 
 
             <div id="news">
                 <h2>News Release</h2>
-                <img id="circus" src="images/wandacircus.jpg" alt="Circus Photo" width="1920" height="802">
+                <img id="circus" src="images/wandacircus.webp" alt="Circus Photo" width="1920" height="802">
                 <p>This week the Sword Circus joins Westview!!!</p>
+            </div>
+
+            <div id="tvShow">
+                <h2>Tune Into Our Weekly TV Show at 7:00PM : Vision of Hope Featuring Our Town</h2>
+                <img id="wandaVision" src="images/tvShow.webp" alt="Photo of Wanda and Vision">
             </div>
 
 
@@ -77,12 +87,12 @@
                     <h2>Weather</h2><br>
                     <div class="weather">
                         <img id="weatherIcon" src="images/raining.png" alt="A picture of Rain" width="140" height="125">
-                        <p id="temp">20&deg;F</p>
+                        <p id="temp">20</p>
                     </div>
 
                     <h2>Raining</h2>
-                    <p class="wind">Wind Speed: 10mph</p>
-                    <p class="wind">Wind Chill: N/A</p>
+                    <p class="wind" id="speed">10</p>
+                    <p class="wind">Wind Chill: <span id="windChill"></span></p>
 
                 </section>
             </div>
@@ -150,6 +160,7 @@
             Last Modification: <span id="lastUpdateDate"></span></p>
     </footer>
     <script src="js/scripts.js"></script>
+    <script src="js/windchill.js"></script>
 
 
 </body>

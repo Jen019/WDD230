@@ -64,9 +64,7 @@ nav ul.open {
     display: block;
 }
 
-h1,
-h2,
-h3 {
+h1,h2,h3 {
     font-family: 'Varela Round', sans-serif;
     text-align: center;
     color: #988F2A;
@@ -94,6 +92,7 @@ main {
 
 iframe {
     margin-top: 10px;
+    width:95%;
 }
 
 #heroImg {
@@ -140,7 +139,15 @@ iframe {
 }
 
 #news {
-    margin-top: 60%;
+    margin-top: 50%;
+}
+
+#wandaVision{
+    display:flex;
+    flex-direction: row;
+    margin-left:auto;
+    margin-right:auto;
+    width:80%;
 }
 
 #event {
@@ -159,8 +166,9 @@ iframe {
     height: auto;
 }
 
-#temp {
-    margin-top: auto;
+#temp{
+    margin-left: -28px;
+    margin-top:auto;
     font-size: 50px;
     font-weight: bold;
     background-color: #0d1316;
