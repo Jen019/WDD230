@@ -1,0 +1,14 @@
+main,header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article img[data-src] {
+    filter: blur(0.7em);
+  }
+  
+  article img {
+    filter: blur(0em);
+    transition: filter 0.9s;
+  }
