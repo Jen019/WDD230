@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+       *{
+           margin:0;
+           padding:0;
+           box-sizing: border-box;
+       }
+
+       body{
+           display:grid;
+           grid-template-rows: auto 1fr auto;
+       }
+
+
+       header,main,footer,section{
+           border: 1px solid black;
+           min-height:150px;
+       }
+
+       main{
+           display:grid;
+           grid-template-columns: 1fr;
+       }
+
+       img{
+           max-width:100%;
+           height:auto;
+       }
+
+       #s4{
+           order:-2;
+       }
+
+       #s2{
+           order:-1;
+
+       }
+
+       #s3{
+           display:none;
+       }
+
+       .hero-img{
+           width:100%;
+           height:100%;
+           object-fit: cover;
+       }
+
+
+       @media(min-width: 47.5rem){
+
+       main{
+           display:grid;
+           grid-template-columns: 1fr 2fr 1fr;
+           grid-template-areas: "event hero spotlight"
+                                "weather hero spotlight"
+                                "join    news spotlight";
+            gap:1rem;                    
+       }
+
+       #s1{
+           grid-area: event;
+       }
+
+       #s2{
+           grid-area: weather;
+       }
+
+       #s3{
+           grid-area:join;
+           display:block;
+       }
+
+       #s4{
+           grid-area: hero;
+           order:-1;
+       }
+
+       #s5{
+           grid-area: news;
+       }
+
+       #s6{
+           grid-area: spotlight;
+       }
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Header</h1>
+    </header>
+    <main>
+        <section id="s1">Event</section>
+        <section id="s2">Weather</section>
+        <section id="s3">Join</section>
+        <section id="s4">
+            <img class="hero-img" src="wdd230-org-750w.webp" alt="People at a Desk"
+            srcset="wdd230-1500w.webp 1500w,
+                    wdd-230-org-1000w.webp 1000w,
+                    wdd230-org-750w.webp   750w,
+                    wdd230-org-400w.webp   400w"
+                sizes="(max-width:47.5rem) 100vw, 50vw">
+        </section>
+        <section id="s5">News</section>
+        <section id="s6">Spotlight</section>
+
+    </main>
+    <footer>
+        <p>footer</p>
+    </footer>
+</body>
+</html>

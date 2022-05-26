@@ -4,11 +4,11 @@ main,header{
     align-items: center;
 }
 
-article img[data-src] {
+picture img[data-src] {
     filter: blur(0.7em);
   }
   
-  article img {
+  picture img {
     filter: blur(0em);
     transition: filter 0.9s;
   }
