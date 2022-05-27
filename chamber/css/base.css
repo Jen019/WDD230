@@ -181,6 +181,68 @@ iframe {
     margin-right: 14%;
 }
 
+#pieChartBox{
+    min-height:40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:15px;
+    background-color: #778989;
+    margin-right: -10px;
+
+}
+
+.pieChart {
+    display: block;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-image: conic-gradient(
+            #FF206E 0% 72%,
+            #2B303A 72% 81%, 
+            #04A777 81% 90%,
+            orange 90% 99%);
+    }
+
+    #legend {
+        margin-left: 20px;
+        background-color: navajowhite;
+        padding: 5px;
+      }
+      
+      .entry {
+        display: flex;
+        align-items: center;
+      }
+      
+      .entry-color {
+          height: 10px;
+          width: 10px;
+      }
+      
+      .entry-text {
+        margin-left: 5px;
+      }
+      
+      #color-pink {
+        background-color: #FF206E;
+      }
+      
+      #color-grey {
+        background-color: #2B303A;
+      }
+
+      #color-teal{
+          background-color:#04A777;
+      }
+
+      #color-orange{
+          background-color:orange;
+
+      }
+
+
+  
 
 #message {
     position: relative;
@@ -197,6 +259,8 @@ iframe {
     width: 20%;
     padding-top: 15px;
 }
+
+
 
 .spotlight1 {
     display: flex;
@@ -225,6 +289,19 @@ iframe {
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
+}
+
+
+
+  .creation{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wandaC{
+    width:54%;
+    height:auto;
 }
 
 .social {
