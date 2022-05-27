@@ -201,7 +201,7 @@ iframe {
             #FF206E 0% 72%,
             #2B303A 72% 81%, 
             #04A777 81% 90%,
-            orange 90% 99%);
+            #FB8B24 90% 99%);
     }
 
     #legend {
@@ -237,7 +237,7 @@ iframe {
       }
 
       #color-orange{
-          background-color:orange;
+          background-color:#FB8B24;
 
       }
 
