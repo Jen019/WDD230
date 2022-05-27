@@ -208,6 +208,9 @@ iframe {
         margin-left: 20px;
         background-color: navajowhite;
         padding: 5px;
+        font-family: 'Arvo', serif;
+        font-weight: bold;
+        margin-right:10px;
       }
       
       .entry {
