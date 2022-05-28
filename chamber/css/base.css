@@ -332,7 +332,7 @@ iframe {
 }
 
 .bars .bar:hover{
-    background: #55EFC4;
+    background:  #FFBF00;
     box-shadow: 0 0 10px 0 aqua;
     cursor: pointer;
 }
