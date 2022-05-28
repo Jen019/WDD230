@@ -194,17 +194,6 @@ iframe {
 
 }
 
-.pieChart {
-    display: block;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-image: conic-gradient(#FF206E 0% 72%,
-            #2B303A 72% 81%,
-            #04A777 81% 90%,
-            #FB8B24 90% 99%);
-}
-
 #legend {
     margin-left: 20px;
     background-color: navajowhite;
@@ -212,20 +201,6 @@ iframe {
     font-family: 'Arvo', serif;
     font-weight: bold;
     margin-right: 10px;
-}
-
-.entry {
-    display: flex;
-    align-items: center;
-}
-
-.entry-color {
-    height: 10px;
-    width: 10px;
-}
-
-.entry-text {
-    margin-left: 5px;
 }
 
 #color-pink {
@@ -250,6 +225,50 @@ iframe {
     margin-left:23%;
 }
 
+#message {
+    position: relative;
+    top: -140px;
+    left: 74%;
+    color: #988F2A;
+    font-family: 'Varela Round', sans-serif;
+    background-color: #0d1316;
+    border: #942a32;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 1em;
+    padding-bottom: 15px;
+    width: 20%;
+    padding-top: 15px;
+}
+
+.pieChart {
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: conic-gradient(#FF206E 0% 72%,
+            #2B303A 72% 81%,
+            #04A777 81% 90%,
+            #FB8B24 90% 99%);
+}
+
+
+.entry {
+    display: flex;
+    align-items: center;
+}
+
+.entry-color {
+    height: 10px;
+    width: 10px;
+}
+
+.entry-text {
+    margin-left: 5px;
+}
+
+
+
 
 .container{
     display: flex;
@@ -257,6 +276,7 @@ iframe {
     padding: 0;
     justify-self:center;
     font-family: "Roboto", sans-serif;
+    margin-right:16%;
 }
 
 
@@ -264,7 +284,8 @@ iframe {
 .chart {
     display: block;
     width: 200px;
-    margin-right:96px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .numbers {
@@ -342,22 +363,6 @@ iframe {
     content: attr(data-percentage) '%';
     position: relative;
     bottom:20px;
-}
-
-#message {
-    position: relative;
-    top: -140px;
-    left: 74%;
-    color: #988F2A;
-    font-family: 'Varela Round', sans-serif;
-    background-color: #0d1316;
-    border: #942a32;
-    border-style: solid;
-    border-width: 10px;
-    border-radius: 1em;
-    padding-bottom: 15px;
-    width: 20%;
-    padding-top: 15px;
 }
 
 

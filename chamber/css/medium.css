@@ -1,4 +1,4 @@
-@media (min-width:768px) and (max-width:1246px) {
+@media (min-width:768px) and (max-width:1245px) {
 
 
     h1 {
@@ -25,6 +25,41 @@
         margin-bottom: 15px;
     }
 
+    .demographics{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+    
+        #pieChartBox {
+            min-height:30vh;
+            padding:15px;
+            width: 73%;
+            margin-left: 9%;
+            margin-bottom: 20px;
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+    
+        .pieChart{
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+        #legend{
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+        .chart{
+            margin-left: -19%;
+        }
+    
+        .bars{
+            width: 321px;
+        height: 307px;
+        }
+    
+
     .footerParagraph {
         margin-left: -21px;
         margin-right: auto;
@@ -50,6 +85,7 @@
         justify-content: center;
     }
 
+    
     .menuNav {
         display: flex;
         align-items: center;

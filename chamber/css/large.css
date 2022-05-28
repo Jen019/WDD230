@@ -42,8 +42,34 @@
 
     }
 
+    #pieChartBox {
+        min-height:30vh;
+        padding:15px;
+        width: 73%;
+        margin-left: 9%;
+        margin-bottom: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .demographics{
+        display:contents;
+    }
+
+    .creation{
+        grid-column:2;
+    }
+
+    .wandaC{
+        width:100%;
+    }
+
     .container{
         grid-column:2;
+    }
+
+    .creation{
+        width:80%;
     }
 
 
