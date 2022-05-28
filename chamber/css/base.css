@@ -320,20 +320,20 @@ iframe {
 
 .bars .bar{
     display: block;
-    background: teal;
+    background: #942a32;
     width: 36px;
     position: absolute;
     bottom: 0;
     margin-left: 25px;
     text-align: center;
-    box-shadow: 0 0 10px 0 rgba(23 192 235, 0.5);
+    box-shadow: 0 0 10px 0 #d3b6b0;
     transition: 0.5s;
     transition-property: box-shadow;
 }
 
 .bars .bar:hover{
     background: #55EFC4;
-    box-shadow: 0 0 10px 0 rgba(85,239,196,0.5);
+    box-shadow: 0 0 10px 0 aqua;
     cursor: pointer;
 }
 

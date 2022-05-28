@@ -14,8 +14,7 @@
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/large.css">
     <link rel="stylesheet" href="../css/medium.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-       charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>Wanda's Westview | Discover Page</title>
 </head>
 
@@ -55,8 +54,10 @@
         <section>
             <h2>The Creation of Westview, New Jersey</h2>
             <div class="creation">
-                <img class="wandaC" src="images/wanda'sPain.webp" width="900" height="975">
-                <img class="wandaC" src="images/Wanda-creation.webp" width="900" height="500">
+                <img class="wandaC" src="images/wanda'sPain.webp" width="900" height="975"
+                    alt="Wanda is Kneeling Down Overcome By Grief">
+                <img class="wandaC" src="images/Wanda-creation.webp" width="900" height="500"
+                    alt="Wanda Is Using Her Powers to Create Westview">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum error ratione mollitia provident
                     culpa, sapiente expedita corporis doloribus nemo voluptatibus accusantium ut non eaque iste neque
                     enim ducimus, excepturi repudiandae.</p>
@@ -87,6 +88,7 @@
                         <div class="entry-text">Single: 9%</div>
                     </div>
                 </div>
+            </div>
         </section>
 
         <div class="container">
@@ -144,16 +146,15 @@
     </footer>
     <script src="../js/scripts.js"></script>
     <script type="text/javascript">
-        $(function(){
-            $('.bars li .bar').each(function(key,bar){
+        $(function () {
+            $('.bars li .bar').each(function (key, bar) {
                 const percentage = $(this).data('percentage');
                 $(this).animate({
-                    'height' : percentage + '%'
-                },1000);
+                    'height': percentage + '%'
+                }, 1000);
             });
 
         });
-
     </script>
 
 </body>
