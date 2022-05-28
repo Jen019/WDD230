@@ -1,6 +1,5 @@
 @media (min-width: 1245px) {
 
-
     h1 {
         color: white;
     }
@@ -41,6 +40,10 @@
         padding: 52px;
         background-color: #942a32;
 
+    }
+
+    .container{
+        grid-column:2;
     }
 
 

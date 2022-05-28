@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/large.css">
     <link rel="stylesheet" href="../css/medium.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+       charset="utf-8"></script>
     <title>Wanda's Westview | Discover Page</title>
 </head>
 
@@ -62,34 +64,60 @@
         </section>
 
         <section>
-        <h2>Westview, New Jersey Household Data</h2>
+            <h2>Westview, New Jersey Household Data</h2>
 
-<div id="pieChartBox">
-  <div class="pieChart"></div>
+            <div id="pieChartBox">
+                <div class="pieChart"></div>
 
-  <div id="legend">
-    <div class="entry">
-      <div id="color-pink" class="entry-color"></div>
-      <div class="entry-text">Married With Family: 72%</div>
-    </div>
-    <div class="entry">
-      <div id="color-grey" class="entry-color"></div>
-      <div class="entry-text">Single Mom: 9%</div>
-    </div>
-    <div class="entry">
-      <div id="color-teal" class="entry-color"></div>
-      <div class="entry-text">Single Dad: 9%</div>
-    </div>
-    <div class="entry">
-      <div id="color-orange" class="entry-color"></div>
-      <div class="entry-text">Single: 9%</div>
-  </div>
-</div>
-</section>
+                <div id="legend">
+                    <div class="entry">
+                        <div id="color-pink" class="entry-color"></div>
+                        <div class="entry-text">Married With Family: 72%</div>
+                    </div>
+                    <div class="entry">
+                        <div id="color-grey" class="entry-color"></div>
+                        <div class="entry-text">Single Mom: 9%</div>
+                    </div>
+                    <div class="entry">
+                        <div id="color-teal" class="entry-color"></div>
+                        <div class="entry-text">Single Dad: 9%</div>
+                    </div>
+                    <div class="entry">
+                        <div id="color-orange" class="entry-color"></div>
+                        <div class="entry-text">Single: 9%</div>
+                    </div>
+                </div>
+        </section>
 
+        <div class="container">
+            <div class="chart">
+                <h2 id="barTitle">Language of Westview</h2>
+                <ul class="numbers">
+                    <li><span>100%</span></li>
+                    <li><span>50%</span></li>
+                    <li><span>0%</span></li>
+                </ul>
+                <ul class="bars">
+                    <li>
+                        <div class="bar" data-percentage="85"></div><span>Sokovian</span>
+                    </li>
+                    <li>
+                        <div class="bar" data-percentage="30"></div><span>English</span>
+                    </li>
+                    <li>
+                        <div class="bar" data-percentage="50"></div><span>Wakandan</span>
+                    </li>
+                    <li>
+                        <div class="bar" data-percentage="60"></div><span>Asguardian</span>
+                    </li>
+                    <li>
+                        <div class="bar" data-percentage="25"></div><span>German</span>
+                    </li>
 
-                   
+                </ul>
+            </div>
 
+        </div>
 
     </main>
     <footer>
@@ -115,6 +143,18 @@
             Last Modification: <span id="lastUpdateDate"></span></p>
     </footer>
     <script src="../js/scripts.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $('.bars li .bar').each(function(key,bar){
+                const percentage = $(this).data('percentage');
+                $(this).animate({
+                    'height' : percentage + '%'
+                },1000);
+            });
+
+        });
+
+    </script>
 
 </body>
 
