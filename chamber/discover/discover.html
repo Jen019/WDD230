@@ -145,17 +145,7 @@
             Last Modification: <span id="lastUpdateDate"></span></p>
     </footer>
     <script src="../js/scripts.js"></script>
-    <script type="text/javascript">
-        $(function () {
-            $('.bars li .bar').each(function (key, bar) {
-                const percentage = $(this).data('percentage');
-                $(this).animate({
-                    'height': percentage + '%'
-                }, 1000);
-            });
-
-        });
-    </script>
+    <script src="js/bargraph.js"></script>
 
 </body>
 
