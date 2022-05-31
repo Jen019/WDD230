@@ -34,6 +34,24 @@
         display: none;
     }
 
+
+    #facts {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    #pieChartBox {
+        min-height: 30vh;
+        padding: 15px;
+        width: 40%;
+        margin-left: 9%;
+        margin-bottom: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .menuNav {
         display: flex;
         align-items: center;
@@ -41,35 +59,31 @@
         background-color: #942a32;
 
     }
-
-    #pieChartBox {
-        min-height:30vh;
-        padding:15px;
-        width: 73%;
-        margin-left: 9%;
-        margin-bottom: 20px;
-        display: grid;
-        grid-template-columns: 1fr;
+    
+    .list{
+        padding:20px;
     }
 
-    .demographics{
-        display:contents;
-    }
-
-    .creation{
+    .demographics {
         grid-column:2;
+        margin-top: -985px;
     }
 
-    .wandaC{
-        width:100%;
+    .creation {
+        grid-column: 2;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    .container{
-        grid-column:2;
+
+    .wandaC {
+        width: 100%;
     }
 
-    .creation{
-        width:80%;
+    .container {
+        grid-column: 2;
+        width: 80%;
     }
 
 
@@ -133,9 +147,9 @@
         grid-row: 2;
     }
 
-    #tvShow{
-        grid-column:2;
-        grid-row:3;
+    #tvShow {
+        grid-column: 2;
+        grid-row: 3;
 
     }
 
@@ -161,7 +175,7 @@
     #joinB {
         color: #988F2A;
         font-family: 'Varela Round', sans-serif;
-        font-size:20px;
+        font-size: 20px;
         background-color: #0d1316;
         border: #942a32;
         border-style: solid;
@@ -174,7 +188,7 @@
 
     #event {
         width: 95%;
-        margin-left:15px;
+        margin-left: 15px;
     }
 
     #message {
@@ -184,5 +198,4 @@
         font-size: 20px;
 
     }
-
 }
