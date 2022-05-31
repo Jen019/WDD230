@@ -95,6 +95,11 @@
         display: block;
     }
 
+    #test{
+        grid-column:3;
+        grid-row:1;
+    }
+
     .notices {
         display: flex;
         flex-direction: column;
