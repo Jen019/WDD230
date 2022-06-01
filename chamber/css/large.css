@@ -95,7 +95,7 @@
         display: block;
     }
 
-    #test{
+    #galleryDisplay{
         grid-column:3;
         grid-row:1;
     }

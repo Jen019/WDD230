@@ -8,6 +8,7 @@
     <meta name="description" content="Discover Page for Wanda's Westview Chamber News Site">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="images/discover-favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Rokkitt:wght@300&family=Varela+Round&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
@@ -43,8 +44,10 @@
                 </ul>
             </nav>
         </section>
-        <div id="displayBanner">
-            <p><br><span id="currentDate"></span></p>
+        <div id="numVisit">
+            <p>Your Last visit to this page was <span id="last-visit"></span>
+               <span id='days-ago'>0 </span> days ago.
+               That was <span id='seconds-ago'>0 </span> seconds ago.</p>
         </div>
 
 
@@ -184,7 +187,7 @@
                 </picture>
             </ol>
         </section>
-        <div id="test">
+        <div id="galleryDisplay">
         <div class="gallery">
             <a target="_blank" href="images/townsquare.webp">
                 <picture>
@@ -192,7 +195,7 @@
               data-src="images/townsquare.webp" alt="Townsquare" width="750" height="500">
             </picture>
             </a>
-            <div class="desc">Add a description of the image here</div>
+            <div class="desc">Downtown Westview and the Townsquare.</div>
           </div>
           
           <div class="gallery">
@@ -202,7 +205,7 @@
               data-src="images/stork.webp" alt="Stork" width="700" height="945">
             </picture>
             </a>
-            <div class="desc">Add a description of the image here</div>
+            <div class="desc">Stork wandering around town.</div>
           </div>
           
           <div class="gallery">
@@ -212,7 +215,7 @@
               data-src="images/orchard.webp" alt="Wanda's Orchard" width="580" height="387">
             </picture>
             </a>
-            <div class="desc">Add a description of the image here</div>
+            <div class="desc">Wanda's Orchard in Westview.</div>
           </div>
           
           <div class="gallery">
@@ -222,7 +225,7 @@
               data-src="images/cordonetTheater.webp" alt="Theater" width="1000" height="563">
               </picture>
             </a>
-            <div class="desc">Add a description of the image here</div>
+            <div class="desc">One of Westview's many attractions: The Cordonet Movie Theater</div>
           </div>
 
           <div class="gallery">
@@ -232,7 +235,7 @@
               data-src="images/park.webp" alt="Park" width="600" height="400">
             </picture>
             </a>
-            <div class="desc">Add a description of the image here</div>
+            <div class="desc">A peaceful representation of the Heart Rock Park.</div>
           </div>
 
           <div class="gallery">
@@ -242,7 +245,7 @@
             data-src="images/restaurant.webp" alt="Park" width="600" height="800">
           </picture>
           </a>
-          <div class="desc">Add a description of the image here</div>
+          <div class="desc">Westview's famous Paradise Cove restaurant.</div>
         </div>
         </div>
 
@@ -270,9 +273,9 @@
             Jenna Reeder | <br class="display"> WDD 230 Project<br class="display"> |
             Last Modification: <span id="lastUpdateDate"></span></p>
     </footer>
-    <script src="../js/scripts.js"></script>
     <script src="js/bargraph.js"></script>
     <script src="js/lazyloading.js"></script>
+    <script src="js/localStorage.js"></script>
 
 </body>
 
