@@ -32,6 +32,10 @@
         display: none;
     }
 
+    div.gallery:hover {
+        box-shadow: 0 0 15px gold;
+    }
+
     main.discoverP {
         display: flex;
         flex-direction: column;

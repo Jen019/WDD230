@@ -117,9 +117,6 @@ div.gallery {
     background-color: #778989;
 }
 
-div.gallery:hover {
-    border: 5px solid #777;
-}
 
 div.gallery img {
     width: 100%;
