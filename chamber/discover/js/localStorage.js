@@ -1,7 +1,7 @@
 let lastVisitDate;
     const now = Date.now();
     if(window.localStorage.getItem('last-visit-date')){
-        lastVisitDate = window.localStorage.getItem('last-visit-date');
+        lastVisitDate = parseInt(window.localStorage.getItem('last-visit-date'));
     
     }
       else{
