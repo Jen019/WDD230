@@ -10,12 +10,6 @@
         margin-left: 10px;
     }
 
-
-    main {
-        display: grid;
-        grid-template-columns: 1fr 2fr 1fr;
-    }
-
     nav button {
         display: none;
     }
@@ -23,6 +17,10 @@
     nav ul {
         display: flex;
 
+    }
+
+    div.gallery {
+        width: 30%;
     }
 
     nav ul li a {
@@ -34,22 +32,41 @@
         display: none;
     }
 
+    main.discoverP {
+        display: flex;
+        flex-direction: column;
+    }
 
-    #facts {
-        grid-column: 1;
-        grid-row: 1;
+    ol {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
     #pieChartBox {
         min-height: 30vh;
-        padding: 15px;
-        width: 40%;
+        padding: 42px;
+        width: 50%;
         margin-left: 9%;
         margin-bottom: 20px;
-        display: grid;
-        grid-template-columns: 1fr;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    #facts {
+        width: 100%;
+        height: auto;
+    }
+
+    .bars .bar {
+        width: 71px;
+    }
+
+    .bars span {
+        margin-left: 14px;
+    }
+
+    .bars {
+        width: 561px;
     }
 
     .menuNav {
@@ -59,31 +76,39 @@
         background-color: #942a32;
 
     }
-    
-    .list{
-        padding:20px;
+
+    .list {
+        padding: 20px;
     }
 
     .demographics {
-        grid-column:2;
-        margin-top: -985px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
     .creation {
-        grid-column: 2;
         width: 80%;
+        height: auto;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .creation2 {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        height: auto;
     }
 
 
     .wandaC {
         width: 100%;
+        height: 100%;
     }
 
     .container {
-        grid-column: 2;
         width: 80%;
+        margin-right: 50%;
     }
 
 
@@ -95,9 +120,12 @@
         display: block;
     }
 
-    #galleryDisplay{
-        grid-column:3;
-        grid-row:1;
+    .factPics {
+        width: 45%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
     }
 
     .notices {
@@ -145,8 +173,8 @@
         margin-right: 3%;
     }
 
-    #legend{
-        margin-top:10px;
+    #legend {
+        margin-top: 10px;
     }
 
 
