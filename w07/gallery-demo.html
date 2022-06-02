@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery Demo</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-items: center;
+            gap: 1rem;
+        }
+
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+
+        }
+
+        .galleryItem {
+            border: 5px solid gold;
+
+        }
+
+
+        .gallery-label {
+            padding: 15px;
+            text-align: center;
+            background-color: beige;
+        }
+
+        .gallery img:hover {
+            box-shadow: 0 0 35px black;
+
+        }
+
+        @media(min-width:56rem) {
+
+            .gallery {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+
+
+        }
+
+        @media(min-width:56rem) and (max-width:90rem) {
+            .gallery {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Gallery Demo</h1>
+    </header>
+    <main>
+        <h2>Image Gallery</h2>
+        <article class="gallery">
+            <article class="galleryItem">
+
+                <picture>
+                    <img data-src="https://picsum.photos/400/300?random=0" alt="Gallery Item" width="400" height="300">
+                </picture>
+                <div class="gallery-label">
+                    A Neat Picture
+                </div>
+
+            </article>
+            <article class="galleryItem">
+
+                <picture>
+                    <img data-src="https://picsum.photos/400/300?random=1" alt="Gallery Item" width="400" height="300">
+                </picture>
+                <div class="gallery-label">
+                    A Neat Picture
+                </div>
+
+            </article>
+            <article class="galleryItem">
+
+                <picture>
+                    <img data-src="https://picsum.photos/400/300?random=2" alt="Gallery Item" width="400" height="300">
+                </picture>
+                <div class="gallery-label">
+                    A Neat Picture
+                </div>
+
+            </article>
+            <article class="galleryItem">
+
+                <picture>
+                    <img data-src="https://picsum.photos/400/300?random=3" alt="Gallery Item" width="400" height="300">
+                </picture>
+                <div class="gallery-label">
+                    A Neat Picture
+                </div>
+
+            </article>
+            <article class="galleryItem">
+
+                <picture>
+                    <img data-src="https://picsum.photos/400/300?random=4" alt="Gallery Item" width="400" height="300">
+                </picture>
+                <div class="gallery-label">
+                    A Neat Picture
+                </div>
+
+            </article>
+            <article class="galleryItem">
+
+                <picture>
+                    <img data-src="https://picsum.photos/400/300?random=5" alt="Gallery Item" width="400" height="300">
+                </picture>
+                <div class="gallery-label">
+                    A Neat Picture
+                </div>
+
+            </article>
+            <article class="galleryItem">
+
+                <picture>
+                    <img data-src="https://picsum.photos/400/300?random=6" alt="Gallery Item" width="400" height="300">
+                </picture>
+                <div class="gallery-label">
+                    A Neat Picture
+                </div>
+
+            </article>
+            <article class="galleryItem">
+
+                <picture>
+                    <img data-src="https://picsum.photos/400/300?random=7" alt="Gallery Item" width="400" height="300">
+                </picture>
+                <div class="gallery-label">
+                    A Neat Picture
+                </div>
+
+            </article>
+            <article class="galleryItem">
+
+                <picture>
+                    <img data-src="https://picsum.photos/400/300?random=8" alt="Gallery Item" width="400" height="300">
+                </picture>
+                <div class="gallery-label">
+                    A Neat Picture
+                </div>
+
+            </article>
+            <article class="galleryItem">
+
+                <picture>
+                    <img data-src="https://picsum.photos/400/300?random=9" alt="Gallery Item" width="400" height="300">
+                </picture>
+                <div class="gallery-label">
+                    A Neat Picture
+                </div>
+
+            </article>
+            <article class="galleryItem">
+
+                <picture>
+                    <img data-src="https://picsum.photos/400/300?random=10" alt="Gallery Item" width="400" height="300">
+                </picture>
+                <div class="gallery-label">
+                    A Neat Picture
+                </div>
+
+            </article>
+            <article class="galleryItem">
+
+                <picture>
+                    <img data-src="https://picsum.photos/400/300?random=11" alt="Gallery Item" width="400" height="300">
+                </picture>
+                <div class="gallery-label">
+                    A Neat Picture
+                </div>
+
+            </article>
+        </article>
+
+
+    </main>
+    <footer>
+    </footer>
+    <script>
+        const imagesToLoad = document.querySelectorAll('img[data-src]');
+        const imgOptions = {
+            threshold: 1,
+            rootMargin: "0px 0px 50px 0px"
+        };
+
+        const loadImages = (image) => {
+            image.setAttribute('src', image.getAttribute('data-src'));
+            image.onload = () => {
+                image.removeAttribute('data-src');
+            };
+        };
+
+        if ('IntersectionObserver' in window) {
+            const imgObserver = new IntersectionObserver((items, imgObserver) => {
+                items.forEach((item) => {
+                    if (item.isIntersecting) {
+                        loadImages(item.target);
+                        imgObserver.unobserve(item.target);
+                    }
+                });
+            }, imgOptions);
+            imagesToLoad.forEach((img) => {
+                imgObserver.observe(img);
+            });
+        } else {
+            imagesToLoad.forEach((img) => {
+                loadImages(img);
+            });
+        }
+    </script>
+
+</body>
+
+</html>
