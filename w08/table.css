@@ -1,0 +1,55 @@
+:root {
+	--zebra: hsl(0, 0%, 93%, 1);
+}
+
+header,main,table,h1{
+    font-family: Ubuntu, sans-serif;
+    text-align: center;
+}
+
+
+#topHead{
+    color:brown;
+    background-color: cornflowerblue;
+}
+
+.subHead{
+    background-color: coral;
+    color:black;
+}
+
+#novValue{
+    background-color: blueviolet;
+    color:white;
+}
+table {
+	margin: 10px auto;
+	border: thin solid black;
+	box-shadow: 0 0 30px grey;
+	border-collapse: collapse;
+}
+
+tfoot tr {
+  padding: 10px;
+  text-align: center;
+	color:brown;
+    background-color: cornflowerblue;
+	font-size: .85rem;
+}
+
+tbody tr:nth-child(even) {
+	background-color: var(--zebra);
+}
+
+tbody tr:nth-child(odd) {
+	background-color: aquamarine;
+}
+
+th, td {
+	padding: 7px 15px;
+	border: 1px solid black;
+}
+
+td {
+	text-align: center;
+}
