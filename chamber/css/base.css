@@ -11,6 +11,141 @@ picture img {
     transition: filter 0.9s;
 }
 
+#joinFoot{
+    margin-right: -24%;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+form fieldset{
+   margin:3vh;
+    margin-top:19px;
+    border-color: olive;
+    border-style:solid;
+    border-width: 3px;
+    border-radius:10px;
+    background-color:#d3b6b0;
+    font-family: 'Arvo', serif;
+    width:80%;
+    
+}
+
+form legend{
+    margin-top:15px;
+    color:#FFBF00;
+    background-color: #942a32;
+    padding: 15px;
+    border-radius: 22px;
+}
+
+form label.top input, form label.sub input{
+    display:block;
+    font-size: 1rem;
+    margin-top:15px;
+    margin-bottom:15px;
+    border: solid black;
+    border-radius:4px;
+    padding:15px;
+    color:#0d1316;
+    width:95%;
+    max-width:90%;
+    background-color: #d3b6b0;
+}
+
+form label.sub{
+    display:block;
+    padding:15px;
+    color:#0d1316;
+    font-weight: bold;
+
+}
+.radio{
+  width:30px;
+  height:30px;
+  margin-right:10px;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.opt{
+    color:#0d1316;
+    font-family: 'Arvo', serif;
+}
+
+.radio:checked{
+  border:20px solid #4099ff;
+}
+
+
+form label.top,form div{
+    display:block;
+    padding-top:1rem;
+    color: #9c2c13;
+    font-size:15px;
+}
+
+form label.option{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+}
+
+form input.submitBtn{
+    border: none;
+    background-color: #942a32;
+    color: #0d1316;
+    border-radius: 20px;
+    padding: 30px;
+    margin-left: 14%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 96%;
+    max-width: 72%;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.tableDisplay{
+    overflow-x:auto;
+}
+
+.non{
+    color:navy;
+    background-color: greenyellow;
+}
+
+.bronze{
+    color:#CD7F32;
+    background-color: #0e0e20
+}
+
+.silver{
+    color:silver;
+    background-color: brown;
+}
+
+.gold{
+    color:gold;
+    background-color: black;
+}
+
+th, td {
+    font-family: 'Varela Round', sans-serif;
+    color:#0d1316;
+    text-align:center;
+    text-align:center;
+	padding: 7px 15px;
+	border-style: solid;
+    border-radius: 5px;
+    border-width:5px;
+    border-color: #2a9477;
+    background-color: white;
+}
+
 
 footer {
     background-color: #DE1A1A;
