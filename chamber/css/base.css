@@ -33,6 +33,7 @@ form fieldset{
 }
 
 form legend{
+    font-size: 20px;
     margin-top:15px;
     color:#FFBF00;
     background-color: #942a32;
@@ -96,7 +97,7 @@ form label.option{
 form input.submitBtn{
     border: none;
     background-color: #942a32;
-    color: #0d1316;
+    color: white;
     border-radius: 20px;
     padding: 30px;
     margin-left: 14%;
@@ -125,7 +126,7 @@ form input.submitBtn{
 
 .silver{
     color:silver;
-    background-color: brown;
+    background-color: #C33149;
 }
 
 .gold{
