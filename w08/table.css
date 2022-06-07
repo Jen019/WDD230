@@ -2,47 +2,49 @@
 	--zebra: hsl(0, 0%, 93%, 1);
 }
 
-header,main,table,h1{
+header,main,table,h1,th,td{
     font-family: Ubuntu, sans-serif;
     text-align: center;
 }
 
 
 #topHead{
-    color:brown;
-    background-color: cornflowerblue;
+    color:black;
+	font-weight: bold;
+	font-size: 30px;
+    background-color: #7fb9c2;
 }
 
 .subHead{
-    background-color: coral;
-    color:black;
+    background-color: #628ca6;
+    color:white;
 }
 
 #novValue{
-    background-color: blueviolet;
+    background-color: #628ca6;
     color:white;
 }
 table {
 	margin: 10px auto;
 	border: thin solid black;
-	box-shadow: 0 0 30px grey;
+	box-shadow: 0 15px 30px black;
 	border-collapse: collapse;
 }
 
 tfoot tr {
   padding: 10px;
   text-align: center;
-	color:brown;
-    background-color: cornflowerblue;
+	color:black;
+    background-color: #7fb9c2;
 	font-size: .85rem;
 }
 
 tbody tr:nth-child(even) {
-	background-color: var(--zebra);
+	background-color: #e7ffed;
 }
 
 tbody tr:nth-child(odd) {
-	background-color: aquamarine;
+	background-color: #cfdbd7;
 }
 
 th, td {

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table | Class Demo</title>
+
+    <style>
+
+        table{
+            border-collapse: collapse;
+        }
+
+        thead tr:nth-child(1){
+            background-color: navy;
+            color:white;
+        }
+
+        th,td{
+            border: 1px solid black;
+        }
+
+        tr:nth-child(odd){
+            background-color: #eee;
+        }
+    </style>
+</head>
+<body>
+    <h1>Table Demo</h1>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Major</th>
+                <th scope="col">GPA</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bob</td>
+                <td>WDD</td>
+                <td>4.0</td>
+            </tr>
+
+            <tr>
+                <td>Sue</td>
+                <td colspan="2">SWE</td>
+            </tr>
+
+            <tr>
+                <td>Jill</td>
+                <td>CS</td>
+                <td>2.0</td>
+            </tr>
+
+            <tr>
+                <td>Leia</td>
+                <td>Psychology</td>
+                <td>3.8</td>
+            </tr>
+        </tbody>
+        <tfoot></tfoot>
+    </table>
+</body>
+</html>
