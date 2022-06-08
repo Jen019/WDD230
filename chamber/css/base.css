@@ -250,6 +250,14 @@ div.desc {
     background-color: #988F2A;
 }
 
+#thankImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 96%;
+    height: auto;
+}
+
 #joinPage{
     width:fit-content;
 }

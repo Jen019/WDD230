@@ -9,7 +9,7 @@
         margin-right: 10px;
         margin-left: 10px;
     }
-    
+
     nav button {
         display: none;
     }
@@ -103,6 +103,10 @@
     #facts {
         width: 100%;
         height: auto;
+    }
+
+    #thankImg{
+        width: 60%;
     }
 
 
