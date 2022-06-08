@@ -211,12 +211,9 @@ p {
     margin-right: 15px;
 }
 
-main.homePage {
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-}
 
-main.discoverP{
+
+main.discoverP,main.homePage{
     display: grid;
     grid-template-columns: 1fr;
 
