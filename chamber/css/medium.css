@@ -5,6 +5,12 @@
         align-self: center;
     }
 
+    table {
+        margin-left: 5%;
+    }
+
+
+
     footer {
         margin-right: -21px;
         padding: 32px;
@@ -46,6 +52,9 @@
         height: auto;
     }
 
+    #joinPage {
+        width:auto;
+    }
 
 
     #legend {
@@ -89,6 +98,11 @@
         margin-left: auto;
         margin-right: auto;
         width: 680px;
+    }
+
+
+    #joinFoot {
+        width: 100%;
     }
 
     #join.display {

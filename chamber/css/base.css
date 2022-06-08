@@ -211,9 +211,15 @@ p {
     margin-right: 15px;
 }
 
-main {
+main.homePage {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+main.discoverP{
     display: grid;
     grid-template-columns: 1fr;
+
 }
 
 iframe {
@@ -244,8 +250,8 @@ div.desc {
     background-color: #988F2A;
 }
 
-#joinFoot {
-    width: 100%;
+#joinPage{
+    width:fit-content;
 }
 
 #describe {
@@ -439,9 +445,6 @@ div.desc {
     border: 20px solid #4099ff;
 }
 
-.menuNavJoin {
-    width: 75vh;
-}
 
 .tableDisplay {
     overflow-x: auto;

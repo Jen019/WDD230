@@ -9,7 +9,7 @@
         margin-right: 10px;
         margin-left: 10px;
     }
-
+    
     nav button {
         display: none;
     }
@@ -86,6 +86,10 @@
         width: 65%;
     }
 
+    #joinPage{
+        width:auto;
+    }
+
     #pieChartBox {
         min-height: 30vh;
         padding: 42px;
@@ -99,6 +103,11 @@
     #facts {
         width: 100%;
         height: auto;
+    }
+
+
+    #joinFoot {
+        width:100%;
     }
 
     .tableDisplay {
@@ -124,7 +133,6 @@
         align-items: center;
         padding: 52px;
         background-color: #942a32;
-
     }
 
     .list {
