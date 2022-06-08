@@ -58,8 +58,8 @@
                             pattern="^[A-Za-z\s\-]+$"></label>
                     <label class="sub">Email* example@gmail.com <input type="email" name="email"
                             placeholder="example@gmail.com" required></label>
-                    <label class="sub">Phone* (###)-###-#### <input type="tel" name="phone" placeholder="###-###-####"
-                            pattern="^\([0-9]{3}\)-[0-9]{3}-[0-9]{4}$" required></label>
+                    <label class="sub">Phone* (###) ###-#### <input type="tel" name="phone" placeholder="(###) ###-####"
+                            pattern="^\([0-9]{3}\)\s*[0-9]{3}-[0-9]{4}$" required></label>
                 </fieldset>
 
                 <div class="tableDisplay">
@@ -145,34 +145,38 @@
                             </tr>
                         </tbody>
                     </table>
+
+
+                    <fieldset>
+                        <legend class="top">Choose Membership Option </legend>
+                        <section>
+                            <h2 class="opt"> Monthly Payment Fees</h2>
+                            <p class="opt">Non-Profit Membership: $0<br>
+                                Bronze Membership: $450<br>
+                                Silver Membership: $550<br>
+                                Gold Membership: $650</p>
+
+                            <label class="option"><input type="radio" class="radio" name="member"
+                                    value="Non-Profit Member">Non-Profit
+                                Membership</label>
+                            <label class="option"><input type="radio" class="radio" name="member"
+                                    value="Bronze Member">Bronze
+                                Member</label>
+                            <label class="option"><input type="radio" class="radio" name="member"
+                                    value="Silver Member">Silver
+                                Member</label>
+                            <label class="option"><input type="radio" class="radio" name="member"
+                                    value="Gold Member">Gold
+                                Member</label>
+                        </section>
+                    </fieldset>
                 </div>
 
-                <fieldset>
-                    <legend class="top">Choose Membership Option </legend>
-                    <section>
-                        <h2 class="opt"> Monthly Payment Fees</h2>
-                        <p class="opt">Non-Profit Membership: $0<br>
-                            Bronze Membership: $450<br>
-                            Silver Membership: $550<br>
-                            Gold Membership: $650</p>
-                        <label class="option"><input type="radio" class="radio" name="member"
-                                value="Non-Profit Member">Non-Profit
-                            Membership</label>
-                        <label class="option"><input type="radio" class="radio" name="member"
-                                value="Bronze Member">Bronze
-                            Member</label>
-                        <label class="option"><input type="radio" class="radio" name="member"
-                                value="Silver Member">Silver
-                            Member</label>
-                        <label class="option"><input type="radio" class="radio" name="member" value="Gold Member">Gold
-                            Member</label>
-                    </section>
+                <fieldset id="describe">
+                    <Legend class="top">Describe Your Business</Legend>
+                    <textarea name="businessDetails" rows="5" cols="33" placeholder="Enter text here..."></textarea>
                 </fieldset>
 
-                <fieldset>
-                    <Legend class="top">Describe Your Business</Legend>
-                    <textarea></textarea>
-                </fieldset>
 
                 <input type="submit" value="Join" class="submitBtn">
                 <input type="hidden" id="date" name="date" value="CurrentTime">

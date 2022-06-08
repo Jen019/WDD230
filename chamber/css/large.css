@@ -46,6 +46,46 @@
         grid-template-columns: 1fr 1fr;
     }
 
+    form label.top input,
+    form label.sub input {
+        width: 40%;
+
+
+    }
+
+    textarea:hover {
+        box-shadow: 0 0 10px 5px #942a32;
+    }
+
+
+    form input.submitBtn {
+        width: 24%;
+        margin-bottom: 35px;
+    }
+
+    textarea {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+
+    table {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    form fieldset {
+        width: 65%;
+    }
+
     #pieChartBox {
         min-height: 30vh;
         padding: 42px;
@@ -59,6 +99,12 @@
     #facts {
         width: 100%;
         height: auto;
+    }
+
+    .tableDisplay {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-left: 5%;
     }
 
     .bars .bar {

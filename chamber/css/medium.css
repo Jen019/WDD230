@@ -21,6 +21,18 @@
         justify-content: center;
     }
 
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    form label.top input,
+    form label.sub input {
+        width: 40%;
+
+    }
+
     nav {
         margin-bottom: 15px;
     }

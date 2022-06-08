@@ -11,96 +11,98 @@ picture img {
     transition: filter 0.9s;
 }
 
-#joinFoot{
-    margin-right: -24%;
+textarea {
+    padding: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
-table{
+
+
+table {
     border-collapse: collapse;
 }
 
-form fieldset{
-   margin:3vh;
-    margin-top:19px;
+
+form fieldset {
+    margin: 4vh;
+    margin-top: 19px;
     border-color: olive;
-    border-style:solid;
+    border-style: solid;
     border-width: 3px;
-    border-radius:10px;
-    background-color:#d3b6b0;
+    border-radius: 10px;
+    background-color: #d3b6b0;
     font-family: 'Arvo', serif;
-    width:80%;
-    
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
-form legend{
+form legend {
     font-size: 20px;
-    margin-top:15px;
-    color:#FFBF00;
+    margin-top: 15px;
+    color: #FFBF00;
     background-color: #942a32;
     padding: 15px;
     border-radius: 22px;
 }
 
-form label.top input, form label.sub input{
-    display:block;
+form label.top input,
+form label.sub input {
+    display: block;
     font-size: 1rem;
-    margin-top:15px;
-    margin-bottom:15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     border: solid black;
-    border-radius:4px;
-    padding:15px;
-    color:#0d1316;
-    width:95%;
-    max-width:90%;
+    border-radius: 4px;
+    padding: 15px;
+    color: #0d1316;
+    width: 95%;
+    max-width: 90%;
     background-color: #d3b6b0;
 }
 
-form label.sub{
-    display:block;
-    padding:15px;
-    color:#0d1316;
+form label.sub {
+    display: block;
+    padding: 15px;
+    color: #0d1316;
     font-weight: bold;
 
 }
-.radio{
-  width:30px;
-  height:30px;
-  margin-right:10px;
-  margin-top:10px;
-  margin-bottom:10px;
-}
 
-.opt{
-    color:#0d1316;
-    font-family: 'Arvo', serif;
-}
 
-.radio:checked{
-  border:20px solid #4099ff;
+label.sub input:required:invalid {
+    border-color: red;
+    border-width: 5px;
 }
 
 
-form label.top,form div{
-    display:block;
-    padding-top:1rem;
-    color: #9c2c13;
-    font-size:15px;
+
+label.sub input:focus:invalid {
+    background: url("/chamber/join/images/warning.png") no-repeat 95% 50% lightsalmon;
+    background-size: 25px;
 }
 
-form label.option{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-left: 10px;
+label.sub input:focus:valid {
+    background: url("/chamber/join/images/thumbsup.png") no-repeat 95% 50% lightgreen;
+    background-size: 25px;
 }
 
-form input.submitBtn{
+form label.option {
+    display: block;
+    margin-left: 23%;
+}
+
+form input.submitBtn {
     border: none;
     background-color: #942a32;
     color: white;
     border-radius: 20px;
     padding: 30px;
-    margin-left: 14%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 20px;
     margin-bottom: 20px;
     width: 96%;
@@ -109,40 +111,16 @@ form input.submitBtn{
     font-size: 40px;
 }
 
-
-.tableDisplay{
-    overflow-x:auto;
-}
-
-.non{
-    color:navy;
-    background-color: greenyellow;
-}
-
-.bronze{
-    color:#CD7F32;
-    background-color: #0e0e20
-}
-
-.silver{
-    color:silver;
-    background-color: #550C18;
-}
-
-.gold{
-    color:gold;
-    background-color: black;
-}
-
-th, td {
+th,
+td {
     font-family: 'Varela Round', sans-serif;
-    color:#0d1316;
-    text-align:center;
-    text-align:center;
-	padding: 7px 15px;
-	border-style: solid;
+    color: #0d1316;
+    text-align: center;
+    text-align: center;
+    padding: 7px 15px;
+    border-style: solid;
     border-radius: 5px;
-    border-width:5px;
+    border-width: 5px;
     border-color: #2a9477;
     background-color: white;
 }
@@ -264,6 +242,15 @@ div.desc {
     padding: 15px;
     text-align: center;
     background-color: #988F2A;
+}
+
+#joinFoot {
+    width: 100%;
+}
+
+#describe {
+    width: 45%;
+    height: fit-content;
 }
 
 #facts li {
@@ -433,6 +420,51 @@ div.desc {
     padding-bottom: 15px;
     width: 20%;
     padding-top: 15px;
+}
+
+.radio {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.opt {
+    color: #0d1316;
+    font-family: 'Arvo', serif;
+}
+
+.radio:checked {
+    border: 20px solid #4099ff;
+}
+
+.menuNavJoin {
+    width: 75vh;
+}
+
+.tableDisplay {
+    overflow-x: auto;
+}
+
+.non {
+    color: navy;
+    background-color: greenyellow;
+}
+
+.bronze {
+    color: #CD7F32;
+    background-color: #0e0e20
+}
+
+.silver {
+    color: silver;
+    background-color: #550C18;
+}
+
+.gold {
+    color: gold;
+    background-color: black;
 }
 
 .factPics {
