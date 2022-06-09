@@ -85,12 +85,12 @@ label.sub input:required:invalid {
 
 
 label.sub input:focus:invalid {
-    background: url("/chamber/join/images/warning.png") no-repeat 95% 50% lightsalmon;
+    background: url("../join/images/warning.png") no-repeat 95% 50% lightsalmon;
     background-size: 25px;
 }
 
 label.sub input:focus:valid {
-    background: url("/chamber/join/images/thumbsup.png") no-repeat 95% 50% lightgreen;
+    background: url("../join/images/thumbsup.png") no-repeat 95% 50% lightgreen;
     background-size: 25px;
 }
 
