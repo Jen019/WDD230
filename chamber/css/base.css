@@ -39,6 +39,10 @@ form fieldset {
 
 }
 
+footer#thankYouPage{
+    margin-top:58px;
+}
+
 form legend {
     font-size: 20px;
     margin-top: 15px;
