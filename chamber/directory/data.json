@@ -54,6 +54,15 @@
         "imageURL": "images/bakery.webp",
         "membershipLevel" : "Gold",
         "description" : "Bakery"
+      },
+
+      { "name": "Little Brook Park",
+        "address": "440 Queen Street Westview, NJ",
+        "phonenumber": "(201) 626-7034",
+        "website": "https://www.LittleBrookPark.com",
+        "imageURL": "images/littlePark.png",
+        "membershipLevel" : "Silver",
+        "description" : "Playground Park"
       }
     ]
 
