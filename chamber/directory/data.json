@@ -63,7 +63,17 @@
         "imageURL": "images/littlePark.png",
         "membershipLevel" : "Silver",
         "description" : "Playground Park"
+      },
+
+      { "name": "Senor Scratchy's Frozen Treats",
+        "address": "7642 Rock Creek Road Westview, NJ",
+        "phonenumber": "(201) 421-8673",
+        "website": "https://www.SenorScratchy'sFrozenTreats.com",
+        "imageURL": "images/bunny.png",
+        "membershipLevel" : "Gold",
+        "description" : "Ice Cream"
       }
+
     ]
 
 }
