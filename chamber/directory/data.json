@@ -72,7 +72,17 @@
         "imageURL": "images/bunny.png",
         "membershipLevel" : "Gold",
         "description" : "Ice Cream"
+      },
+
+      { "name": "Dr. Strange's Magic Relics",
+        "address": "7645 Windfall Circle Westview, NJ",
+        "phonenumber": "(201) 722-8945",
+        "website": "https://www.Dr.Strange'sMagicRelics.com",
+        "imageURL": "images/museum.webp",
+        "membershipLevel" : "Gold",
+        "description" : "Museum"
       }
+      
 
     ]
 
