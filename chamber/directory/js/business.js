@@ -1,9 +1,6 @@
 
 const requestURL = 'https://jen019.github.io/wdd230/chamber/directory/data.json';
-
-
 const cards = document.querySelector('.cards');
-
 fetch(requestURL)
 .then(function (response) {
   return response.json();
@@ -24,6 +21,9 @@ function displayBusinesses(businesses) {
     let p3 = document.createElement('p');
     let p4 = document.createElement('p');
     let logo = document.createElement('img');
+
+    logo.className = 'businessImg';
+    card.className = 'businessData';
 
     h2.textContent = `${businesses["name"]}`;
     p1.textContent = `${businesses["address"]}`;

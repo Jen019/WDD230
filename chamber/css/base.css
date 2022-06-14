@@ -186,6 +186,7 @@ nav ul li a {
     border-top: 2px solid black;
 }
 
+
 nav ul li a:hover {
     background-color: #d3b6b0;
     color: black;
@@ -268,6 +269,10 @@ div.desc {
 }
 
 #joinPage{
+    width:fit-content;
+}
+
+#directory{
     width:fit-content;
 }
 
@@ -444,6 +449,60 @@ div.desc {
     width: 20%;
     padding-top: 15px;
 }
+
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 5px;
+}
+
+.cards section > * {
+	margin: 0.1rem;
+}
+
+section.businessData p{
+    background: none;
+    color:white;
+}
+
+#layoutOpt{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 5%;
+    gap: 14px;
+    margin-right: 4%;
+}
+
+
+#layoutOpt img{
+    width:65%;
+    height:auto;
+}
+
+
+.businessData{
+    width: 72%;
+    height: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 26px;
+    background-color: #550C18;
+    margin-top: 7%;
+}
+
+.businessImg{
+    max-width: 45%;
+    height: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 .opt {
     color: #0d1316;
