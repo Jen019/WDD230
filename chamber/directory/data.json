@@ -1,89 +1,96 @@
 {
-    "businesses": [
-      {  
-        "name": "Agatha's Runes and Potions",
-        "address": "199 Evergreen Drive Westview, NJ",
-        "phonenumber": "(201) 327-9863",
-        "website": "https://www.Agatha'sRunesandPotions.darkhold",
-        "imageURL": "images/agathasLogo.webp",
-        "membershipLevel" : "Gold",
-        "description" : "Magic Shop"
+  "businesses": [{
+      "name": "Agatha's Runes and Potions",
+      "address": "199 Evergreen Drive Westview, NJ",
+      "phonenumber": "(201) 327-9863",
+      "website": "https://www.Agatha'sRunesandPotions.darkhold",
+      "imageURL": "images/agathasLogo.webp",
+      "membershipLevel": "Gold",
+      "description": "Magic Shop Full of Enchantment and Spells"
 
-      },
-      
-      { "name": "Pietro's Spy Detective Agency",
-        "address": "790 North Shady Avenue Westview, NJ",
-        "phonenumber": "(201) 456-5282",
-        "website": "https://www.Pietro'sGonnaSnoop.com",
-        "imageURL": "images/pietrosLogo.png",
-        "membershipLevel" : "Silver",
-        "description" : "Solving Mysteries For You"
-      },
+    },
 
-      { "name": "Monica's Soul Searching Counseling Agency",
-        "address": "348 Windfall Road Westview, NJ",
-        "phonenumber": "(201) 935-4275",
-        "website": "https://www.SoulSearching.com",
-        "imageURL": "images/monicasLogo.webp",
-        "membershipLevel" : "Gold",
-        "description" : "Counseling Agency"
-      },
+    {
+      "name": "Pietro's Spy Detective Agency",
+      "address": "790 North Shady Avenue Westview, NJ",
+      "phonenumber": "(201) 456-5282",
+      "website": "https://www.Pietro'sGonnaSnoop.com",
+      "imageURL": "images/pietrosLogo.png",
+      "membershipLevel": "Silver",
+      "description": "Detective agency awarded as the world's Most Solved Cases in Private Investigation"
+    },
 
-      { "name": "Paradise Cove",
-        "address": "7807 Glenlake Drive Westview, NJ",
-        "phonenumber": "(201) 678-5349",
-        "website": "https://www.ParadiseCove.com",
-        "imageURL": "images/paradiseCove.png",
-        "membershipLevel" : "Gold",
-        "description" : "Restaurant"
-      },
+    {
+      "name": "Monica's Soul Searching Counseling Agency",
+      "address": "348 Windfall Road Westview, NJ",
+      "phonenumber": "(201) 935-4275",
+      "website": "https://www.SoulSearching.com",
+      "imageURL": "images/monicaLogo.png",
+      "membershipLevel": "Gold",
+      "description": "Face your truth and learn to accept who you are at Monica's Soul Searching Counseling Agency"
+    },
 
-      { "name": "Darcy's Gemini Observatory",
-        "address": "633 Amherst Lane Westview, NJ",
-        "phonenumber": "(201) 298-7348",
-        "website": "https://www.Darcy'sGeminiObservatory.com",
-        "imageURL": "images/darcyLogo.png",
-        "membershipLevel" : "Bronze",
-        "description" : "Stars"
-      },
+    {
+      "name": "Paradise Cove",
+      "address": "7807 Glenlake Drive Westview, NJ",
+      "phonenumber": "(201) 678-5349",
+      "website": "https://www.ParadiseCove.com",
+      "imageURL": "images/paradiseCove.png",
+      "membershipLevel": "Gold",
+      "description": "Escape to a world of peace at Paradise Cove Restaurant."
+    },
 
-      { "name": "Wanda and Vision's Tiers of Love ",
-        "address": "795 Honey Creek Lane Westview, NJ",
-        "phonenumber": "(201) 721-4568",
-        "website": "https://www.Wanda&Vision'sTiersofCake.com",
-        "imageURL": "images/bakery.webp",
-        "membershipLevel" : "Gold",
-        "description" : "Bakery"
-      },
+    {
+      "name": "Darcy's Gemini Observatory",
+      "address": "633 Amherst Lane Westview, NJ",
+      "phonenumber": "(201) 298-7348",
+      "website": "https://www.Darcy'sGeminiObservatory.com",
+      "imageURL": "images/darcyLogo.png",
+      "membershipLevel": "Bronze",
+      "description": "Discover the Stars and See a glimpse of your past and future at Darcy's Gemini Observatory"
+    },
 
-      { "name": "Little Brook Park",
-        "address": "440 Queen Street Westview, NJ",
-        "phonenumber": "(201) 626-7034",
-        "website": "https://www.LittleBrookPark.com",
-        "imageURL": "images/littlePark.png",
-        "membershipLevel" : "Silver",
-        "description" : "Playground Park"
-      },
+    {
+      "name": "Wanda and Vision's Tiers of Love ",
+      "address": "795 Honey Creek Lane Westview, NJ",
+      "phonenumber": "(201) 721-4568",
+      "website": "https://www.WandaAndVision'sTiersofCake.com",
+      "imageURL": "images/bakery.webp",
+      "membershipLevel": "Gold",
+      "description": "Every Cake is baked with our tears of love"
+    },
 
-      { "name": "Senor Scratchy's Frozen Treats",
-        "address": "7642 Rock Creek Road Westview, NJ",
-        "phonenumber": "(201) 421-8673",
-        "website": "https://www.SenorScratchy'sFrozenTreats.com",
-        "imageURL": "images/bunny.png",
-        "membershipLevel" : "Gold",
-        "description" : "Ice Cream"
-      },
+    {
+      "name": "Little Brook Park",
+      "address": "440 Queen Street Westview, NJ",
+      "phonenumber": "(201) 626-7034",
+      "website": "https://www.LittleBrookPark.com",
+      "imageURL": "images/littlePark.png",
+      "membershipLevel": "Silver",
+      "description": "Gather with your friends and family at Little Brook Park, home to the best playground and walking path to Wanda's Orchard"
+    },
 
-      { "name": "Dr. Strange's Magic Relics",
-        "address": "7645 Windfall Circle Westview, NJ",
-        "phonenumber": "(201) 722-8945",
-        "website": "https://www.Dr.Strange'sMagicRelics.com",
-        "imageURL": "images/museum.webp",
-        "membershipLevel" : "Gold",
-        "description" : "Museum"
-      }
-      
+    {
+      "name": "Senor Scratchy's Frozen Treats",
+      "address": "7642 Rock Creek Road Westview, NJ",
+      "phonenumber": "(201) 421-8673",
+      "website": "https://www.SenorScratchy'sFrozenTreats.com",
+      "imageURL": "images/bunny.png",
+      "membershipLevel": "Gold",
+      "description": "Come to Senor Scratchy's lair and cool of with a frozen treat"
+    },
 
-    ]
+    {
+      "name": "Dr. Strange's Magic Relics",
+      "address": "7645 Windfall Circle Westview, NJ",
+      "phonenumber": "(201) 722-8945",
+      "website": "https://www.Dr.Strange'sMagicRelics.com",
+      "imageURL": "images/museum.webp",
+      "membershipLevel": "Gold",
+      "description":"Are you interested in the mystic arts? Dr. Strange's Magic Relics is a museum filled with ancient artifacts and mysteries waiting to be discovered by you brought to you by the Scarlet Witch"
+    }
+
+
+  ]
 
 }
