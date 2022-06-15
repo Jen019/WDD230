@@ -451,7 +451,7 @@ div.desc {
 }
 
 
-.cards {
+.cards section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     gap: 5px;
@@ -462,7 +462,26 @@ div.desc {
 	flex-direction: column;
 }
 
-section.businessData p{
+.list section .businessData {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list .businessImg {
+    width: 20%;
+    height: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-desc{
     background: none;
     color:white;
 }
