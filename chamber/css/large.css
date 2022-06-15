@@ -91,6 +91,10 @@
         width: 65%;
     }
 
+    #directory{
+        width:auto;
+    }
+
     #joinPage{
         width:auto;
     }
