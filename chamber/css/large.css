@@ -204,6 +204,25 @@
         padding: 20px;
     }
 
+    .list section .businessData {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 100%;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .list .businessImg {
+        width: 20%;
+        height: auto;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .demographics {
         display: grid;
         grid-template-columns: 1fr 1fr;
