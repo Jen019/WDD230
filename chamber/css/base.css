@@ -263,6 +263,7 @@ div.desc {
 #grid{
     background-image: url("../directory/images/gridBtn.png");
     background-size: 100%;
+    padding:66px;
     height: 90px;
     width: 91px;
     background-color: white;
@@ -271,7 +272,8 @@ div.desc {
 #list{
     background-image: url("../directory/images/listBtn.png");
     background-size: 100%;
-    height: 84px;
+    padding:66px;
+    height: 90px;
     width: 91px;
     background-color: white;
 }
