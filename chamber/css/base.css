@@ -469,6 +469,10 @@ div.desc {
     padding-top: 15px;
 }
 
+.cards{
+    margin-bottom: 33px;
+}
+
 
 .cards section {
     display: grid;
@@ -479,17 +483,18 @@ div.desc {
 .list {
 	display: flex;
 	flex-direction: column;
+    margin-left: 3%;
+    margin-right: 1%;
 }
 
 .list section .businessData {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 86%;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 47px;
 }
 
 .list .businessImg {
@@ -498,7 +503,7 @@ div.desc {
 
 .card-desc{
     background: none;
-    color:white;
+    color:#d3b6b0;
 }
 
 #layoutOpt{

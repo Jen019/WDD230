@@ -102,8 +102,18 @@
     width: 95%;
     height: 95%;
   }
-  
-  
+
+  .list .businessData p{
+    display:flex;
+    align-items: center;
+  }
+
+  .list .businessData:hover .card-desc{
+    opacity: 1;
+    width: 84%;
+    height: 92%;
+
+  }
   h1 {
     font-size: 2.8rem;
     color: #fff;

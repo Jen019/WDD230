@@ -28,16 +28,10 @@ function displayBusinesses(businesses) {
     card.className = 'businessData';
     p1.className = 'card-desc';
     h2.textContent = `${businesses["name"]}`
-    p1.textContent = `Address: ${businesses["address"]}
-    
-    
+    p1.textContent = 
+    `Address: ${businesses["address"]}
     Phonenumber: ${businesses["phonenumber"]}
-    
-   
-    
     Website: ${businesses["website"]}
-    
-  
     Description: ${businesses["description"]}`;
   
     
