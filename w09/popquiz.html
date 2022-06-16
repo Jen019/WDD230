@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popquiz</title>
+   
+</head>
+<body>
+
+    <section id="person">
+        <h1>Display First Name, Last Name and Age</h1>
+    </section>
+    <script>
+        const url = 'popquiz.json';
+        const resultElement = document.querySelector('#person');
+        fetch(url)
+        .then(response => response.json())
+        .then(data => {
+            console.log(data);
+            let p = document.createElement('p');
+
+            p.textContent = `${data['firstName']} ${data['lastName']}, Age: ${data['age']}`;
+            
+            resultElement.appendChild(p);
+
+
+        });
+    
+    </script>
+
+    
+</body>
+</html>
