@@ -77,6 +77,14 @@
         grid-template-columns: 1fr;
     }
 
+    #displayTemp, #temp {
+        margin-top:14%;
+    }
+
+    #weather-icon {
+        width: 62%;
+    }
+
     #joinB {
         color: #988F2A;
         font-family: 'Varela Round', sans-serif;

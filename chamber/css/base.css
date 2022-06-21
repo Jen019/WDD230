@@ -237,6 +237,20 @@ iframe {
     width: 95%;
 }
 
+figure{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Varela Round';
+    color: #988F2A;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+figcaption{
+    width:max-content;
+    margin-left:50%;
+}
+
 
 div.gallery {
     float: left;
@@ -260,6 +274,8 @@ div.desc {
     background-color: #988F2A;
 }
 
+
+
 #grid{
     background-image: url("../directory/images/gridBtn.png");
     background-size: 100%;
@@ -268,6 +284,7 @@ div.desc {
     width: 91px;
     background-color: white;
 }
+
 
 #list{
     background-image: url("../directory/images/listBtn.png");
@@ -383,21 +400,19 @@ div.desc {
     margin-top: -28px;
 }
 
-#weatherIcon {
-    margin-left: 10px;
-    width: 140px;
-    height: auto;
+#weather-icon{
+    width:84%;
 }
 
-#temp {
-    margin-left: -28px;
-    margin-top: auto;
-    font-size: 50px;
+#displayTemp, #temp {
+    font-family: 'Varela Round';
     font-weight: bold;
-    background-color: #0d1316;
     color: #988F2A;
-
+    background: none;
+    font-size: 40px;
+    margin-left: -49%;
 }
+
 
 #spotlightp {
     margin-left: 14%;
@@ -790,12 +805,17 @@ div.desc {
 }
 
 .weather {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
+    margin-top: -9%;
+    margin-left: 13%;
 }
 
 
-.wind {
+.wind  {
+    width: 72%;
+    margin-left: auto;
+    margin-right: auto;
     font-weight: bold;
 }

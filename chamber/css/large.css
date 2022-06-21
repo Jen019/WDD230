@@ -336,6 +336,14 @@
         grid-row: 2;
     }
 
+    #displayTemp, #temp {
+        margin-top:14%;
+    }
+
+    #weather-icon {
+        width: 62%;
+    }
+
     #tvShow {
         grid-column: 2;
         grid-row: 3;
