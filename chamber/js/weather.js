@@ -8,7 +8,7 @@ fetch(weatherURL)
   .then((response) => response.json())
   .then((data) => {
     console.log(data); // this is temporary for development only
-    currentTemp.innerHTML = `<strong>${data.main.temp.toFixed(0)}</strong>`;
+    currentTemp.textContent = `${data.main.temp.toFixed(0)}`;
     const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
     const desc = data.weather[0].description;
     const speed = data.wind.speed;
@@ -16,4 +16,20 @@ fetch(weatherURL)
   weatherIcon.setAttribute('src', iconsrc);weatherIcon.setAttribute('alt', desc);
   captionDesc.textContent = desc;
   wind.textContent = speed;
+
+
+if(currentTemp <=50 && wind >= 3.0){
+    let wc = 35.74 + 0.6215 * currentTemp - 35.75 * Math.pow(wind,0.16) + 0.4275 * currentTemp * Math.pow(wind,0.16);
+
+    wc = Math.round(wc);
+
+   document.getElementById("windChill").textContent = wc;
+
+}
+
+else{
+
+document.getElementById("windChill").textContent = "N/A";
+
+}
   });
