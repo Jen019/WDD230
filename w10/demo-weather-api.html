@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API Demo</title>
+</head>
+<body>
+    <h1>OpenWeatherMap.org API Test</h1>
+<p>The current temperature in Fairbanks, Alaska is <span id="current-temp"></span> &deg;F</p>
+<h2>Current Condition Icon</h2>
+<figure>
+  <img src="" alt="" id="weather-icon" />
+  <figcaption></figcaption>
+</figure>
+
+<script>
+    const currentTemp = document.querySelector('#current-temp');
+const weatherIcon = document.querySelector('#weather-icon');
+const captionDesc = document.querySelector('figcaption');
+
+const base_url = "https://api.openweathermap.org/data/2.5/weather";
+const city_name = "Fairbanks";
+const state_code = "AK";
+const country_code = "US";
+const appid = "3152f5cb63193c20d2712d8adecda329";
+const units = "imperial";
+const url = `${base_url}?q=${city_name},${state_code},${country_code}&appid=${appid}&units=${units}`;
+
+fetch("demo.json")
+  .then((response) => response.json())
+  .then((data) => {
+    console.log(data); // this is temporary for development only
+    const temp = data.main.temp;
+    currentTemp.textContent = Math.round(temp);
+    const base_url = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
+
+    const desc = data.weather[0].description;
+  
+  weatherIcon.setAttribute('src', base_url);
+  weatherIcon.setAttribute('alt', desc);
+  captionDesc.textContent = desc;
+
+  
+});
+
+</script>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+{
+    "coord": {
+        "lon": -147.7164,
+        "lat": 64.8378
+    },
+    "weather": [{
+        "id": 804,
+        "main": "Clouds",
+        "description": "overcast clouds",
+        "icon": "04d"
+    }],
+    "base": "stations",
+    "main": {
+        "temp": 58.62,
+        "feels_like": 57.85,
+        "temp_min": 53.94,
+        "temp_max": 62.22,
+        "pressure": 1024,
+        "humidity": 78
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 7.38,
+        "deg": 256,
+        "gust": 13.2
+    },
+    "clouds": {
+        "all": 99
+    },
+    "dt": 1656003757,
+    "sys": {
+        "type": 2,
+        "id": 2010677,
+        "country": "US",
+        "sunrise": 1655981918,
+        "sunset": 1656060451
+    },
+    "timezone": -28800,
+    "id": 5861897,
+    "name": "Fairbanks",
+    "cod": 200
+}

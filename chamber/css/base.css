@@ -402,6 +402,7 @@ div.desc {
 
 #weather-icon{
     width:84%;
+    margin-top: -9px;
 }
 
 #displayTemp, #temp {

@@ -1,0 +1,42 @@
+{
+    "coord": {
+        "lon": -112.0341,
+        "lat": 43.4666
+    },
+    "weather": [{
+        "id": 803,
+        "main": "Clouds",
+        "description": "broken clouds",
+        "icon": "04d"
+    }],
+    "base": "stations",
+    "main": {
+        "temp": 70.09,
+        "feels_like": 68.77,
+        "temp_min": 68.86,
+        "temp_max": 71.58,
+        "pressure": 1017,
+        "humidity": 42
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 8.01,
+        "deg": 201,
+        "gust": 8.99
+    },
+    "clouds": {
+        "all": 58
+    },
+    "dt": 1656089587,
+    "sys": {
+        "type": 2,
+        "id": 2001801,
+        "country": "US",
+        "sunrise": 1656071288,
+        "sunset": 1656126775
+    },
+    "timezone": -21600,
+    "id": 5596475,
+    "name": "Idaho Falls",
+    "cod": 200
+}
