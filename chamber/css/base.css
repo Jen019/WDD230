@@ -407,6 +407,7 @@ div.desc {
 }
 
 #displayTemp, #temp {
+    display:inline-block;
     font-family: 'Varela Round';
     font-weight: bold;
     color: #988F2A;
