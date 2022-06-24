@@ -238,17 +238,15 @@ iframe {
 }
 
 figure{
-    display: flex;
-    flex-direction: column;
+    margin-top: -9%;
+}
+
+figcaption{
     font-family: 'Varela Round';
     color: #988F2A;
     font-size: 28px;
     font-weight: bold;
-}
-
-figcaption{
     width:max-content;
-    margin-left:50%;
 }
 
 
@@ -401,8 +399,11 @@ div.desc {
 }
 
 #weather-icon{
-    width:84%;
+    display: block;
+    width: 84%;
     margin-top: -9px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #displayTemp, #temp {
@@ -411,7 +412,8 @@ div.desc {
     color: #988F2A;
     background: none;
     font-size: 40px;
-    margin-left: -49%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -806,10 +808,11 @@ div.desc {
 }
 
 .weather {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
+    display: flex;
     margin-top: -9%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
 }
 
 

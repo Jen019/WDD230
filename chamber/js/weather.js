@@ -10,8 +10,6 @@ const appid = "3152f5cb63193c20d2712d8adecda329";
 const units = "imperial";
 const weatherUrl = `${base_url}?q=${city_name},${state_code},${country_code}&appid=${appid}&units=${units}`;
 
-console.log("weather.json");
-
 fetch(weatherUrl)
   .then((response) => response.json())
   .then((data) => {
