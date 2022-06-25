@@ -157,6 +157,20 @@
         width:auto;
     }
 
+    #wandaPres{
+        grid-column:1;
+    }
+
+    #contactForm form fieldset{
+        width:45%;
+    }
+    
+
+    #title{
+    margin-left: 50%;
+    width: 100%;
+    }
+
     #joinPage{
         width:auto;
     }
@@ -201,6 +215,24 @@
 
     .bars {
         width: 561px;
+    }
+
+    .displayBoard{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+
+    .boardMember img{
+        width:69%;
+    }
+
+    #textContact{
+        padding:50px;
+        width:40%;
+    }
+
+    .contact{
+        width:50%;
     }
 
     .menuNav {

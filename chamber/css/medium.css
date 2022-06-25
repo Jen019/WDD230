@@ -222,4 +222,14 @@
         justify-content: center;
     }
 
+    .boardMember{
+        flex-direction: row;
+        flex-flow: wrap;
+    }
+
+    #contactForm form fieldset {
+        width: 80%;
+    }
+    
+
 }
