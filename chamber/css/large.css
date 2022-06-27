@@ -199,6 +199,10 @@
         width:100%;
     }
 
+    .pieChart{
+        width:308px;
+    }
+
     .tableDisplay {
         display: flex;
         flex-direction: row-reverse;
@@ -240,6 +244,7 @@
         align-items: center;
         padding: 52px;
         background-color: #942a32;
+        width:96%;
     }
 
     .list {
@@ -294,6 +299,11 @@
         width: 80%;
         margin-right: 50%;
     }
+
+    .logo{
+        margin-right:39px;
+    }
+    
 
 
     .mediaIcons {

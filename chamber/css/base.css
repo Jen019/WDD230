@@ -15,18 +15,10 @@ textarea {
     padding: 50px;
     margin-top: 15px;
     margin-bottom: 15px;
-}
-
-#textContact{
-    padding: 22px;
-    margin-top: 15px;
-    margin-bottom: 15px;
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
-
-
 
 table {
     border-collapse: collapse;
