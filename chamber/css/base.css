@@ -578,9 +578,10 @@ div.desc {
    display: none;
 }
 
-.card-desc{
+.card-desc, .desc{
     background: none;
     color:#d3b6b0;
+    overflow-wrap: anywhere;
 }
 
 #layoutOpt{
@@ -607,8 +608,11 @@ div.desc {
   }
 
 
+  .homeData{
+    margin-bottom: 40px;
+  }
 
-.businessData{
+.businessData, .homeData{
     width: 72%;
     height: auto;
     display: flex;
@@ -617,7 +621,7 @@ div.desc {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 26px;
+    padding:26px;
     background-color: #550C18;
     margin-top: 7%;
     box-shadow: 0px 0px 10px white;

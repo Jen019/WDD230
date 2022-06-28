@@ -1,36 +1,31 @@
 const requestURL = 'https://jen019.github.io/wdd230/chamber/directory/data.json';
-const cards = document.querySelector('.cards');
+const spotlight = document.querySelector('.spotlightDesign');
 fetch(requestURL)
 .then(function (response) {
-  return response.json();
-})
-.then(function (jsonObject) {
-  console.table(jsonObject); 
+    return response.json();
+  })
+  .then(function (data) {
+    console.log(data);
+    const first3 = data['businesses'].slice(0, 3);
+    first3.forEach(displaySpotlights);
+    console.log(first3);
+  });
 
-const businesses = jsonObject['businesses'];
-  businesses.forEach(displayBusinesses);
-});
-
-let s1 = document.createElement('section');
-document.querySelector('div.cards').appendChild(s1);
-
-function displayBusinesses(businesses) {
+  function displaySpotlights(businesses){
     let card = document.createElement('div');
     let h2 = document.createElement('h2');
     let p1 = document.createElement('p');
     let logo = document.createElement('img');
 
+    card.className = 'homeData';
     logo.className = 'businessImg';
-    card.className = 'businessData';
-    p1.className = 'card-desc';
+    p1.className = 'desc';
     h2.textContent = `${businesses["name"]}`
     p1.textContent = 
-    `Address: ${businesses["address"]}
-    Phonenumber: ${businesses["phonenumber"]}
+    `Phonenumber: ${businesses["phonenumber"]}
     Website: ${businesses["website"]}
     Description: ${businesses["description"]}`;
   
-    
     logo.setAttribute('src', `${businesses["imageURL"]}`);
     logo.setAttribute('alt', `Logo of ${businesses["name"]}`);
     logo.setAttribute('loading', 'lazy');
@@ -39,6 +34,12 @@ function displayBusinesses(businesses) {
     card.appendChild(logo);
     card.appendChild(p1);
    
-    document.querySelector('div.cards section').appendChild(card);
+    document.querySelector('.spotlightDesign').appendChild(card);
 
   }
+
+  
+
+  
+
+  

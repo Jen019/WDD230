@@ -20,7 +20,7 @@
         margin-left: 15px;
         margin-right: 15px;
     }
-    
+
     main.homePage {
         display: flex;
         flex-direction: column;
@@ -53,17 +53,17 @@
     }
 
     #joinPage {
-        width:auto;
+        width: auto;
     }
 
 
     #legend {
-        margin-top:15px;
+        margin-top: 15px;
         margin-left: auto;
         margin-right: auto;
     }
 
-    #thankImg{
+    #thankImg {
         width: 70%;
     }
 
@@ -78,159 +78,182 @@
         grid-template-columns: 1fr;
     }
 
-    #displayTemp, #temp {
-        margin-top:14%;
-    }
-
-    #weather-icon {
-        width: 62%;
-    }
-
-    #joinB {
-        color: #988F2A;
-        font-family: 'Varela Round', sans-serif;
-        font-size: 20px;
-        background-color: #0d1316;
-        border: #942a32;
-        border-style: solid;
-        border-width: 10px;
-        border-radius: 1em;
-        padding-top: 25px;
-        padding-bottom: 25px;
-        width: 50%;
-    }
-
-    #message {
-        top: -198px;
-        left: 62%;
-        width: 14%;
-    }
-
-    #heroImg {
-        display: flex;
-        flex-direction: row;
-        margin-left: auto;
-        margin-right: auto;
-        width: 680px;
+    #displayTemp,
+    #temp {
+        margin-top: 14%;
+        margin-left: -11%;
+        margin-bottom: 34%;
     }
 
 
-    #joinFoot {
-        width: 100%;
-    }
+figcaption {
+    margin-left: 52%;
+}
 
-    #join.display {
-        display: block;
-    }
+.weather {
+    margin-top: -20%;
+    flex-direction: row;
+}
 
-    #news {
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 44%;
-    }
+.wind{
+    margin-left:26%;
+    margin-top:-23%;
+}
 
-    #spotlight3 {
-        display: none;
-    }
+#weather-icon {
+    width: 62%;
+    margin-right: -10px;
+}
 
-    #join {
-        order: -1;
-    }
+#joinB {
+    color: #988F2A;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    background-color: #0d1316;
+    border: #942a32;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 1em;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 50%;
+}
 
-    .wandaC {
-        width: 70%;
-        height: auto;
-    }
+#message {
+    top: -198px;
+    left: 62%;
+    width: 14%;
+}
 
-
-    .demographics {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
-
-    .pieChart {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-
-
-    .chart {
-        margin-left: -19%;
-    }
-
-    .bars {
-        width: 321px;
-        height: 307px;
-    }
+#heroImg {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    width: 680px;
+}
 
 
-    .footerParagraph {
-        margin-left: -21px;
-        margin-right: auto;
-    }
+#joinFoot {
+    width: 100%;
+}
 
-    .joinButton {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+#join.display {
+    display: block;
+}
 
-    .list {
-        padding: 20px;
-    }
+#news {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 44%;
+}
 
-    .factPics {
-        width: 75%;
-        display: flex;
-        flex-direction: column;
-        margin-left: auto;
-        margin-right: auto;
-    }
+.homeData:nth-child(3) {
+    display: none;
+}
 
+.homeData {
+    width: 42%;
+    padding: 15px;
+}
 
+#join {
+    order: -1;
+}
 
-    .subNotice {
-        display: grid;
-        grid-template-columns: 2fr 1.5fr;
-        margin-bottom: 5%;
-        margin-top: 5%;
-    }
-
-    .spotlightDesign {
-        display: grid;
-        grid-template-columns: 1fr 0fr 1fr;
-        margin-bottom: 6%;
-        justify-content: center;
-    }
+.wandaC {
+    width: 70%;
+    height: auto;
+}
 
 
-    .menuNav {
-        display: flex;
-        align-items: center;
-        padding: 52px;
-    }
+.demographics {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
-    .spotlightP {
-        margin-left: 14%;
-        margin-right: 14%;
-    }
 
-    .items {
-        display: grid;
-        grid-template-rows: 1fr;
-        justify-content: center;
-    }
+.pieChart {
+    margin-left: auto;
+    margin-right: auto;
+}
 
-    .boardMember{
-        flex-direction: row;
-        flex-flow: wrap;
-    }
 
-    #contactForm form fieldset {
-        width: 80%;
-    }
-    
+
+.chart {
+    margin-left: -19%;
+}
+
+.bars {
+    width: 321px;
+    height: 307px;
+}
+
+
+.footerParagraph {
+    margin-left: -21px;
+    margin-right: auto;
+}
+
+.joinButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list {
+    padding: 20px;
+}
+
+.factPics {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.subNotice {
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.spotlightDesign {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 6%;
+    justify-content: center;
+}
+
+
+.menuNav {
+    display: flex;
+    align-items: center;
+    padding: 52px;
+}
+
+.spotlightP {
+    margin-left: 14%;
+    margin-right: 14%;
+}
+
+.items {
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-content: center;
+}
+
+.boardMember {
+    flex-direction: row;
+    flex-flow: wrap;
+}
+
+#contactForm form fieldset {
+    width: 80%;
+}
 
 }
