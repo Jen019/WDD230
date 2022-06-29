@@ -13,7 +13,6 @@ const weatherUrl = `${base_url}?q=${city_name},${state_code},${country_code}&app
 fetch(weatherUrl)
   .then((response) => response.json())
   .then((data) => {
-    console.log(data); // this is temporary for development only
     const temp = data.main.temp;
     const windSpeed = data.wind.speed;
     const speed = data.wind.speed;

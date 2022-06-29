@@ -5,10 +5,8 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (data) {
-    console.log(data);
     const first3 = data['businesses'].slice(0, 3);
     first3.forEach(displaySpotlights);
-    console.log(first3);
   });
 
   function displaySpotlights(businesses){
