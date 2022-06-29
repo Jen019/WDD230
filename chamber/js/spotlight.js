@@ -17,7 +17,7 @@ fetch(requestURL)
 
     card.className = 'homeData';
     logo.className = 'businessImg';
-    p1.className = 'desc';
+    p1.className = 'businessDesc';
     h2.textContent = `${businesses["name"]}`
     p1.textContent = 
     `Phonenumber: ${businesses["phonenumber"]}

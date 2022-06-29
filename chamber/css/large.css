@@ -112,8 +112,7 @@
         position: relative;
     }
 
-    .card-desc,
-    .desc {
+    .card-desc,.businessDesc {
         font-family: 'Arvo', serif;
         word-spacing: 10px;
         line-break: auto;
@@ -132,7 +131,7 @@
 
 
     .businessData:hover .card-desc,
-    .homeData:hover .desc {
+    .homeData:hover .businessDesc {
         opacity: 1;
         width: 95%;
         height: 95%;
