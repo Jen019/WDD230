@@ -40,11 +40,12 @@ form fieldset {
 
 }
 
-footer#thankYouPage{
-    margin-top:58px;
+footer#thankYouPage {
+    margin-top: 58px;
 }
 
-form legend, #preference {
+form legend,
+#preference {
     font-size: 20px;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -54,8 +55,8 @@ form legend, #preference {
     border-radius: 22px;
 }
 
-#preference{
-    width:39%;
+#preference {
+    width: 39%;
 }
 
 form label.top input,
@@ -102,16 +103,16 @@ label.sub input:focus:valid {
 form label.option {
     display: block;
     text-align: center;
-    padding:20px;
+    padding: 20px;
     margin: 15px;
 }
 
-input[type='radio'] { 
+input[type='radio'] {
     transform: scale(2);
     margin-right: 15px;
 }
 
-input[type='checkbox'] { 
+input[type='checkbox'] {
     transform: scale(2);
     margin-right: 15px;
 }
@@ -157,12 +158,6 @@ footer {
     padding-bottom: 10px;
     font-size: 15px;
     margin-right: -10px;
-}
-
-hr {
-    height: auto;
-    margin-left: 15px;
-    margin-right: 15px;
 }
 
 nav button {
@@ -236,7 +231,8 @@ p {
 
 
 
-main.discoverP,main.homePage{
+main.discoverP,
+main.homePage {
     display: grid;
     grid-template-columns: 1fr;
 
@@ -247,16 +243,16 @@ iframe {
     width: 95%;
 }
 
-figure{
+figure {
     margin-top: -9%;
 }
 
-figcaption{
+figcaption {
     font-family: 'Varela Round';
     color: #988F2A;
     font-size: 28px;
     font-weight: bold;
-    width:max-content;
+    width: max-content;
 }
 
 
@@ -284,26 +280,26 @@ div.desc {
 
 
 
-#grid{
+#grid {
     background-image: url("../directory/images/gridBtn.png");
     background-size: 100%;
-    padding:66px;
+    padding: 66px;
     height: 90px;
     width: 91px;
     background-color: white;
 }
 
 
-#list{
+#list {
     background-image: url("../directory/images/listBtn.png");
     background-size: 100%;
-    padding:66px;
+    padding: 66px;
     height: 90px;
     width: 91px;
     background-color: white;
 }
 
-#thankImg{
+#thankImg {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -312,12 +308,12 @@ div.desc {
 }
 
 
-#joinPage{
-    width:fit-content;
+#joinPage {
+    width: fit-content;
 }
 
-#directory{
-    width:fit-content;
+#directory {
+    width: fit-content;
 }
 
 #describe {
@@ -381,12 +377,12 @@ div.desc {
     padding: 10px;
 }
 
-#contactForm{
-    padding:20px;
+#contactForm {
+    padding: 20px;
 }
 
-#contactForm form fieldset{
-    width:94%;
+#contactForm form fieldset {
+    width: 94%;
 }
 
 #hero {
@@ -417,7 +413,7 @@ div.desc {
     margin-top: -28px;
 }
 
-#weather-icon{
+#weather-icon {
     display: block;
     width: 84%;
     margin-top: -9px;
@@ -425,8 +421,9 @@ div.desc {
     margin-right: auto;
 }
 
-#displayTemp, #temp {
-    display:inline-block;
+#displayTemp,
+#temp {
+    display: inline-block;
     font-family: 'Varela Round';
     font-weight: bold;
     color: #988F2A;
@@ -434,12 +431,6 @@ div.desc {
     font-size: 40px;
     margin-left: auto;
     margin-right: auto;
-}
-
-
-#spotlightp {
-    margin-left: 14%;
-    margin-right: 14%;
 }
 
 #pieChartBox {
@@ -491,7 +482,7 @@ div.desc {
 
 }
 
-#contactPage{
+#contactPage {
     width: fit-content;
 }
 
@@ -511,7 +502,22 @@ div.desc {
     padding-top: 15px;
 }
 
-.cards{
+#layoutOpt {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 14px;
+    margin-left: 7%;
+    margin-right: 5%;
+}
+
+
+#layoutOpt img {
+    width: 46%;
+    height: auto;
+}
+
+.cards {
     margin-bottom: 33px;
 }
 
@@ -523,40 +529,40 @@ div.desc {
 }
 
 .list {
-	display: flex;
-	flex-direction: column;
+    display: flex;
+    flex-direction: column;
     margin-left: 3%;
     margin-right: 1%;
 }
 
-.displayBoard{
+.displayBoard {
     display: flex;
     flex-direction: column;
-    padding:20px;
+    padding: 20px;
 }
 
-.boardMember img{
+.boardMember img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width:57%;
-    height:auto;
+    width: 57%;
+    height: auto;
 }
 
-.contact{
+.contact {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 10px;
 }
 
-.choice{
-    padding:15px;
+.choice {
+    padding: 15px;
     display: block;
 }
 
 
-.boardMember{
+.boardMember {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -575,44 +581,31 @@ div.desc {
 }
 
 .list .businessImg {
-   display: none;
+    display: none;
 }
 
-.card-desc, .desc{
+.card-desc,
+.desc {
     background: none;
-    color:#d3b6b0;
+    color: #d3b6b0;
     overflow-wrap: anywhere;
 }
 
-#layoutOpt{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap:14px;
-    margin-left: 7%;
-    margin-right: 5%;
-}
-
-
-#layoutOpt img{
-    width:46%;
-    height:auto;
-}
-
-.list .businessData{
+.list .businessData {
     box-shadow: none;
-  }
+}
 
-  .businessData h2{
-    padding:15px;
-  }
+.businessData h2 {
+    padding: 15px;
+}
 
 
-  .homeData{
+.homeData {
     margin-bottom: 40px;
-  }
+}
 
-.businessData, .homeData{
+.businessData,
+.homeData {
     width: 72%;
     height: auto;
     display: flex;
@@ -621,13 +614,13 @@ div.desc {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding:26px;
+    padding: 26px;
     background-color: #550C18;
     margin-top: 7%;
     box-shadow: 0px 0px 10px white;
 }
 
-.businessImg{
+.businessImg {
     max-width: 45%;
     height: auto;
     display: flex;
@@ -803,21 +796,6 @@ div.desc {
     bottom: 20px;
 }
 
-
-
-.spotlight1 {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    height: auto;
-    border: 5px;
-    border-style: solid;
-    border-color: #988F2A;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
 .logo {
     display: block;
     width: 215px;
@@ -879,7 +857,7 @@ div.desc {
 }
 
 
-.wind  {
+.wind {
     width: 72%;
     margin-left: auto;
     margin-right: auto;

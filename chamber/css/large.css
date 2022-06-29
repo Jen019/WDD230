@@ -4,12 +4,6 @@
         color: white;
     }
 
-
-    hr {
-        margin-right: 10px;
-        margin-left: 10px;
-    }
-
     nav button {
         display: none;
     }
@@ -62,74 +56,13 @@
         box-shadow: 0 0 10px 5px #942a32;
     }
 
-
-    #wandaVision{
-        margin-bottom:36px;
-        width:83%;
+    h1 {
+        font-size: 2.8rem;
+        color: #fff;
+        margin: 40px 0 20px 0;
+        text-align: center;
     }
 
- 
-.cards section {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  
-  .businessData{
-    margin: 40px;
-    position: relative;
-    max-width: 250px;
-    max-height: 350px;
-  }
-
-  .homeData{
-    position:relative;
-  }
-  
-  .card-desc,.desc {
-    font-family: 'Arvo', serif;
-    word-spacing: 10px;
-    line-break: auto;
-    display: block;
-    font-size: 17px;
-    position: absolute;
-    opacity:0;
-    margin:0;
-    top: 0;
-    background-color:#988F2A;
-    color:#0d1316;
-    transition: 0.8s ease;
-    overflow-wrap: break-word;
-    padding: 18px 8%;
-  }
-
-  
-.businessData:hover .card-desc, .homeData:hover .desc {
-    opacity: 1;
-    width: 95%;
-    height: 95%;
-  }
-
-  .list .businessData p{
-    display:flex;
-    align-items: center;
-  }
-
-  .list .businessData:hover .card-desc{
-    opacity: 1;
-    width:84%;
-    height:92%;
-
-  }
-
-  h1 {
-    font-size: 2.8rem;
-    color: #fff;
-    margin: 40px 0 20px 0;
-    text-align: center;
-  }
-  
 
 
     form input.submitBtn {
@@ -160,56 +93,65 @@
         width: 65%;
     }
 
-    
 
-    #directory{
-        width:auto;
-    }
-
-    #wandaPres{
-        grid-column:1;
-    }
-
-    #contactForm form fieldset{
-        width:45%;
-    }
-    
-
-    #title{
-    margin-left: 50%;
-    width: 100%;
-    }
-
-    #joinPage{
-        width:auto;
-    }
-
-    #pieChartBox {
-        min-height: 30vh;
-        padding: 42px;
-        width: 50%;
-        margin-left: 9%;
-        margin-bottom: 20px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    #facts {
+    .cards section {
         width: 100%;
-        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
 
-    #thankImg{
-        width: 60%;
+    .businessData {
+        margin: 40px;
+        position: relative;
+        max-width: 250px;
+        max-height: 350px;
+    }
+
+    .homeData {
+        position: relative;
+    }
+
+    .card-desc,
+    .desc {
+        font-family: 'Arvo', serif;
+        word-spacing: 10px;
+        line-break: auto;
+        display: block;
+        font-size: 17px;
+        position: absolute;
+        opacity: 0;
+        margin: 0;
+        top: 0;
+        background-color: #988F2A;
+        color: #0d1316;
+        transition: 0.8s ease;
+        overflow-wrap: break-word;
+        padding: 18px 8%;
     }
 
 
-    #joinFoot {
-        width:100%;
+    .businessData:hover .card-desc,
+    .homeData:hover .desc {
+        opacity: 1;
+        width: 95%;
+        height: 95%;
     }
 
-    .pieChart{
-        width:308px;
+    .list .businessData p {
+        display: flex;
+        align-items: center;
+    }
+
+    .list .businessData:hover .card-desc {
+        opacity: 1;
+        width: 84%;
+        height: 92%;
+
+    }
+
+    .pieChart {
+        width: 308px;
     }
 
     .tableDisplay {
@@ -230,22 +172,17 @@
         width: 561px;
     }
 
-    .displayBoard{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    .displayBoard {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
-    .boardMember img{
-        width:69%;
+    .boardMember img {
+        width: 69%;
     }
 
-    #textContact{
-        padding:50px;
-        width:40%;
-    }
-
-    .contact{
-        width:50%;
+    .contact {
+        width: 50%;
     }
 
     .menuNav {
@@ -253,7 +190,7 @@
         align-items: center;
         padding: 52px;
         background-color: #942a32;
-        width:96%;
+        width: 96%;
     }
 
     .list {
@@ -270,7 +207,7 @@
         margin-left: auto;
         margin-right: auto;
     }
-    
+
     .list .businessImg {
         width: 20%;
         height: auto;
@@ -309,10 +246,10 @@
         margin-right: 50%;
     }
 
-    .logo{
-        margin-right:39px;
+    .logo {
+        margin-right: 39px;
     }
-    
+
 
 
     .mediaIcons {
@@ -343,16 +280,6 @@
         grid-column: 3;
     }
 
-
-    .spotlight {
-        padding: 100px;
-        margin-right: 10px;
-        margin-left: 10px;
-        border: 5px;
-        border-style: solid;
-        border-color: #988F2A;
-    }
-
     .items {
         display: grid;
         grid-template-columns: 1fr;
@@ -371,10 +298,65 @@
         align-items: center;
     }
 
-    .spotlightP {
-        margin-left: 3%;
-        margin-right: 3%;
+    #wandaVision {
+        margin-bottom: 36px;
+        width: 83%;
     }
+
+
+    #directory {
+        width: auto;
+    }
+
+    #wandaPres {
+        grid-column: 1;
+    }
+
+    #contactForm form fieldset {
+        width: 45%;
+    }
+
+
+    #title {
+        margin-left: 50%;
+        width: 100%;
+    }
+
+    #joinPage {
+        width: auto;
+    }
+
+    #pieChartBox {
+        min-height: 30vh;
+        padding: 42px;
+        width: 50%;
+        margin-left: 9%;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #facts {
+        width: 100%;
+        height: auto;
+    }
+
+    #thankImg {
+        width: 60%;
+    }
+
+
+    #joinFoot {
+        width: 100%;
+    }
+
+
+
+    #textContact {
+        padding: 50px;
+        width: 40%;
+    }
+
 
     #legend {
         margin-top: 10px;
@@ -387,8 +369,9 @@
         grid-row: 2;
     }
 
-    #displayTemp, #temp {
-        margin-top:14%;
+    #displayTemp,
+    #temp {
+        margin-top: 14%;
     }
 
     #weather-icon {
