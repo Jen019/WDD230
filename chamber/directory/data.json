@@ -15,7 +15,7 @@
       "address": "790 North Shady Avenue Westview, NJ",
       "phonenumber": "(201) 456-5282",
       "website": "https://www.Pietro'sGonnaSnoop.com",
-      "imageURL": "images/pietrosLogo.png",
+      "imageURL": "images/pietrosLogo.webp",
       "membershipLevel": "Silver",
       "description": "Detective agency awarded as the world's Most Solved Cases in Private Investigation"
     },
@@ -25,7 +25,7 @@
       "address": "348 Windfall Road Westview, NJ",
       "phonenumber": "(201) 935-4275",
       "website": "https://www.SoulSearching.com",
-      "imageURL": "images/monicaLogo.png",
+      "imageURL": "images/monicaLogo.webp",
       "membershipLevel": "Gold",
       "description": "Face your truth and learn to accept who you are at Monica's Soul Searching Counseling Agency"
     },
@@ -35,7 +35,7 @@
       "address": "7807 Glenlake Drive Westview, NJ",
       "phonenumber": "(201) 678-5349",
       "website": "https://www.ParadiseCove.com",
-      "imageURL": "images/paradiseCove.png",
+      "imageURL": "images/paradiseCove.webp",
       "membershipLevel": "Gold",
       "description": "Escape to a world of peace at Paradise Cove Restaurant."
     },
@@ -45,7 +45,7 @@
       "address": "633 Amherst Lane Westview, NJ",
       "phonenumber": "(201) 298-7348",
       "website": "https://www.Darcy'sGeminiObservatory.com",
-      "imageURL": "images/darcyLogo.png",
+      "imageURL": "images/darcyLogo.webp",
       "membershipLevel": "Bronze",
       "description": "Discover the Stars and See a glimpse of your past and future at Darcy's Gemini Observatory"
     },
@@ -55,7 +55,7 @@
       "address": "795 Honey Creek Lane Westview, NJ",
       "phonenumber": "(201) 721-4568",
       "website": "https://www.WandaAndVision'sTiersofCake.com",
-      "imageURL": "images/bakery.png",
+      "imageURL": "images/bakery.webp",
       "membershipLevel": "Gold",
       "description": "Every Cake is baked with our tears of love"
     },
@@ -65,7 +65,7 @@
       "address": "440 Queen Street Westview, NJ",
       "phonenumber": "(201) 626-7034",
       "website": "https://www.LittleBrookPark.com",
-      "imageURL": "images/littlePark.png",
+      "imageURL": "images/littlePark.webp",
       "membershipLevel": "Silver",
       "description": "Gather with your friends and family at Little Brook Park, home to the best playground and walking path to Wanda's Orchard"
     },
@@ -75,7 +75,7 @@
       "address": "7642 Rock Creek Road Westview, NJ",
       "phonenumber": "(201) 421-8673",
       "website": "https://www.SenorScratchy'sFrozenTreats.com",
-      "imageURL": "images/bunny.png",
+      "imageURL": "images/bunny.webp",
       "membershipLevel": "Gold",
       "description": "Come to Senor Scratchy's lair and cool of with a frozen treat"
     },
