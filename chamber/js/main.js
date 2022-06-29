@@ -11,3 +11,8 @@ const year = date.getFullYear();
 
 document.getElementById("currentYear").textContent = year;
 document.getElementById("lastUpdateDate").textContent = document.lastModified;
+
+let mediaIcons = document.querySelector("div.mediaIcons img");
+
+mediaIcons.setAttribute("width","96");
+mediaIcons.setAttribute("height","96");
