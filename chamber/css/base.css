@@ -59,6 +59,12 @@ form legend,
     width: 39%;
 }
 
+#weather-attribute{
+    color:#0d1316;
+    font-weight: bold;
+}
+
+
 form label.top input,
 form label.sub input {
     display: block;
@@ -417,7 +423,6 @@ div.desc {
 #weather-icon {
     display: block;
     width: 84%;
-    margin-top: -9px;
     margin-left: auto;
     margin-right: auto;
 }
