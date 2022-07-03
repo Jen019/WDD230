@@ -1,0 +1,74 @@
+/* Home Page CSS*/
+@media (min-width: 1245px) {
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav #hamburgerBtn{
+    display: none;
+}
+
+nav ul li a{
+  display: inline;
+}
+
+.logo{
+    width:45%;
+    height: auto;
+}
+
+.menuNav div{
+    padding:15px;
+}
+
+.menuNav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: #fdca40;
+    padding: 15px;
+    color:black;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #005400;
+    min-width: 160px;
+  }
+
+  .navBanner{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .dropdown-content a {
+    color:#fdca40;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+}
+  
+
+
+

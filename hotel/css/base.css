@@ -1,0 +1,100 @@
+/* Home Page CSS*/
+body{
+    background-color: #5398ff;
+}
+
+nav ul {
+    list-style-type: none;
+    font-family: 'Bitter', serif;
+    padding: 0;
+    margin: 0;
+
+}
+
+nav button {
+    margin: 10px;
+    background: transparent;
+    border: none;
+    font-size: 30px;
+    color: #988F2A;
+    background-color: #0d1316;
+}
+
+h1{
+    color:#fa5a3e;
+    font-family:'Arima', cursive;
+
+}
+
+nav ul {
+    display: none;
+}
+
+nav ul.open {
+    display: block;
+}
+
+
+
+nav ul li a{
+    display: block;
+    padding:15px;
+    color:#fa5a3e;
+    text-decoration: none;
+
+}
+
+.dropbtn{
+    color:#fa5a3e;
+}
+
+#hamburgerBtn span:nth-child(1) {
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(2) {
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(2) {
+    display: block;
+}
+
+.dropdown{
+    margin-left:13px;
+}
+
+.dropdown-content li a{
+    color:#fdca40;
+}
+
+
+
+#services:checked ~ .dropdown-content{
+    display: block;
+    max-height: 200px;
+    background-color: #005400;
+}
+
+
+
+#services{
+    display: none;
+}
+
+.logo{
+    width: 20%;
+    height: auto;
+}
+
+.menuNav {
+    background-color:#3c1414;
+}
+
+.navBanner{
+    display: none;
+}
