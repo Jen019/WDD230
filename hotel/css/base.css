@@ -16,13 +16,14 @@ nav button {
     background: transparent;
     border: none;
     font-size: 30px;
-    color: #988F2A;
-    background-color: #0d1316;
+    color:#3c1414;
+    background-color:#5398ff;
 }
 
 h1{
     color:#fa5a3e;
     font-family:'Arima', cursive;
+    text-align: center;
 
 }
 
@@ -31,21 +32,25 @@ nav ul {
 }
 
 nav ul.open {
-    display: block;
+    display: flex;
 }
 
 
 
 nav ul li a{
     display: block;
-    padding:15px;
     color:#fa5a3e;
     text-decoration: none;
+    padding-right:15px;
+    padding-left: 28px;
+    padding-bottom: 15px;
+    font-size: 20px;
 
 }
 
 .dropbtn{
     color:#fa5a3e;
+    font-size: 20px;
 }
 
 #hamburgerBtn span:nth-child(1) {
@@ -64,12 +69,13 @@ nav ul li a{
     display: block;
 }
 
-.dropdown{
-    margin-left:13px;
-}
-
 .dropdown-content li a{
     color:#fdca40;
+    padding:15px;
+}
+
+.dropdown{
+    margin-left:26px;
 }
 
 
@@ -82,19 +88,35 @@ nav ul li a{
 
 
 
+
+
 #services{
     display: none;
 }
 
 .logo{
-    width: 20%;
+    width: 40%;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .menuNav {
     background-color:#3c1414;
+    display: flex;
+    flex-direction: column-reverse;
 }
 
+
 .navBanner{
-    display: none;
+    display: block;
+    width: 76%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+
+
+
