@@ -22,6 +22,7 @@ fetch("js/meridian.json")
 
                 img.className ="weather-icon";
                 p1.className = "fTemp";
+                days.className = "fday";
                 days.textContent = `${dayname}`;
                 p1.textContent = `${temp} \u00B0F`;
 
