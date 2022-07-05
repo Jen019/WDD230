@@ -1,5 +1,5 @@
-/* Home Page CSS*/
-@media (min-width: 1245px) {
+@media (min-width: 1001px) {
+  /* Home Page Navigation CSS*/
 nav ul {
     display: flex;
     justify-content: center;
@@ -66,6 +66,16 @@ nav ul li a{
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+  /* Home Page weather CSS*/
+
+  .weather{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 20px;
+    margin:20px;
+  }
+
 
 }
   

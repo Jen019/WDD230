@@ -1,0 +1,27 @@
+@media (min-width:678px) and (max-width:1000px) {
+
+    nav button{
+        grid-row:1;
+    }
+
+    .medium{
+        grid-row:2;
+    }
+
+   .menuNav{
+    display: grid;
+    grid-template-rows: 1fr;
+   }
+
+   .weather{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+   }
+
+   .cTemp{
+    flex-direction: column;
+   }
+
+
+
+}

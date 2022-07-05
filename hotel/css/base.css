@@ -1,4 +1,4 @@
-/* Home Page CSS*/
+/* Home Page Basic CSS*/
 body{
     background-color: #5398ff;
 }
@@ -20,7 +20,13 @@ nav button {
     background-color:#5398ff;
 }
 
-h1{
+p{
+    font-family: 'Bitter', serif;
+
+}
+
+h1,h2{
+    margin:15px;
     color:#fa5a3e;
     font-family:'Arima', cursive;
     text-align: center;
@@ -86,10 +92,6 @@ nav ul li a{
     background-color: #005400;
 }
 
-
-
-
-
 #services{
     display: none;
 }
@@ -116,6 +118,64 @@ nav ul li a{
     margin-left: auto;
     margin-right: auto;
 }
+
+/* Home Page Weather CSS*/
+
+.weather{
+   display: flex;
+   flex-direction: column;
+   background-color:#005400;
+   color: #fdca40;
+   font-size: 14px;
+    margin: 21px;
+    font-weight: bold;
+  }
+
+
+.weather-desc{
+    margin:15px;
+    text-transform: capitalize;
+  }
+
+  .weather-icon{
+    margin-left: auto;
+    display: block;
+    margin-right: auto;
+  }
+
+  .fTemp{
+    text-align: center;
+  }
+
+
+.displayTemp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+  .cTemp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .humidity{
+    margin:15px;
+  }
+
+  #humid{
+    margin-left:5px;
+  }
+
+  .forecast{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #fdca40;
+    color: #3c1414;
+  }
+
 
 
 

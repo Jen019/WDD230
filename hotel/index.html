@@ -19,14 +19,14 @@
 <body>
     <header>
         <section class="menuNav">
-            <div>
-                <img class="logo" src="images/temple-logo.webp" alt="Wanda's Westview Chamber News Logo" width="549"
+            <div class="medium">
+                <img class="logo" src="images/temple-logo.webp" alt="Temple Inn & Suites Logo" width="549"
                     height="538">
                 <h1>Temple Inn & Suites</h1>
             </div>
 
-            <div>
-                <img class="navBanner" src="images/marriage.jpg">
+            <div class="medium">
+                <img class="navBanner" src="images/marriage.jpg" alt="Couple Standing in Front of Temple" width="5472" height="3646">
             </div>
 
             <nav>
@@ -34,11 +34,11 @@
                 <ul id="primaryNav">
                     <li><a href="temple.html">Temple</a></li>
                     <li class="dropdown"><input type="checkbox" id="services">
-                        <label for="services" class="dropbtn"> Services &#9660;</label>
+                        <label for="services" class="dropbtn"> Services&#9660;</label>
                         <ul class=dropdown-content>
                             <li><a href="amenities.html">Amenities</a></li>
-                            <li><a href="reception.html">Reception</a></li>
                             <li><a href="suites.html">Suites</a></li>
+                            <li><a href="reception.html">Reception</a></li>
                         </ul>
                     </li>
                     <li><a href="reservation.html">Reservation</a></li>
@@ -47,13 +47,32 @@
         </section>
     </header>
     <main>
+        <section class="weather">
+                <div class="displayTemp">
+                    <h2>Today's Temperature</h2>
+                    <div class="cTemp">
+                <img src="" alt=" " class="weather-icon">
+            <p><span class="weather-desc"></span></p>    
+            <p><span id="current-temp"></span> &deg;F</p>
+            <p class="humidity">Humidity: <span id="humid"></span></p>
+            </div>
+            </div>
+
+             <div class="forecast">
+
+             </div>
+        </section>
+            
+             
+             
 
     </main>
     <footer>
 
     </footer>
     <script src="js/toggleButton.js"></script>
-    <script src="js/test.js"></script>
+   <script src="js/weather.js"></script>
+   <script src="js/forecast.js"></script>
 
 
 </body>
