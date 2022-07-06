@@ -20,13 +20,13 @@
     <header>
         <section class="menuNav">
             <div class="medium">
-                <img class="logo" src="images/temple-logo.webp" alt="Temple Inn & Suites Logo" width="549"
-                    height="538">
+                <img class="logo" src="images/temple-logo.webp" alt="Temple Inn & Suites Logo" width="549" height="538">
                 <h1>Temple Inn & Suites</h1>
             </div>
 
             <div class="medium">
-                <img class="navBanner" src="images/marriage.jpg" alt="Couple Standing in Front of Temple" width="5472" height="3646">
+                <img class="navBanner" src="images/marriage.jpg" alt="Couple Standing in Front of Temple" width="5472"
+                    height="3646">
             </div>
 
             <nav>
@@ -47,32 +47,50 @@
         </section>
     </header>
     <main>
+
+        <div class="weatherAlert">
+                <span onclick="this.parentElement.style.display='none'" class="displayAlert">&times;</span>
+                <h3>Danger! Weather Alert</h3>
+                <p><span id="sender_name"></span></p>
+            <div class="alertDesc">
+                <p><span id="event"></span></p>
+                <p><span id="start"></span></p>
+                <p><span id="end"></span></p>
+            </div>
+            <p><span id="description"></span></p>
+            <p><span id="tags"></span></p>
+        </div>
+        </div>
+        
+
+
         <section class="weather">
-                <div class="displayTemp">
-                    <h2 class="tempH">Today's Temperature</h2>
-                    <div class="cTemp">
-                <img src="" alt=" " class="weather-icon">
-            <p><span class="weather-desc"></span></p>    
-            <p><span id="current-temp"></span> &deg;F</p>
-            <p class="humidity">Humidity: <span id="humid"></span></p>
-            </div>
+            <div class="displayTemp">
+                <h2 class="tempH">Today's Temperature</h2>
+                <div class="cTemp">
+                    <img src="" alt=" " class="weather-icon">
+                    <p><span class="weather-desc"></span></p>
+                    <p><span id="current-temp"></span> &deg;F</p>
+                    <p class="humidity">Humidity: <span id="humid"></span></p>
+                </div>
             </div>
 
-             <div class="forecast">
+            <div class="forecast">
 
-             </div>
+            </div>
         </section>
-            
-             
-             
+
+
+
 
     </main>
     <footer>
 
     </footer>
     <script src="js/toggleButton.js"></script>
-   <script src="js/weather.js"></script>
-   <script src="js/forecast.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/forecast.js"></script>
+    <!--<script src="js/weatherAlert.js"></script>-->
 
 
 </body>

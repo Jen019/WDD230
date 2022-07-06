@@ -185,6 +185,27 @@ nav ul li a{
   }
 
 
+  .displayAlert{
+    font-size: 64px;
+  }
+
+  .alertDesc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .weatherAlert{
+    background-color: #fdca40;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Bitter', serif;
+    color: #3c1414;
+   
+  }
+
+
 
 
 
