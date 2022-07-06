@@ -1,5 +1,5 @@
 @media (min-width:678px) and (max-width:1000px) {
-
+/*Home Page Navigation and Weather Section*/
     nav button{
         grid-row:1;
     }
@@ -21,6 +21,18 @@
    .cTemp{
     flex-direction: column;
    }
+
+
+   /*Home Page Slide Show*/
+
+   #message{
+    margin-top: -263px;
+    margin-left: 64%;
+    font-size: 31px;
+   }
+
+
+
 
 
 

@@ -76,6 +76,29 @@ nav ul li a{
     margin:20px;
   }
 
+/*Slideshow Home Page CSS*/
+.slideshow img{
+  height: 73vh;
+}
+
+
+#message{
+  margin-top: -383px;
+  margin-left: 61%;
+    font-size: 61px;
+
+}
+
+/*About Hotel Home Page Section*/
+
+.aboutHotel{
+  margin:15px;
+  display: flex;
+}
+
+#hotel{
+  margin-left:20px;
+}
 
 }
   

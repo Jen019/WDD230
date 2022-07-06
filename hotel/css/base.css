@@ -205,6 +205,16 @@ nav ul li a{
    
   }
 
+  @media (max-width: 374px) {
+    .forecast{
+        display: none;
+    }
+   
+
+  }
+
+  /*About Hotel Home Page CSS*/
+
   #welcome{
     color:#3c1414;
     font-size: 40px;
@@ -214,6 +224,17 @@ nav ul li a{
     margin:15px;
   }
 
+
+  #hotel{
+    width: 61%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  /*Slideshow Home Page CSS*/
+
   .slideshow{
     margin:45px;
     position: relative;
@@ -221,30 +242,25 @@ nav ul li a{
 
   .slideshow img{
     width: 100%;
-    height: 73vh;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
   }
 
-
-  #hotel{
-    width: 61%;
-    height: auto;
-    margin-left: 20px;
-    margin-right: auto;
-    display: block;
-  }
-
   #message{
     position: absolute;
-    margin-top: -383px;
-    margin-left: 74%;
+    margin-top: -121px;
+    margin-left: 56%;
+    padding:11px;
+    background-color: #3c1414;
+    color: #fa5a3e;
+    font-family: 'Bitter', serif;
+    font-size: 20px;
+    border-radius: 2em;
+    border-color: #fdca40;
+    border-width: thick;
   }
 
-  .aboutHotel{
-    margin:15px;
-    display: flex;
-  }
 
 
 
