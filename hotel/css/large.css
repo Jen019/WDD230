@@ -91,13 +91,32 @@ nav ul li a{
 
 /*About Hotel Home Page Section*/
 
+.displayHotel{
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 .aboutHotel{
   margin:15px;
-  display: flex;
 }
 
 #hotel{
   margin-left:20px;
+  width: 100%;
+}
+
+#mTemple{
+  width:72%;
+}
+
+.spotlights{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+figcaption{
+  font-size: 25px;
+  
 }
 
 }
