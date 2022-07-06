@@ -25,8 +25,8 @@
             </div>
 
             <div class="medium">
-                <img class="navBanner" src="images/marriage.jpg" alt="Couple Standing in Front of Temple" width="5472"
-                    height="3646">
+                <img class="navBanner" src="images/marriage.webp" alt="Couple Standing in Front of Temple" width="900"
+                    height="600">
             </div>
 
             <nav>
@@ -47,11 +47,11 @@
         </section>
     </header>
     <main>
-
+         
         <div class="weatherAlert">
-                <span onclick="this.parentElement.style.display='none'" class="displayAlert">&times;</span>
-                <h3>Danger! Weather Alert</h3>
-                <p><span id="sender_name"></span></p>
+            <span onclick="this.parentElement.style.display='none'" class="displayAlert">&times;</span>
+            <h3>Danger! Weather Alert</h3>
+            <p><span id="sender_name"></span></p>
             <div class="alertDesc">
                 <p><span id="event"></span></p>
                 <p><span id="start"></span></p>
@@ -61,8 +61,6 @@
             <p><span id="tags"></span></p>
         </div>
         </div>
-        
-
 
         <section class="weather">
             <div class="displayTemp">
@@ -79,18 +77,45 @@
 
             </div>
         </section>
+        <section>
+        <h2 id="welcome">Welcome to Temple Inn & Suites!!!</h2>
+        <div class="slideshow">
+            <img class="mySlides" src="images/lobby.jpg">
+            <img class="mySlides" src="images/indoor-pool.jpg">
+            <img class="mySlides" src="images/outdoor-pool.jpeg">
+            <img class="mySlides" src="images/breakfast-area.webp">
+            <img class="mySlides" src="images/gardens.jpeg">
+            <img class="mySlides" src="images/reception.jpeg">
+            </div>
+            <button id="message">Book Now</button>
+        </div>
+
+        </section>
+
+        <section>
+                <div class = "aboutHotel">
+                <img id="hotel" src="images/hotel-outside.jpeg">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, perferendis. Veniam ex hic assumenda,
+                    sunt odit ducimus? Possimus, culpa nisi sed officia eius dignissimos labore facere a. Nesciunt,
+                    aspernatur fugit!</p>
+            </div>
+        </section>
+
+
 
 
 
 
     </main>
     <footer>
-
+        <p class="footerParagraph"> &copy; <span id="currentYear"></span>
+            Temple Inn & Suites | Jenna Reeder | WDD 230 Project </p>
     </footer>
     <script src="js/toggleButton.js"></script>
     <script src="js/weather.js"></script>
     <script src="js/forecast.js"></script>
-    <!--<script src="js/weatherAlert.js"></script>-->
+    <script src="js/slideshow.js"></script>
+    <script src="js/weatherAlert.js"></script>
 
 
 </body>

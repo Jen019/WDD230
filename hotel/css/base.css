@@ -205,6 +205,48 @@ nav ul li a{
    
   }
 
+  #welcome{
+    color:#3c1414;
+    font-size: 40px;
+  }
+
+  .aboutHotel p{
+    margin:15px;
+  }
+
+  .slideshow{
+    margin:45px;
+    position: relative;
+  }
+
+  .slideshow img{
+    width: 100%;
+    height: 73vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  #hotel{
+    width: 61%;
+    height: auto;
+    margin-left: 20px;
+    margin-right: auto;
+    display: block;
+  }
+
+  #message{
+    position: absolute;
+    margin-top: -383px;
+    margin-left: 74%;
+  }
+
+  .aboutHotel{
+    margin:15px;
+    display: flex;
+  }
+
+
 
 
 
