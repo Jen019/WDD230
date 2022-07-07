@@ -78,13 +78,14 @@ nav ul li a{
 
 /*Slideshow Home Page CSS*/
 .slideshow img{
-  height: 73vh;
+  height: 80vh;
+  width: 100%;
 }
 
 
 #message{
   margin-top: -383px;
-  margin-left: 61%;
+  margin-left: 60%;
     font-size: 61px;
 
 }
@@ -117,6 +118,17 @@ nav ul li a{
 figcaption{
   font-size: 25px;
   
+}
+
+.amenities{
+  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 29px;
+}
+
+.mediaIcons img{
+  width: 10%;
 }
 
 }

@@ -5,10 +5,13 @@ body{
 
 nav ul {
     list-style-type: none;
-    font-family: 'Bitter', serif;
     padding: 0;
     margin: 0;
 
+}
+
+h3{
+  font-size:38px;
 }
 
 nav button {
@@ -20,8 +23,10 @@ nav button {
     background-color:#5398ff;
 }
 
-p{
+p, ul{
     font-family: 'Bitter', serif;
+    font-size: 15px;
+    text-align: center;
 
 }
 
@@ -205,28 +210,34 @@ nav ul li a{
    
   }
 
-  @media (max-width: 374px) {
+  @media(max-width: 374px) {
     .forecast{
         display: none;
     }
+
    
 
   }
 
   /*About Hotel Home Page CSS*/
 
-  #welcome{
+  .welcome{
     color:#3c1414;
     font-size: 40px;
   }
 
   .aboutHotel p{
-    margin:15px;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: #3c1414;
+    color: #fa5a3e;
+    padding: 15px;
+    text-align: justify;
+    font-size: 21px;
   }
 
-
   #hotel{
-    width: 61%;
+    width: 87%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -271,6 +282,28 @@ nav ul li a{
     
   }
 
+  .meridianTemple p{
+    background-color:#fdca40;
+    color:#3c1414;
+    margin-left: 14%;
+    margin-right: 14%;
+    padding: 15px;
+    font-size: 23px;
+  }
+
+  #mInfo{
+    list-style: none;
+    text-align: center;
+    background-color: #fdca40;
+    color:#3c1414;
+    margin-left: 14%;
+    margin-right: 14%;
+    padding: 15px;
+    font-size: 23px;
+  }
+
+  
+
   /*Amenities Home Page*/
   .spotlights{
     background-color:#005400;
@@ -290,6 +323,56 @@ nav ul li a{
     padding: 15px;
     
   }
+  .aIcons{
+  background-color: aliceblue;
+  padding: 10%;
+  border-radius: 1em;
+  margin: 10%;
+  }
+
+  .aIcons img{
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    height: auto;
+
+  }
+
+  /*Footer */
+
+  .footerFormat{
+    display: flex;
+    flex-direction: column;
+    background-color: #3c1414;
+    color: #fa5a3e;
+    font-family:'Arima', cursive;
+    padding:15px;
+  }
+
+  .footerFormat p{
+    font-size: 21px;
+  }
+
+  iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 90%;
+
+  }
+
+  .mediaIcons{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+  }
+
+  .mediaIcons img{
+    width: 25%;
+    height: auto;
+  }
+
 
 
 

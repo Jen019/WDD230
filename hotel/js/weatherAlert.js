@@ -12,6 +12,9 @@ fetch("js/alerts.json")
   .then((response) => response.json())
   .then((data) => {
     console.log(data);
+    if(data.alerts != undefined){
+    const header = document.createElement('h3');  
+    document.querySelector('div.weatherAlert span').appendChild(header);
     const senderName = data.alerts[0].sender_name;
     const weatherEvent = data.alerts[0].event;
     const startDate = data.alerts[0].start;
@@ -24,12 +27,14 @@ fetch("js/alerts.json")
     sd.toDateString;
     ed.toDateString;
     
-
+    header.textContent = "Danger! Weather Alert!";
     sender.textContent = senderName;
     wEvent.textContent = weatherEvent;
     start.textContent = sd;
     end.textContent = ed;
     wDesc.textContent = weatherDesc;
     //tags.textContent = alertTag;
+
+    }
     
   });

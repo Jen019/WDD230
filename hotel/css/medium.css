@@ -1,44 +1,55 @@
 @media (min-width:678px) and (max-width:1000px) {
-/*Home Page Navigation and Weather Section*/
-    nav button{
-        grid-row:1;
+
+    /*Home Page Navigation and Weather Section*/
+    nav button {
+        grid-row: 1;
     }
 
-    .medium{
-        grid-row:2;
+    .medium {
+        grid-row: 2;
     }
 
-   .menuNav{
-    display: grid;
-    grid-template-rows: 1fr;
-   }
+    .menuNav {
+        display: grid;
+        grid-template-rows: 1fr;
+    }
 
-   .weather{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-   }
+    .weather {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 
-   .cTemp{
-    flex-direction: column;
-   }
-
-
-   /*Home Page Slide Show*/
-
-   #message{
-    margin-top: -263px;
-    margin-left: 64%;
-    font-size: 31px;
-   }
-
-   .spotlights{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-   }
+    .cTemp {
+        flex-direction: column;
+    }
 
 
+    /*Home Page Slide Show*/
 
+    #message {
+        margin-top: -263px;
+        margin-left: 64%;
+        font-size: 31px;
+    }
 
+    .spotlights {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 
+    /*Home Page Amenities CSS*/
+    .amenities {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 2%;
+        align-items: center;
+    }
 
+    .aIcons{
+    padding: 19%;
+    margin: 6%;
+    width: 49%;
+    margin-left: 7%;
+    font-size: 26px;
+    }
 }

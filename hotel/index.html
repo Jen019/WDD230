@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Home Page for Wanda's Westview Chamber News Site">
+    <meta name="description" content="Temple Inn & Suites Home Page">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arima:wght@600&family=Bitter&display=swap" rel="stylesheet">
@@ -50,16 +50,14 @@
 
         <div class="weatherAlert">
             <span onclick="this.parentElement.style.display='none'" class="displayAlert">&times;</span>
-            <h3>Danger! Weather Alert</h3>
             <p><span id="sender_name"></span></p>
             <div class="alertDesc">
-                <p><span id="event"></span></p>
+                <p><span id="event">No Weather Alert Disregard this Message</span></p>
                 <p><span id="start"></span></p>
                 <p><span id="end"></span></p>
             </div>
             <p><span id="description"></span></p>
             <p><span id="tags"></span></p>
-        </div>
         </div>
 
         <section class="weather">
@@ -78,34 +76,45 @@
             </div>
         </section>
         <section>
-            <h2 id="welcome">Welcome to Temple Inn & Suites!!!</h2>
+            <h2 class="welcome">Welcome to Temple Inn & Suites!!!</h2>
             <div class="slideshow">
-                <img class="mySlides" src="images/lobby.jpg">
-                <img class="mySlides" src="images/indoor-pool.jpg">
-                <img class="mySlides" src="images/outdoor-pool.jpeg">
-                <img class="mySlides" src="images/breakfast-area.webp">
-                <img class="mySlides" src="images/gardens.jpeg">
-                <img class="mySlides" src="images/reception.jpeg">
+                <img class="mySlides" src="images/lobby.webp" alt=" Hotel Lobby" width="600" height="381">
+                <img class="mySlides" src="images/indoor-pool.webp" alt="Hotel's Indoor Pool" width="600" height="320">
+                <img class="mySlides" src="images/outdoor-pool.jpeg" alt="Hotel's Outdoor Pool" width="600" height="400">
+                <img class="mySlides" src="images/breakfast-area.webp" alt="Hotel's Breakfast Cafe" width="1125" height="750">
+                <img class="mySlides" src="images/breakfast2.webp" alt="Breakfast Waffels" width="600" height="480">
+                <img class="mySlides" src="images/gardens.webp" alt="Garden Walkway" width="600" height="400">
+                <img class="mySlides" src="images/reception.webp" alt="Piano in Reception Hall" width="600" height="450">
             </div>
             <button id="message">Book Now</button>
-            </div>
 
         </section>
 
         <section class="displayHotel">
             <div class="aboutHotel">
-                <img id="hotel" src="images/hotel-outside.jpeg">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora facilis reiciendis nihil doloremque
-                    asperiores omnis ducimus ut, fuga mollitia, eos excepturi qui in magni quia cupiditate quas fugit
-                    non. Esse.</p>
+                <img id="hotel" src="images/hotel-outside.webp" alt="Photo of Hotel on the Outside" width="600" height="400">
+                <p>Temple Inn & Suites was built to help bring the joy of spending time in the Temple
+                    to those who travel near and far to partake in the blessings of a Temple. Our Suites
+                    are fully equipped to accomodate every traveler's needs to relieve the ease of travel to
+                    focus on the journey to the Temple. On your vacation you can walk around the grounds of the
+                    hotel gardens and fountains to enjoy time with family and friends. Be sure to stop by our
+                    Genealogy Center and find help to find names to take to the Temple. Kids who are unable to
+                    attend the Temple can have a great time in our game and daycare center ran by our staff.
+                    Don't know a great Wedding venue? Look no further because we have a beautiful reception
+                    hall to celebrate the magic and happiness of Weddings.
+                </p>
+
+                <p>Contact us at (+1) (208-567-3456) we look forward to answering your questions!!</p>
             </div>
 
             <div class="meridianTemple">
-                <img id="mTemple" src="images/meridianTemp.jpg">
-                <h2>Temple History</h2>
+                <h2 class="welcome">Meridian Idaho Temple</h2>
+                <img id="mTemple" src="images/meridianTemp.webp" alt="Meridan Idaho Temple and Pond" width="600" height="552">
                 <p>The Meridian Idaho Temple was announced during on April 2, 2011 and was dedicated November 19, 2017.
-                    The Meridian Idaho Temple was the 5th Temple Built in Idaho.</p>
-                <ul>
+                    The Meridian Idaho Temple was the 5th Temple Built in Idaho. It is well known for its beautiful
+                    flowers and ponds.
+                </p>
+                <ul id="mInfo">
                     <li>Address: 7355 N Linder Rd
                         Meridian ID 83646
                         United States</li>
@@ -118,7 +127,60 @@
 
 
         <section>
+            <h2 class="welcome">Our Amenities</h2>
             <div class="amenities">
+                <div class="aIcons">
+                    <img src="images/pool-icon.png" alt="Swimming Pool Icon" width="512" height="512">
+                    <p>Indoor/Outdoor Pool</p>
+
+                </div>
+
+                <div class="aIcons">
+                    <img src="images/shuttle-bus-icon.jpg" alt="Shuttle Icon" width="172" height="172">
+                    <p>Shuttle to the Temple</p>
+                </div>
+
+                <div class="aIcons">
+                    <img src="images/breakfast-icon.png" alt="Breakfast Icon" width="554" height="550">
+                    <p>Gourmet Breakfast</p>
+                </div>
+
+                <div class="aIcons">
+
+                    <img src="images/exercise-icon.png" alt="Icon of Person lifting weights" width="253" height="286">
+                    <p>Exercise Room</p>
+                </div>
+
+                <div class="aIcons">
+
+                    <img src="images/parking.jpg" alt="Icon of Car Parking" width="633" height="634">
+                    <p>Free Parking</p>
+                </div>
+
+                <div class="aIcons">
+
+                    <img src="images/wifi.png" alt="Wifi Icon" width="300" height="237">
+                    <p>Free Wifi</p>
+                </div>
+
+
+                <div class="aIcons">
+                    <img src="images/changingroom.webp" alt="Changing Room Door Icon" width="517" height="815">
+                    <p>Guest Access to Changing Room</p>
+                </div>
+
+                <div class="aIcons">
+
+                    <img src="images/bathroom.png" alt="Bathroom Icon" width="1600" height="1600">
+                    <p>Free Access to Bathroom</p>
+                </div>
+
+                <div class="aIcons">
+
+                    <img src="images/laundry-service.png" alt="Washing Machine Icon" width="600" height="600">
+                    <p>Laundry Services</p>
+                </div>
+
 
             </div>
         </section>
@@ -128,21 +190,21 @@
                 <div>
                     <h2>Click Photo to Learn More!!</h2>
                     <figure>
-                        <img src="images/receptionHall2.jpg">
+                        <img src="images/receptionHall2.webp" alt="Reception Hall" width="600" height="400">
                         <figcaption>Wedding Reception</figcaption>
                     </figure>
                 </div>
 
                 <div>
                     <figure>
-                        <img src="images/daycare.jpg">
+                        <img src="images/daycare.webp" alt="Daycare Center" width="600" height="450">
                         <figcaption>Daycare Center</figcaption>
                     </figure>
                 </div>
 
                 <div>
                     <figure>
-                        <img src="images/family.webp">
+                        <img src="images/family.webp" alt="Family Gathered at computer" width="1125" height="750">
                         <figcaption>Genealogy Center</figcaption>
                     </figure>
                 </div>
@@ -156,8 +218,19 @@
 
     </main>
     <footer>
-        <p class="footerParagraph"> &copy; <span id="currentYear"></span>
-            Temple Inn & Suites | Jenna Reeder | WDD 230 Project </p>
+        <div class="footerFormat">
+            <p> &copy; Temple Inn & Suites | 4800 Montgomery Ln #300, Bethesda, MD 20814 | (+1) (208-567-3456)
+                | Jenna Reeder | WDD230 Final Project</p>
+
+                <div class="mediaIcons">
+                <img src="images/instagram.jpg" alt="Instagram Icon" width="512" height="512">
+                <img src="images/facebook.png" alt="Facebook Icon" width="512" height="512">
+                </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4048394729175!2d-77.09975897966433!3d38.98325589368503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0xceab47cd19a23a3b!2s4800%20Montgomery%20Ln%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1657226444461!5m2!1sen!2sus"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>   
+        </div>
     </footer>
     <script src="js/toggleButton.js"></script>
     <script src="js/weather.js"></script>
