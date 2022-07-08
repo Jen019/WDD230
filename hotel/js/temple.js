@@ -1,4 +1,4 @@
-const requestURL = 'https://jen019.github.io/wdd230/hotel/js/temple.json';
+const requestURL = 'js/temple.json';
 const cardf = document.querySelector('.front');
 fetch(requestURL)
 .then(function (response) {
@@ -49,9 +49,9 @@ function displayTemples(temples) {
     l2.textContent = 
     `Address: ${temples["address"]}`;
 
-    templeImg.setAttribute('src', `${temples["like"]}`);
-    templeImg.setAttribute('alt', `Heart Like`);
-    templeImg.setAttribute('loading', 'lazy');
+    like.setAttribute('src', `${temples["like"]}`);
+    like.setAttribute('alt', `Heart Like`);
+    like.setAttribute('loading', 'lazy');
     
 
    

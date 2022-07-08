@@ -1,4 +1,4 @@
-const button = document.querySelector(".heart-like-button");
+const button = document.getElementById("#heart-like");
 
 button.addEventListener("click", () => {
   if (button.classList.contains("liked")) {
