@@ -27,15 +27,20 @@ p, ul{
     font-family: 'Bitter', serif;
     font-size: 15px;
     text-align: center;
+    padding: 15px;
 
 }
 
 h1,h2{
     margin:15px;
-    color:#fa5a3e;
+    color:#3c1414;
     font-family:'Arima', cursive;
     text-align: center;
 
+}
+
+h1{
+  color: #fa5a3e;
 }
 
 nav ul {
@@ -181,10 +186,6 @@ nav ul li a{
     color: #3c1414;
   }
 
-  .fday{
-    color: #3c1414;
-  }
-
   .tempH{
     color:#fdca40;
   }
@@ -222,7 +223,6 @@ nav ul li a{
   /*About Hotel Home Page CSS*/
 
   .welcome{
-    color:#3c1414;
     font-size: 40px;
   }
 
@@ -287,7 +287,6 @@ nav ul li a{
     color:#3c1414;
     margin-left: 14%;
     margin-right: 14%;
-    padding: 15px;
     font-size: 23px;
   }
 
@@ -376,7 +375,7 @@ nav ul li a{
   /*Temple Page*/
 
   .tempImg{
-    width: 95%;
+    width: 90%;
     height: auto;
     display: block;
     margin-left: auto;
@@ -386,7 +385,21 @@ nav ul li a{
   .temp-desc{
     list-style: none;
     text-align: center;
+    color: #fdca40;
+    background-color: #005400;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 20px;
+
 }
+
+.templeQuote{
+  background-color: #fdca40;
+  color: #3c1414;
+  margin:10%;
+  font-size: 20px;
+}
+
   
 
 

@@ -138,6 +138,24 @@ figcaption{
   width: 10%;
 }
 
+.displayTemp{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.displayTemp img{
+  width:89%;
+}
+
+.tempImg{
+  width: 44%;
+}
+
+.temp-desc{
+  margin-left:28%;
+  margin-right:28%;
+}
+
 }
   
 
