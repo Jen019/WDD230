@@ -1,6 +1,5 @@
 const requestURL = 'https://jen019.github.io/wdd230/hotel/js/temple.json';
 const cardf = document.querySelector('.front');
-const cardb = document.querySelector('.back');
 fetch(requestURL)
 .then(function (response) {
   return response.json();
