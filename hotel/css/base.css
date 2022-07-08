@@ -382,8 +382,8 @@ nav ul li a{
     margin-right: auto;
   }
 
-  .temp-cards{
-    margin:9%;
+  .temp-cards,.blessT{
+    margin:4%;
   }
   
 
@@ -401,8 +401,8 @@ nav ul li a{
 .templeQuote{
   background-color: #fdca40;
   color: #3c1414;
-  margin:10%;
   font-size: 20px;
+  margin:5%;
 }
 
   

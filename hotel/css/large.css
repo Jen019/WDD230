@@ -147,8 +147,14 @@ figcaption{
   margin-right: 62%;
 }
 
-.displayTemp img{
+.displayT img{
   width:89%;
+}
+
+.displayT{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .tempImg{
