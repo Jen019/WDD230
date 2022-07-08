@@ -2,7 +2,8 @@
     "temples": [{
             "templeName": "Meridan Idaho Temple",
             "templeImg": "images/meridianTemp.webp",
-            "StreetAddress": "7355 N Linder Rd",
+            "describe": "Meridian Idaho Temple",
+            "streetAddress": "7355 N Linder Rd",
             "cityAddress": "Meridian",
             "stateAddress": "Idaho",
             "zipcode": 83406,
@@ -34,7 +35,8 @@
         {
             "templeName": "Pocatello Idaho Temple",
             "templeImg": "images/pocatelloTemple.webp",
-            "StreetAddress": "3100 Butte St",
+            "describe":"Pocatello Idaho Temple",
+            "streetAddress": "3100 Butte St",
             "cityAddress": "Pocatello",
             "stateAddress": "Idaho",
             "zipcode": 83201,
@@ -68,7 +70,8 @@
         {
             "templeName": "Idaho Falls Idaho Temple",
             "templeImg": "images/idahoFallsTemp.jpg",
-            "StreetAddress": "1000 Memorial Dr",
+            "describe":"Idaho Falls Idaho Temple",
+            "streetAddress": "1000 Memorial Dr",
             "cityAddress": "Idaho Falls",
             "stateAddress": "Idaho",
             "zipcode": "83202-3410",
@@ -103,7 +106,8 @@
         {
             "templeName": "Rexburg Idaho Temple",
             "templeImg": "images/rexburg_temple.webp",
-            "StreetAddress": "750 S 2nd E",
+            "describe":"Rexburg Idaho Temple",
+            "streetAddress": "750 S 2nd E",
             "cityAddress": "Rexburg",
             "stateAddress": "Idaho",
             "zipcode": "83440-5404",
