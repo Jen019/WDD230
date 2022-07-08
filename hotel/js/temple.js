@@ -52,22 +52,22 @@ function displayTemples(temples) {
     templeImg.setAttribute('src', `${temples["templeImg"]}`);
     templeImg.setAttribute('alt', `${temples["describe"]}`);
     templeImg.setAttribute('loading', 'lazy');
-    document.querySelector('.temp-cards').appendChild(h1);
-    document.querySelector('.temp-cards').appendChild(templeImg);
-    document.querySelector('.temp-cards').appendChild(h);
-    document.querySelector('.temp-cards').appendChild(ul); 
-    document.querySelector('.temp-cards').appendChild(l);
-    document.querySelector('.temp-cards').appendChild(l1); 
-    document.querySelector('.temp-cards').appendChild(l2); 
+    document.querySelector('.temp-cards div').appendChild(h1);
+    document.querySelector('.temp-cards div').appendChild(templeImg);
+    document.querySelector('.temp-cards div').appendChild(h);
+    document.querySelector('.temp-cards div').appendChild(ul); 
+    document.querySelector('.temp-cards div').appendChild(l);
+    document.querySelector('.temp-cards div').appendChild(l1); 
+    document.querySelector('.temp-cards div').appendChild(l2); 
     ul.appendChild(l);
     ul.appendChild(l1);
     ul.appendChild(l2);
-    document.querySelector('.temp-cards').appendChild(h2); 
-    document.querySelector('.temp-cards').appendChild(p1); 
-    document.querySelector('.temp-cards').appendChild(h3);
-    document.querySelector('.temp-cards').appendChild(p2);
-    document.querySelector('.temp-cards').appendChild(h4);
-    document.querySelector('.temp-cards').appendChild(p3);
-    document.querySelector('.temp-cards').appendChild(p4);
+    document.querySelector('.temp-cards div').appendChild(h2); 
+    document.querySelector('.temp-cards div').appendChild(p1); 
+    document.querySelector('.temp-cards div').appendChild(h3);
+    document.querySelector('.temp-cards div').appendChild(p2);
+    document.querySelector('.temp-cards div').appendChild(h4);
+    document.querySelector('.temp-cards div').appendChild(p3);
+    document.querySelector('.temp-cards div').appendChild(p4);
 
   }

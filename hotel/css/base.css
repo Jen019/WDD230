@@ -382,6 +382,11 @@ nav ul li a{
     margin-right: auto;
   }
 
+  .temp-cards{
+    margin:9%;
+  }
+  
+
   .temp-desc{
     list-style: none;
     text-align: center;
