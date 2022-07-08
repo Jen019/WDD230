@@ -143,6 +143,14 @@ figcaption{
   grid-template-columns: 1fr 1fr;
 }
 
+#tempHead{
+  margin-right: 62%;
+}
+
+.temp-cards{
+  margin:4%;
+}
+
 .displayTemp img{
   width:89%;
 }
