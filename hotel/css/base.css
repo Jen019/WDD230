@@ -373,6 +373,22 @@ nav ul li a{
     height: auto;
   }
 
+  /*Temple Page*/
+
+  .tempImg{
+    width: 95%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .temp-desc{
+    list-style: none;
+    text-align: center;
+}
+  
+
 
 
 
