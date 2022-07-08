@@ -26,12 +26,14 @@ function displayTemples(temples) {
     let p3 = document.createElement('p');
     let p4 = document.createElement('p');
     let templeImg = document.createElement('img');
+    let like =  document.createElement('img');
 
     ul.className = 'temp-desc';
     p1.className = 'temp-desc';
     p2.className = 'temp-desc';
     p3.className = 'temp-desc';
     p4.className = 'temp-desc';
+    like.id = "heart-like";
     templeImg.className = 'tempImg';
     h1.textContent = `${temples["templeName"]}`;
     h.textContent = "Contact Information";
@@ -46,6 +48,10 @@ function displayTemples(temples) {
     l1.textContent = `${temples["describe"]}`;
     l2.textContent = 
     `Address: ${temples["address"]}`;
+
+    templeImg.setAttribute('src', `${temples["like"]}`);
+    templeImg.setAttribute('alt', `Heart Like`);
+    templeImg.setAttribute('loading', 'lazy');
     
 
    
@@ -54,6 +60,7 @@ function displayTemples(temples) {
     templeImg.setAttribute('loading', 'lazy');
     document.querySelector('.temp-cards div').appendChild(h1);
     document.querySelector('.temp-cards div').appendChild(templeImg);
+    document.querySelector('.temp-cards div').appendChild(like);
     document.querySelector('.temp-cards div').appendChild(h);
     document.querySelector('.temp-cards div').appendChild(ul); 
     document.querySelector('.temp-cards div').appendChild(l);
