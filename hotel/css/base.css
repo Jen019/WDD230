@@ -1,414 +1,423 @@
 /* Home Page Basic CSS*/
-body{
-    background-color: #5398ff;
+body {
+  background-color: #5398ff;
 }
 
 nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 
 }
 
-h3{
-  font-size:38px;
+h3 {
+  font-size: 38px;
 }
 
 nav button {
-    margin: 10px;
-    background: transparent;
-    border: none;
-    font-size: 30px;
-    color:#3c1414;
-    background-color:#5398ff;
+  margin: 10px;
+  background: transparent;
+  border: none;
+  font-size: 30px;
+  color: #3c1414;
+  background-color: #5398ff;
 }
 
-p, ul{
-    font-family: 'Bitter', serif;
-    font-size: 15px;
-    text-align: center;
-    padding: 15px;
-
-}
-
-h1,h2{
-    margin:15px;
-    color:#3c1414;
-    font-family:'Arima', cursive;
-    text-align: center;
+p,
+ul {
+  font-family: 'Bitter', serif;
+  font-size: 15px;
+  text-align: center;
+  padding: 15px;
 
 }
 
-h1{
+h1,
+h2 {
+  margin: 4%;
+  color: #3c1414;
+  font-family: 'Arima', cursive;
+  text-align: center;
+
+}
+
+h1 {
   color: #fa5a3e;
 }
 
 nav ul {
-    display: none;
+  display: none;
 }
 
 nav ul.open {
-    display: flex;
+  display: flex;
 }
 
 
 
-nav ul li a{
-    display: block;
-    color:#fa5a3e;
-    text-decoration: none;
-    padding-right:15px;
-    padding-left: 28px;
-    padding-bottom: 15px;
-    font-size: 20px;
+nav ul li a {
+  display: block;
+  color: #fa5a3e;
+  text-decoration: none;
+  padding-right: 15px;
+  padding-left: 28px;
+  padding-bottom: 15px;
+  font-size: 20px;
 
 }
 
-.dropbtn{
-    color:#fa5a3e;
-    font-size: 20px;
+.dropbtn {
+  color: #fa5a3e;
+  font-size: 20px;
 }
 
 #hamburgerBtn span:nth-child(1) {
-    display: block;
+  display: block;
 }
 
 #hamburgerBtn span:nth-child(2) {
-    display: none;
+  display: none;
 }
 
 #hamburgerBtn.open span:nth-child(1) {
-    display: none;
+  display: none;
 }
 
 #hamburgerBtn.open span:nth-child(2) {
-    display: block;
+  display: block;
 }
 
-.dropdown-content li a{
-    color:#fdca40;
-    padding:15px;
+.dropdown-content li a {
+  color: #fdca40;
+  padding: 15px;
 }
 
-.dropdown{
-    margin-left:26px;
+.dropdown {
+  margin-left: 26px;
 }
 
 
 
-#services:checked ~ .dropdown-content{
-    display: block;
-    max-height: 200px;
-    background-color: #005400;
+#services:checked~.dropdown-content {
+  display: block;
+  max-height: 200px;
+  background-color: #005400;
 }
 
-#services{
-    display: none;
+#services {
+  display: none;
 }
 
-.logo{
-    width: 40%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.logo {
+  width: 40%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .menuNav {
-    background-color:#3c1414;
-    display: flex;
-    flex-direction: column-reverse;
+  background-color: #3c1414;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 
-.navBanner{
-    display: block;
-    width: 76%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
+.navBanner {
+  display: block;
+  width: 76%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.welcome{
+  font-size: 40px;
 }
 
 /* Home Page Weather CSS*/
 
-.weather{
-   display: flex;
-   flex-direction: column;
-   background-color:#005400;
-   color: #fdca40;
-   font-size: 14px;
-    margin: 21px;
-    font-weight: bold;
-  }
-
-
-.weather-desc{
-    margin:15px;
-    text-transform: capitalize;
-  }
-
-  .weather-icon{
-    margin-left: auto;
-    display: block;
-    margin-right: auto;
-  }
-
-  .fTemp{
-    text-align: center;
-  }
-
-
-.displayTemp{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.weather {
+  display: flex;
+  flex-direction: column;
+  background-color: #005400;
+  color: #fdca40;
+  font-size: 14px;
+  margin: 21px;
+  font-weight: bold;
 }
 
-  .cTemp{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
 
-  .humidity{
-    margin:15px;
-  }
+.weather-desc {
+  margin: 15px;
+  text-transform: capitalize;
+}
 
-  #humid{
-    margin-left:5px;
-  }
+.weather-icon {
+  margin-left: auto;
+  display: block;
+  margin-right: auto;
+}
 
-  .forecast{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: #fdca40;
-    color: #3c1414;
-  }
+.fTemp {
+  text-align: center;
+}
 
-  .tempH{
-    color:#fdca40;
-  }
+.fday{
+  margin-right:30px;
+}
 
 
-  .displayAlert{
-    font-size: 64px;
-  }
+.displayTemp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  .alertDesc{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
 
-  .weatherAlert{
-    background-color: #fdca40;
-    margin: 15px;
-    padding: 15px;
-    text-align: center;
-    font-family: 'Bitter', serif;
-    color: #3c1414;
-   
-  }
+.cTemp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 
-  @media(max-width: 374px) {
-    .forecast{
-        display: none;
-    }
+.humidity {
+  margin: 15px;
+}
 
-   
+#humid {
+  margin-left: 5px;
+}
 
-  }
+.forecast {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #fdca40;
+  color: #3c1414;
+}
 
-  /*About Hotel Home Page CSS*/
+.tempH {
+  color: #fdca40;
+}
 
-  .welcome{
-    font-size: 40px;
-  }
 
-  .aboutHotel p{
-    margin-left: 3%;
-    margin-right: 3%;
-    background-color: #3c1414;
-    color: #fa5a3e;
-    padding: 15px;
-    text-align: justify;
-    font-size: 21px;
-  }
+.displayAlert {
+  font-size: 64px;
+}
 
-  #hotel{
-    width: 87%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
+.alertDesc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  /*Slideshow Home Page CSS*/
+.weatherAlert {
+  background-color: #fdca40;
+  margin: 15px;
+  padding: 15px;
+  text-align: center;
+  font-family: 'Bitter', serif;
+  color: #3c1414;
 
-  .slideshow{
-    margin:45px;
-    position: relative;
-  }
+}
 
-  .slideshow img{
-    width: 100%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #message{
-    position: absolute;
-    margin-top: -121px;
-    margin-left: 56%;
-    padding:11px;
-    background-color: #3c1414;
-    color: #fa5a3e;
-    font-family: 'Bitter', serif;
-    font-size: 20px;
-    border-radius: 2em;
-    border-color: #fdca40;
-    border-width: thick;
-  }
-
-  /*Temple Section Home Page CSS*/
-  #mTemple{
-    width: 89%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    
-  }
-
-  .meridianTemple p{
-    background-color:#fdca40;
-    color:#3c1414;
-    margin-left: 14%;
-    margin-right: 14%;
-    font-size: 23px;
-  }
-
-  #mInfo{
-    list-style: none;
-    text-align: center;
-    background-color: #fdca40;
-    color:#3c1414;
-    margin-left: 14%;
-    margin-right: 14%;
-    padding: 15px;
-    font-size: 23px;
-  }
-
-  
-
-  /*Amenities Home Page*/
-  .spotlights{
-    background-color:#005400;
-    padding: 15px;
+@media(max-width: 374px) {
+  .forecast {
+    display: none;
   }
 
 
-  figure img{
-    width: 100%;
-    height: auto;
-  }
 
-  figcaption{
-    font-family: 'Bitter', serif;
-    background-color: #3c1414;
-    color: #fa5a3e;
-    padding: 15px;
-    
-  }
-  .aIcons{
+}
+
+/*About Hotel Home Page CSS*/
+
+.aboutHotel p {
+  margin-left: 3%;
+  margin-right: 3%;
+  background-color: #3c1414;
+  color: #fa5a3e;
+  padding: 15px;
+  text-align: justify;
+  font-size: 21px;
+}
+
+#hotel {
+  width: 87%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/*Slideshow Home Page CSS*/
+
+.slideshow {
+  margin: 45px;
+  position: relative;
+}
+
+.slideshow img {
+  width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#message {
+  position: absolute;
+  margin-top: -121px;
+  margin-left: 56%;
+  padding: 11px;
+  background-color: #3c1414;
+  color: #fa5a3e;
+  font-family: 'Bitter', serif;
+  font-size: 20px;
+  border-radius: 2em;
+  border-color: #fdca40;
+  border-width: thick;
+}
+
+/*Temple Section Home Page CSS*/
+#mTemple {
+  width: 89%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+}
+
+.meridianTemple p {
+  background-color: #fdca40;
+  color: #3c1414;
+  margin-left: 14%;
+  margin-right: 14%;
+  font-size: 23px;
+}
+
+#mInfo {
+  list-style: none;
+  text-align: center;
+  background-color: #fdca40;
+  color: #3c1414;
+  margin-left: 14%;
+  margin-right: 14%;
+  padding: 15px;
+  font-size: 23px;
+}
+
+
+
+/*Amenities Home Page*/
+.spotlights {
+  background-color: #005400;
+  padding: 15px;
+}
+
+
+figure img {
+  width: 100%;
+  height: auto;
+}
+
+figcaption {
+  font-family: 'Bitter', serif;
+  background-color: #3c1414;
+  color: #fa5a3e;
+  padding: 15px;
+
+}
+
+.aIcons {
   background-color: aliceblue;
   padding: 10%;
   border-radius: 1em;
   margin: 10%;
-  }
+}
 
-  .aIcons img{
-    margin-left:auto;
-    margin-right:auto;
-    width:100%;
-    height: auto;
-
-  }
-
-  /*Footer */
-
-  .footerFormat{
-    display: flex;
-    flex-direction: column;
-    background-color: #3c1414;
-    color: #fa5a3e;
-    font-family:'Arima', cursive;
-    padding:15px;
-  }
-
-  .footerFormat p{
-    font-size: 21px;
-  }
-
-  iframe{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    width: 90%;
-
-  }
-
-  .mediaIcons{
-    display: flex;
-    padding: 15px;
-    flex-direction: column;
-  }
-
-  .mediaIcons img{
-    width: 25%;
-    height: auto;
-    margin-left: auto;
-    display: block;
-    margin-right: auto;
-  }
-
-  /*Temple Page*/
-
-  .tempImg{
-    width: 90%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .temp-cards,.blessT{
-    margin:4%;
-  }
-  
-
-  .temp-desc{
-    list-style: none;
-    text-align: center;
-    color: #fdca40;
-    background-color: #005400;
-    margin-left: 5%;
-    margin-right: 5%;
-    font-size: 20px;
+.aIcons img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
 
 }
 
-.templeQuote{
+/*Footer */
+
+.footerFormat {
+  display: flex;
+  flex-direction: column;
+  background-color: #3c1414;
+  color: #fa5a3e;
+  font-family: 'Arima', cursive;
+  padding: 15px;
+}
+
+.footerFormat p {
+  font-size: 21px;
+}
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 90%;
+
+}
+
+.mediaIcons {
+  display: flex;
+  padding: 15px;
+  flex-direction: column;
+}
+
+.mediaIcons img {
+  width: 25%;
+  height: auto;
+  margin-left: auto;
+  display: block;
+  margin-right: auto;
+}
+
+/*Temple Page*/
+
+.tempImg {
+  width: 90%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.temp-cards,
+.blessT {
+  margin: 4%;
+}
+
+
+.temp-desc {
+  list-style: none;
+  text-align: center;
+  color: #fdca40;
+  background-color: #005400;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 20px;
+
+}
+
+.templeQuote {
   background-color: #fdca40;
   color: #3c1414;
   font-size: 20px;
-  margin:5%;
+  margin: 5%;
 }
 
-#heart-like{
+#heart-like {
   width: 10%;
   margin-top: -12%;
   position: absolute;
@@ -419,23 +428,110 @@ nav ul li a{
 #heart-like.liked::after {
   background-image: url("images/heart2.png");
 }
+
 @keyframes liked {
   0% {
     transform: scale(.8);
   }
+
   50% {
     transform: scale(1.1);
   }
+
   100% {
     transform: scale(1);
   }
 }
-  
+
+/*Reservation Page*/
+form fieldset {
+  margin: 4vh;
+  margin-top: 19px;
+  border-style: none;
+  border-width: 3px;
+  border-radius: 10px;
+  background-color: #3c1414;
+  font-family: 'Bitter', serif;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+label.sub input:required:invalid {
+  border-color: red;
+  border-width: 5px;
+}
+
+form label.top input,
+form label.sub input {
+  display: block;
+  font-size: 1rem;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: solid black;
+  border-radius: 4px;
+  padding: 15px;
+  width: 95%;
+  max-width: 90%;
+  background-color: #5398ff;
+  color: black;
+}
+
+form label.sub input::placeholder {
+  color: black;
+}
+
+form label.sub {
+  display: block;
+  padding: 15px;
+  color: #5398ff;
+  font-weight: bold;
+
+}
 
 
 
+legend {
+  margin-left: 20px;
+  background-color: #fdca40;
+  color: #3c1414;
+  padding: 15px;
+  font-family: 'Arima', cursive;
+  font-weight: bold;
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+fieldset.option label.sub input{
+  width: 33%;
+}
 
 
 
+form label.option {
+  display: flex;
+  padding: 20px;
+  margin: 15px;
+  color: #5398ff;
+}
 
+input[type='radio'] {
+  transform: scale(2);
+  margin-right: 15px;
+}
 
+.submitBtn {
+  background-color: #fdca40;
+  color: #3c1414;
+  font-family: 'Arima', cursive;
+  margin-bottom: 10%;
+  padding: 37px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-size: 30px;
+  border-style: groove;
+  border-color: #3c1414;
+  border-width: thick;
+}

@@ -1,45 +1,47 @@
 @media (min-width: 1001px) {
+
   /* Home Page Navigation CSS*/
-nav ul {
+  nav ul {
     display: flex;
     justify-content: center;
 
-}
+  }
 
-nav #hamburgerBtn{
+  nav #hamburgerBtn {
     display: none;
-}
+  }
 
-nav ul li a{
-  display: inline;
-}
+  nav ul li a {
+    display: inline;
+  }
 
-.logo{
-    width:45%;
+  .logo {
+    width: 45%;
     height: auto;
-}
+  }
 
-.menuNav div{
-    padding:15px;
-}
+  .menuNav div {
+    padding: 15px;
+  }
 
-.menuNav {
+  .menuNav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-}
+  }
 
 
-  li a:hover, .dropdown:hover .dropbtn {
+  li a:hover,
+  .dropdown:hover .dropbtn {
     background-color: #fdca40;
     padding: 15px;
-    color:black;
+    color: black;
   }
-  
+
   li.dropdown {
     display: inline-block;
   }
-  
+
   .dropdown-content {
     display: none;
     position: absolute;
@@ -47,135 +49,169 @@ nav ul li a{
     min-width: 160px;
   }
 
-  .navBanner{
+  .navBanner {
     display: block;
     width: 100%;
     height: auto;
   }
-  
+
   .dropdown-content a {
-    color:#fdca40;
+    color: #fdca40;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
   }
-  
-  .dropdown-content a:hover {background-color: #f1f1f1;}
-  
+
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+
   .dropdown:hover .dropdown-content {
     display: block;
   }
 
   /* Home Page weather CSS*/
 
-  .weather{
-    display:grid;
+  .weather {
+    display: grid;
     grid-template-columns: 1fr 1fr;
     font-size: 20px;
-    margin:20px;
+    margin: 20px;
   }
 
-/*Slideshow Home Page CSS*/
-.slideshow img{
-  height: 80vh;
-  width: 100%;
-}
+  .weather-desc{
+    margin:0;
+  }
+
+  /*Slideshow Home Page CSS*/
+  .slideshow img {
+    height: 80vh;
+    width: 100%;
+  }
 
 
-#message{
-  margin-top: -383px;
-  margin-left: 60%;
+  #message {
+    margin-top: -383px;
+    margin-left: 60%;
     font-size: 61px;
 
-}
+  }
 
-/*About Hotel Home Page Section*/
+  /*About Hotel Home Page Section*/
 
-.displayHotel{
-  display: grid;
+  .displayHotel {
+    display: grid;
     grid-template-columns: 1fr 1fr;
-}
+  }
 
-.aboutHotel{
-  margin:15px;
-}
+  .aboutHotel {
+    margin: 15px;
+  }
 
-#hotel{
-  margin-left:20px;
-  width: 100%;
-}
+  #hotel {
+    margin-left: 20px;
+    width: 100%;
+  }
 
-#mTemple{
-  width:72%;
-}
+  #mTemple {
+    width: 72%;
+  }
 
-.spotlights{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
+  .spotlights {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 
-figcaption{
-  font-size: 25px;
-  
-}
+  figcaption {
+    font-size: 25px;
 
-.amenities{
-  display: grid;
+  }
+
+  .amenities {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-}
+  }
 
-.aIcons{
+  .aIcons {
     width: 27%;
     padding: 15px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .mediaIcons img {
+    width: 10%;
+  }
+
+  .displayTemp {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #tempHead {
+    margin-right: 62%;
+  }
+
+  .displayT img {
+    width: 89%;
+  }
+
+
+  .displayT {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .tempImg {
+    width: 44%;
+  }
+
+  .temp-desc {
+    margin-left: 28%;
+    margin-right: 28%;
+  }
+
+  #heart-like {
+    width: 6%;
+    margin-top: -8%;
+    margin-left: 28%;
+  }
+
+
+  form label.top input,
+  form label.sub input {
+    width: 40%;
+
+
+  }
+
+
+  .submitBtn {
+    padding: 40px;
+    font-size: 40px;
+    margin: 3%;
+
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .option{
+     display: flex;
+    justify-content: center;
+  }
+
+
+  form fieldset {
+    width: 65%;
+  }
+
+
 }
-
-.mediaIcons img{
-  width: 10%;
-}
-
-.displayTemp{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-#tempHead{
-  margin-right: 62%;
-}
-
-.displayT img{
-  width:89%;
-}
-
-.displayT{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.tempImg{
-  width: 44%;
-}
-
-.temp-desc{
-  margin-left:28%;
-  margin-right:28%;
-}
-
-#heart-like{
-  width: 6%;
-  margin-top: -8%;
-  margin-left: 28%;
-}
-
-}
-
-
-  
-
-
-
