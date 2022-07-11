@@ -363,13 +363,16 @@ nav ul li a{
 
   .mediaIcons{
     display: flex;
-    justify-content: center;
     padding: 15px;
+    flex-direction: column;
   }
 
   .mediaIcons img{
     width: 25%;
     height: auto;
+    margin-left: auto;
+    display: block;
+    margin-right: auto;
   }
 
   /*Temple Page*/
