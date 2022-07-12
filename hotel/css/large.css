@@ -225,5 +225,22 @@
     width:70%;
   }
 
+  /*Reception Page*/
+
+
+  #column3{
+    display: block;
+  }
+
+  .column {
+    flex: 25%;
+    max-width: 33%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    width: 100%;
+  }
+
 
 }

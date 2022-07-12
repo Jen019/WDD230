@@ -550,3 +550,26 @@ input[type='radio'] {
     height: auto;
     margin-bottom: 5%;
 }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 50%;
+  max-width: 50%;
+  margin-bottom: 3%;
+}
+
+#column3{
+  display: none;
+}
+
+.column img {
+  margin-top: 8px;
+    vertical-align: middle;
+    width: 96%;
+}
+
