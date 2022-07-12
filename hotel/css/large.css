@@ -197,10 +197,18 @@
 
   }
 
+  label.sub input:required{
+    width: 88%;
+  }
+
   form {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  form label.sub{
+    display: inline-block;
   }
 
   .option{
@@ -211,6 +219,10 @@
 
   form fieldset {
     width: 65%;
+  }
+
+  #checkin{
+    width:70%;
   }
 
 

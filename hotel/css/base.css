@@ -459,7 +459,7 @@ form fieldset {
 }
 
 label.sub input:required:invalid {
-  border-color: red;
+  border-color:#fdca40;
   border-width: 5px;
 }
 
@@ -478,9 +478,6 @@ form label.sub input {
   color: black;
 }
 
-form label.sub input::placeholder {
-  color: black;
-}
 
 form label.sub {
   display: block;
@@ -488,6 +485,15 @@ form label.sub {
   color: #5398ff;
   font-weight: bold;
 
+}
+
+#location{
+  padding: 15px;
+}
+
+textarea{
+  margin: 4%;
+  padding: 50px;
 }
 
 
@@ -534,4 +540,13 @@ input[type='radio'] {
   border-style: groove;
   border-color: #3c1414;
   border-width: thick;
+}
+
+#checkin{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 80%;
+    height: auto;
+    margin-bottom: 5%;
 }

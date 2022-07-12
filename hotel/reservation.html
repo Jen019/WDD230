@@ -55,8 +55,7 @@
                     <legend class="top">Reservation Information</legend>
                     <label class="sub">First Name* <input type="text" name="fname" required autofocus></label>
                     <label class="sub">Last Name* <input type="text" name="lname" required></label>
-                    <label class="sub">Email* example@gmail.com <input type="email" name="email"
-                            placeholder="example@gmail.com" required></label>
+                    <label class="sub">Email* example@gmail.com <input type="email" name="email" required></label>
 
                     <label class="sub">Select or type in Your Country*:
                         <input type="text" list="code" name="countryCode" required>
@@ -72,13 +71,21 @@
                             <option>Mexico</option>
                             <option>Australia</option>
                         </datalist></label>
-                    <label class="sub">Phone* Accepts Spaces and Dashes <input type="tel" name="phone"
-                            pattern="^[-\s0-9-\s]{1,20}$" placeholder="Enter Digits" required></label>
-                    <label class="sub">Check In*
-                        <input type="date" name="startDate" required></label>
+                        <label class="sub">Phone* Accepts Spaces and Dashes, No Letters <input type="tel" name="phone"
+                                pattern="^[-\s0-9-\s]{1,20}$" required></label>
+                        <label class="sub">Check In*
+                            <input type="date" name="startDate" required></label>
 
-                    <label class="sub">Check Out:*
-                        <input type="date" name="endDate" required></label>
+                        <label class="sub">Check Out:*
+                            <input type="date" name="endDate" required></label>
+
+                            <label class="sub">Select Hotel Location*:
+                                <select id="location">
+                                    <option>Rexburg, Idaho</option>
+                                    <option>Meridian, Idaho</option>
+                                    <option>Pocatello, Idaho</option>
+                                    <option>Idaho Falls, Idaho</option>
+                                </select></label>    
                 </fieldset>
                 <fieldset class="option">
                     <legend class="top">Room Information</legend>
@@ -97,6 +104,12 @@
                     <label class="option"><input type="radio" name="suite" value="Deluxe Suite ">Deluxe Suite</label>
                     <label class="option"><input type="radio" name="suite" value="Triple Deluxe Suite">Triple Deluxe
                         Suite</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend class="top">Special Services</legend>
+                    <label class="sub">List any Special accommodations you would like<textarea name="accommodation" rows="5"
+                            cols="33" placeholder="Enter text here..."></textarea></label>
                 </fieldset>
                 <input type="submit" value="Book Reservation" class="submitBtn">
 
@@ -123,7 +136,6 @@
         </div>
     </footer>
     <script src="js/toggleButton.js"></script>
-    <script src="js/temple.js"></script>
 
 
 </body>
