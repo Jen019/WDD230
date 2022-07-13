@@ -27,7 +27,7 @@ p,
 ul {
   font-family: 'Bitter', serif;
   font-size: 15px;
-  text-align: center;
+  text-align:center;
   padding: 15px;
 
 }
@@ -571,5 +571,22 @@ input[type='radio'] {
   margin-top: 8px;
     vertical-align: middle;
     width: 96%;
+}
+
+/*Suites Page*/
+.suites img{
+  width: 70%;
+  height: auto;
+}
+
+.suites{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.suitesList{
+  text-align: unset;
+  margin-right: 50%;
 }
 

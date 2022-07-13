@@ -52,4 +52,24 @@
     margin-left: 7%;
     font-size: 26px;
     }
+
+    /*Suites Page*/
+    .suites {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        align-items: center;
+        margin: 1%;
+    }
+
+    .suites img {
+        grid-column: 1;
+        padding: 15px;
+    }
+
+    .suitesList {
+        grid-column: 2;
+        grid-row: 2;
+        margin-top: -88%;
+        margin-left: -40%;
+    }
 }

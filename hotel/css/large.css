@@ -242,5 +242,22 @@
     width: 100%;
   }
 
+  /*Suites Page*/
+  .suites img {
+    width: 31%;
+    height: auto;
+    margin: 1%;
+  }
+
+  .suites{
+    display: block;
+  }
+
+  .suitesList {
+    text-align: unset;
+    float: right;
+    margin-right: 61%;
+}
+
 
 }
