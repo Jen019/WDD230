@@ -417,7 +417,7 @@ iframe {
   margin: 5%;
 }
 
-#heart-like {
+.heart-like {
   width: 10%;
   margin-top: -12%;
   position: absolute;
@@ -425,23 +425,7 @@ iframe {
   cursor: pointer;
 }
 
-#heart-like.liked::after {
-  background-image: url("images/heart2.png");
-}
 
-@keyframes liked {
-  0% {
-    transform: scale(.8);
-  }
-
-  50% {
-    transform: scale(1.1);
-  }
-
-  100% {
-    transform: scale(1);
-  }
-}
 
 /*Reservation Page*/
 form fieldset {

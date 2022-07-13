@@ -1,9 +1,10 @@
-const button = document.getElementById("#heart-like");
+function toggleImage() {
+  const img1 = "images/heart2.png";
+  const img2 = "images/heart.png";
 
-button.addEventListener("click", () => {
-  if (button.classList.contains("liked")) {
-    button.classList.remove("liked");
-  } else {
-    button.classList.add("liked");
-  }
-});
+  const imgElement = document.getElementsByClassName('heart-like');
+  
+  
+    imgElement.src = (imgElement.src === img1)? img2 : img1;
+      
+}

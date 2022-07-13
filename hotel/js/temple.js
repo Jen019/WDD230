@@ -27,13 +27,16 @@ function displayTemples(temples) {
     let p4 = document.createElement('p');
     let templeImg = document.createElement('img');
     let like =  document.createElement('img');
+    let like2 =  document.createElement('img');
+    let like3 =  document.createElement('img');
+    let like4 =  document.createElement('img');
 
     ul.className = 'temp-desc';
     p1.className = 'temp-desc';
     p2.className = 'temp-desc';
     p3.className = 'temp-desc';
     p4.className = 'temp-desc';
-    like.id = "heart-like";
+    like.className = "heart-like";
     templeImg.className = 'tempImg';
     h1.textContent = `${temples["templeName"]}`;
     h.textContent = "Contact Information";
@@ -52,7 +55,7 @@ function displayTemples(temples) {
     like.setAttribute('src', `${temples["like"]}`);
     like.setAttribute('alt', `Heart Like`);
     like.setAttribute('loading', 'lazy');
-    
+    like.setAttribute('onclick','toggleImage();')
 
    
     templeImg.setAttribute('src', `${temples["templeImg"]}`);
