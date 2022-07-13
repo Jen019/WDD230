@@ -244,6 +244,7 @@
 
   /*Suites Page*/
   .suites img {
+    padding: 0;
     width: 31%;
     height: auto;
     margin: 1%;
@@ -251,12 +252,17 @@
 
   .suites{
     display: block;
+    padding: 3%;
   }
 
-  .suitesList {
-    text-align: unset;
-    float: right;
-    margin-right: 61%;
+.suitesList{
+  text-align: unset;
+  float: right;
+  margin-top: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+  max-width: 60%;
+  font-size: 25px;
 }
 
 

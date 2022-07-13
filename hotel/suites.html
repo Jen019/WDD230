@@ -48,49 +48,97 @@
         </section>
     </header>
     <main>
-        <section class="suitesContain">
+        <section>
             <h2>Types of Suites</h2>
             <div class="suites">
-                <h2>Standard Suite</h2>
+                <h2>Standard Suite $129.00/Night</h2>
                 <img src="images/standardSuite.jpg">
                 <img src="images/standardSuite2.jpg">
                 <img src="images/standardSuite3.jpg">
                 <img src="images/standardSuite4.jpg">
-
                 <ul class="suitesList">
-                    <li>test</li>
-                    
-
+                    <li>1 King bed</li>
+                    <li>Bathroom and shower equipped with tub</li>
+                    <li>Living area with dining table and seating area</li>
+                    <li>Pull out couch in the living room</li>
+                    <li>Free Tv access to cable and satellite</li>
+                    <li>Free Wi-fi access</li>
+                    <li>1 Bedroom, Living room, and Kitchen area</li>
+                    <li>Small fully equipped kitchen that includes a refrigerator, oven, stovetop, microwave,
+                        dishwasher,
+                        and cabinet space
+                    </li>
                 </ul>
             </div>
 
             <div class="suites">
-                <h2>Deluxe Suite</h2>
+                <h2>Deluxe Suite $229.00/Night</h2>
                 <img src="images/deluxeSuite.jpg">
-                    <img src="images/deluxeSuite2.jpg">
-                    <img src="images/deluxeSuite3.jpg">
-                    <img src="images/deluxeSuite4.jpg">
+                <img src="images/deluxeSuite2.jpg">
+                <img src="images/deluxeSuite3.jpg">
+                <img src="images/deluxeSuite4.jpg">
                 <ul class="suitesList">
-                
-                <li>test</li>
-                    
+                    <li>2 King beds</li>
+                    <li>Bathroom and shower with a jacuzzi</li>
+                    <li>Seating area in the living room</li>
+                    <li>Pull out couch in the living room</li>
+                    <li>Free Tv access to cable and satellite</li>
+                    <li>Free Wi-fi access</li>
+                    <li>1 Bedroom, Living room, and Kitchen area</li>
+                    <li>Fully equipped kitchen that includes a refrigerator, oven, stovetop, microwave, dishwasher,
+                        cabinet space, and kitchen dining table
+                    </li>
+
                 </ul>
             </div>
 
             <div class="suites">
-                <h2>Royal Suite</h2>
+                <h2>Royal Suite $259.00/Night</h2>
                 <img src="images/royalSuite.jpg">
                 <img src="images/royalSuite2.jpg">
                 <img src="images/royalSuite3.jpg">
                 <img src="images/royalSuite4.jpg">
                 <ul class="suitesList">
-                    <li>test</li>
-                    
+                    <li>1 King bed, 2 Queen beds</li>
+                    <li>Bathroom and shower with a jacuzzi</li>
+                    <li>Living area with dining table and seating area</li>
+                    <li>Pull out couch in the living room</li>
+                    <li>Free Tv access to cable and satellite</li>
+                    <li>Free Wi-fi access</li>
+                    <li>2 Bedrooms, Living room, and Kitchen area</li>
+                    <li>Giant Fully equipped kitchen that includes a refrigerator, oven, stovetop, microwave,
+                        dishwasher,
+                        cabinet space
+                    </li>
+
                 </ul>
             </div>
-
-
         </section>
+
+        <section>
+            <section id="contactForm">
+
+                <form method="get" action="contactGreeting.html">
+                    <h2>Fill Out Your Contact Information and We Will Get In Touch With You Soon</h2>
+                    <fieldset>
+                        <legend class="top">Contact Information</legend>
+                        <label class="sub">First Name* <input type="text" name="fname" required></label>
+                        <label class="sub">Last Name* <input type="text" name="lname" required></label>
+                        <label class="sub">Email* example@gmail.com <input type="email" name="email" required></label>
+                        <label class="sub">Phone* Accepts Spaces and Dashes, No Letters <input type="tel" name="phone"
+                            pattern="^[-\s0-9-\s]{1,20}$" required></label>
+                    </fieldset>
+
+                    <fieldset>
+                        <Legend class="top">Message</Legend>
+                        <label class="sub">Ask us any questions that you have. We are happy to address them!<textarea name="message"
+                                rows="5" cols="33" placeholder="Enter text here..."></textarea></label>
+                    </fieldset>
+                    <input type="submit" value="Contact Us" class="submitBtn">
+                    <input type="hidden" id="date" name="date" value="CurrentTime">
+                    <input type="hidden" id="time" name="time" value="CurrentDate">
+                </form>
+            </section>
 
     </main>
     <footer>

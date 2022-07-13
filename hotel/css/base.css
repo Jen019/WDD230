@@ -27,7 +27,7 @@ p,
 ul {
   font-family: 'Bitter', serif;
   font-size: 15px;
-  text-align:center;
+  text-align: center;
   padding: 15px;
 
 }
@@ -131,7 +131,7 @@ nav ul li a {
   margin-right: auto;
 }
 
-.welcome{
+.welcome {
   font-size: 40px;
 }
 
@@ -163,8 +163,8 @@ nav ul li a {
   text-align: center;
 }
 
-.fday{
-  margin-right:30px;
+.fday {
+  margin-right: 30px;
 }
 
 
@@ -239,7 +239,7 @@ nav ul li a {
   background-color: #3c1414;
   color: #fa5a3e;
   padding: 15px;
-  text-align: justify;
+  text-align: center;
   font-size: 21px;
 }
 
@@ -354,6 +354,7 @@ figcaption {
   color: #fa5a3e;
   font-family: 'Arima', cursive;
   padding: 15px;
+  width: 100%;
 }
 
 .footerFormat p {
@@ -459,7 +460,7 @@ form fieldset {
 }
 
 label.sub input:required:invalid {
-  border-color:#fdca40;
+  border-color: #fdca40;
   border-width: 5px;
 }
 
@@ -487,11 +488,11 @@ form label.sub {
 
 }
 
-#location{
+#location {
   padding: 15px;
 }
 
-textarea{
+textarea {
   margin: 4%;
   padding: 50px;
 }
@@ -509,7 +510,7 @@ legend {
   font-size: 24px;
 }
 
-fieldset.option label.sub input{
+fieldset.option label.sub input {
   width: 33%;
 }
 
@@ -542,13 +543,13 @@ input[type='radio'] {
   border-width: thick;
 }
 
-#checkin{
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    width: 80%;
-    height: auto;
-    margin-bottom: 5%;
+#checkin {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 80%;
+  height: auto;
+  margin-bottom: 5%;
 }
 
 .row {
@@ -563,30 +564,42 @@ input[type='radio'] {
   margin-bottom: 3%;
 }
 
-#column3{
+#column3 {
   display: none;
 }
 
 .column img {
   margin-top: 8px;
-    vertical-align: middle;
-    width: 96%;
+  vertical-align: middle;
+  width: 96%;
 }
 
 /*Suites Page*/
-.suites img{
+.suites img {
   width: 70%;
   height: auto;
+  padding: 15px;
 }
 
-.suites{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.suites {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .suitesList{
   text-align: unset;
-  margin-right: 50%;
+  font-family: 'Bitter', serif;
+  color:#3c1414;
+  max-width: 63%;
+  font-size: 30px;
 }
 
+#contactImg{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 55%;
+  height: auto;
+  margin-bottom: 6%;
+}
