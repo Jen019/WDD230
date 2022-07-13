@@ -80,8 +80,8 @@
     margin: 20px;
   }
 
-  .weather-desc{
-    margin:0;
+  .weather-desc {
+    margin: 0;
   }
 
   /*Slideshow Home Page CSS*/
@@ -197,7 +197,7 @@
 
   }
 
-  label.sub input:required{
+  label.sub input:required {
     width: 88%;
   }
 
@@ -207,12 +207,12 @@
     align-items: center;
   }
 
-  form label.sub{
+  form label.sub {
     display: inline-block;
   }
 
-  .option{
-     display: flex;
+  .option {
+    display: flex;
     justify-content: center;
   }
 
@@ -221,14 +221,14 @@
     width: 65%;
   }
 
-  #checkin{
-    width:70%;
+  #checkin {
+    width: 70%;
   }
 
   /*Reception Page*/
 
 
-  #column3{
+  #column3 {
     display: block;
   }
 
@@ -237,7 +237,7 @@
     max-width: 33%;
     padding: 0 4px;
   }
-  
+
   .column img {
     width: 100%;
   }
@@ -250,20 +250,68 @@
     margin: 1%;
   }
 
-  .suites{
+  textarea{
+    padding: 50px;
+  }
+
+  .suites {
     display: block;
     padding: 3%;
   }
 
-.suitesList{
-  text-align: unset;
-  float: right;
-  margin-top: 0%;
-  margin-left: 0%;
-  margin-right: 0%;
-  max-width: 60%;
-  font-size: 25px;
-}
+  .suitesList {
+    text-align: unset;
+    float: right;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    max-width: 60%;
+    font-size: 25px;
+  }
 
+  /*Amenities Page*/
+
+  .familyCenter {
+    display: flex;
+  }
+
+  .familyBanner img{
+      width: 87%;
+      
+  }
+  
+  .familyCenter img{
+      width: 50%;
+      height: auto;
+  }
+  
+  
+  
+  .daycareCenter img{
+    width:35%;
+  }
+  
+  .daycareCenter{
+    display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+  }
+
+  .daycareGallery{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .daycareGallery img{
+    width: 47%;
+
+  }
+
+  #daycareImg{
+    margin-left: 41%;
+    margin-top: -20%;
+    width: 47%;
+  }
 
 }

@@ -354,7 +354,6 @@ figcaption {
   color: #fa5a3e;
   font-family: 'Arima', cursive;
   padding: 15px;
-  width: 100%;
 }
 
 .footerFormat p {
@@ -459,6 +458,10 @@ form fieldset {
 
 }
 
+#message{
+  width:30%;
+}
+
 label.sub input:required:invalid {
   border-color: #fdca40;
   border-width: 5px;
@@ -490,11 +493,13 @@ form label.sub {
 
 #location {
   padding: 15px;
+  margin-top: 5%;
 }
 
 textarea {
   margin: 4%;
-  padding: 50px;
+  padding: 12px;
+  margin-left: auto;
 }
 
 
@@ -576,7 +581,7 @@ input[type='radio'] {
 
 /*Suites Page*/
 .suites img {
-  width: 70%;
+  width: 89%;
   height: auto;
   padding: 15px;
 }
@@ -587,19 +592,85 @@ input[type='radio'] {
   align-items: center;
 }
 
-.suitesList{
+.suitesList {
   text-align: unset;
   font-family: 'Bitter', serif;
-  color:#3c1414;
+  color: #3c1414;
   max-width: 63%;
   font-size: 30px;
 }
 
-#contactImg{
+#contactImg {
   margin-left: auto;
   margin-right: auto;
   display: block;
   width: 55%;
   height: auto;
   margin-bottom: 6%;
+}
+
+/*Amenities Page*/
+
+.familyCenter{
+  margin: 4%;
+}
+
+.familyBanner img {
+  display: block;
+  width: 80%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+}
+
+.familyCenter img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: auto;
+}
+
+.familyP {
+  background-color: #fdca40;
+  color: #3c1414;
+  margin-left: 7%;
+  margin-right: 7%;
+  font-size: 20px;
+  padding: 3%;
+
+}
+
+.daycareCenter img {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.daycareCenter {
+  margin: 5%;
+}
+
+#daycareImg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: auto;
+
+}
+
+
+
+.daycareGallery img {
+  display: block;
+  width: 80%;
+  height: auto;
+  margin: 1%;
+  margin-left: auto;
+    margin-right: auto;
 }
