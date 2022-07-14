@@ -2,6 +2,8 @@
     "temples": [{
             "templeName": "Meridan Idaho Temple",
             "templeImg": "images/meridianTemp.webp",
+            "width":"600",
+            "height":"552",
             "like": "images/heart.png",
             "describe": "Meridian Idaho Temple",
             "address": "7355 N Linder Rd Meridian, Idaho 83406,US",
@@ -32,6 +34,8 @@
         {
             "templeName": "Pocatello Idaho Temple",
             "templeImg": "images/pocatelloTemple.webp",
+            "width":"500",
+            "height":"333",
             "like": "images/heart.png",
             "describe":"Pocatello Idaho Temple",
             "address": "3100 Butte St Pocatello, Idaho 83201, US",
@@ -64,6 +68,8 @@
         {
             "templeName": "Idaho Falls Idaho Temple",
             "templeImg": "images/idahoFallsTemp.jpg",
+            "width":"600",
+            "height":"402",
             "like": "images/heart.png",
             "describe":"Idaho Falls Idaho Temple",
             "address": "1000 Memorial Dr Idaho Falls, Idaho 83202-3410, US",
@@ -97,6 +103,8 @@
         {
             "templeName": "Rexburg Idaho Temple",
             "templeImg": "images/rexburg_temple.webp",
+            "width":"500",
+            "height":"400",
             "like": "images/heart.png",
             "describe":"Rexburg Idaho Temple",
             "address": "750 S 2nd E Rexburg, Idaho 83440-5404, US",

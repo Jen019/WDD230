@@ -58,6 +58,8 @@ function displayTemples(temples) {
     templeImg.setAttribute('src', `${temples["templeImg"]}`);
     templeImg.setAttribute('alt', `${temples["describe"]}`);
     templeImg.setAttribute('loading', 'lazy');
+    templeImg.setAttribute('width', `${temples["width"]}`);
+    templeImg.setAttribute('height', `${temples["height"]}`);
     document.querySelector('.temp-cards div').appendChild(h1);
     document.querySelector('.temp-cards div').appendChild(templeImg);
     document.querySelector('.temp-cards div').appendChild(like);
