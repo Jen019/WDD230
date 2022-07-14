@@ -9,7 +9,6 @@ const currentWeatherURL = "https://api.openweathermap.org/data/2.5/onecall?lat=4
 fetch(currentWeatherURL)
   .then((response) => response.json())
   .then((data) => {
-    console.log(data);
     const currentTemp = data.current.temp;
     const humid = data.current.humidity;
     const iconsrc = `https://openweathermap.org/img/wn/${data.current.weather[0].icon}@2x.png`;
