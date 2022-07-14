@@ -8,7 +8,7 @@ const alertBanner = document.querySelector('#weatherAlert');
 
 const weatherAlertURL = "https://api.openweathermap.org/data/2.5/onecall?lat=43.6121&lon=-116.3915&excludes=hourly,minutely&units=imperial&appid=3152f5cb63193c20d2712d8adecda329";
 
-fetch("js/alerts.json")
+fetch(weatherAlertURL)
   .then((response) => response.json())
   .then((data) => {
     console.log(data);

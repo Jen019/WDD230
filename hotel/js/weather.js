@@ -6,7 +6,7 @@ const captionDesc = document.querySelector('.weather-desc');
 
 const currentWeatherURL = "https://api.openweathermap.org/data/2.5/onecall?lat=43.6121&lon=-116.3915&units=imperial&appid=3152f5cb63193c20d2712d8adecda329";
 
-fetch("js/meridian.json")
+fetch(currentWeatherURL)
   .then((response) => response.json())
   .then((data) => {
     console.log(data);
