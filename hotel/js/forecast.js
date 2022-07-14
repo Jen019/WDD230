@@ -1,7 +1,7 @@
 const forecastURL = "https://api.openweathermap.org/data/2.5/onecall?lat=43.6121&lon=-116.3915&exclude=current,hourly,minutely,alerts&units=imperial&appid=3152f5cb63193c20d2712d8adecda329";
 let forecastEl = document.getElementsByClassName("forecast");
 
-fetch("js/meridian.json")
+fetch(forecastURL)
     .then((response) => response.json())
     .then((data) => {
         console.log(data);
