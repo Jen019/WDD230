@@ -11,7 +11,6 @@ const weatherAlertURL = "https://api.openweathermap.org/data/2.5/onecall?lat=43.
 fetch(weatherAlertURL)
   .then((response) => response.json())
   .then((data) => {
-    console.log(data);
     if(data.alerts != undefined){
     const header = document.createElement('h3');  
     document.querySelector('div.weatherAlert span').appendChild(header);
@@ -20,7 +19,6 @@ fetch(weatherAlertURL)
     const startDate = data.alerts[0].start;
     const endDate =  data.alerts[0].end;
     const weatherDesc = data.alerts[0].description;
-    //const alertTag = data.alerts[0].tags;
     const sd = new Date(startDate);
     const ed = new Date(endDate);
 
@@ -33,7 +31,6 @@ fetch(weatherAlertURL)
     start.textContent = sd;
     end.textContent = ed;
     wDesc.textContent = weatherDesc;
-    //tags.textContent = alertTag;
 
     }
     

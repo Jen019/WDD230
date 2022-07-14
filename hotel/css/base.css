@@ -663,3 +663,14 @@ input[type='radio'] {
   margin-left: auto;
     margin-right: auto;
 }
+
+
+.attributionList p a {
+  text-align: center;
+  color: black;
+  font-size: 40px;
+}
+
+a{
+  color:#fa5a3e;
+}

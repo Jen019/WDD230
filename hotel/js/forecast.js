@@ -4,8 +4,6 @@ let forecastEl = document.getElementsByClassName("forecast");
 fetch(forecastURL)
     .then((response) => response.json())
     .then((data) => {
-        console.log(data);
-
         data.daily.forEach((value, index) => {
             if (index > 0 && index <=3) {
                 let dayname = new Date(value.dt * 1000).toLocaleDateString("en", {
