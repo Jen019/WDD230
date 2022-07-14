@@ -27,10 +27,7 @@ function displayTemples(temples) {
     let p4 = document.createElement('p');
     let templeImg = document.createElement('img');
     let like =  document.createElement('img');
-    let like2 =  document.createElement('img');
-    let like3 =  document.createElement('img');
-    let like4 =  document.createElement('img');
-
+  
     ul.className = 'temp-desc';
     p1.className = 'temp-desc';
     p2.className = 'temp-desc';
